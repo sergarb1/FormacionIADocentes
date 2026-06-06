@@ -1,0 +1,96 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración para 'NotebookLM de Google · tutorial para docentes'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "NotebookLM de Google, tutorial para docentes. Podcasts, presentaciones, vídeos narrados, flashcards y quizzes. Por Sergi Garcia Barea."
+    },
+    {
+      "id": 1,
+      "title": "Qué es NotebookLM",
+      "text": "NotebookLM es un asistente de investigación con inteligencia artificial creado por Google. Funciona como un cuaderno de estudio inteligente: subes tus documentos, vídeos, webs o apuntes, y la IA trabaja exclusivamente sobre ese contenido. La clave está en que, a diferencia de ChatGPT o Gemini, NotebookLM no busca en internet. Solo responde con lo que tú has subido. Tus datos no se usan para entrenar modelos. Lo que subes se queda en tu cuaderno."
+    },
+    {
+      "id": 2,
+      "title": "Primeros pasos",
+      "text": "Crear tu primer cuaderno es muy sencillo. Ve a notebooklm.google.com e inicia sesión con tu cuenta de Google. Haz clic en Nuevo cuaderno, ponle un nombre como Tema 5 La Guerra Fría, y haz clic en Añadir fuente para subir tu primer documento. Puede ser un PDF, una web o texto copiado. Espera a que la IA procese la fuente y ya puedes empezar a hacer preguntas. Es completamente gratis, no hay límite de cuadernos y cada fuente puede tener hasta 500 mil palabras."
+    },
+    {
+      "id": 3,
+      "title": "Fuentes compatibles",
+      "text": "NotebookLM acepta múltiples formatos. Puedes subir PDFs con documentos y artículos, enlaces web de artículos online o Wikipedia, texto copiado de tus apuntes, vídeos de YouTube cuyas transcripciones se procesan automáticamente, documentos de Google Docs desde tu Drive, y grabaciones de audio como clases o conferencias. La IA extrae la información de todas tus fuentes y las relaciona entre sí."
+    },
+    {
+      "id": 4,
+      "title": "Interfaz del cuaderno",
+      "text": "Cada cuaderno tiene varias secciones que te ayudan a organizar y extraer el máximo partido de tus fuentes. Está el Chat, donde haces preguntas y la IA cita las respuestas. Las Notas, donde se generan resúmenes automáticos de cada fuente. La Guía de estudio que incluye un resumen ejecutivo, preguntas y glosario. El Audio Overview para generar un podcast con dos voces conversando. La sección de Presentación para crear diapositivas, y las Flashcards para el repaso con repetición espaciada."
+    },
+    {
+      "id": 5,
+      "title": "Chat con tus fuentes",
+      "text": "El chat de NotebookLM es muy potente. Puedes hacer preguntas como 'resume el capítulo 3 en 5 puntos clave' o 'explica el concepto de fotosíntesis como si tuviera 12 años'. Lo mejor es que cada respuesta incluye citas a la fuente original con el número de página. Puedes pedir distinto nivel de profundidad según el alumno. Es ideal para que los alumnos investiguen por su cuenta y el profesor pueda verificar las respuestas contra las fuentes reales."
+    },
+    {
+      "id": 6,
+      "title": "Audio Overview",
+      "text": "La función Audio Overview genera un podcast automático con dos voces realistas conversando sobre tu contenido. No es una lectura robótica, sino una conversación con tono divulgativo y ameno, como un programa de radio. Funciona en español y en inglés. Es ideal para que los alumnos repasen escuchando mientras hacen otras cosas. El proceso tura entre 2 y 5 minutos y puedes descargar el resultado como archivo MP3 para compartirlo."
+    },
+    {
+      "id": 7,
+      "title": "Guía de estudio",
+      "text": "Con un solo clic, NotebookLM genera una guía de estudio completa. Incluye un resumen ejecutivo que sintetiza todo el contenido, preguntas frecuentes con las dudas más comunes resueltas, un glosario de términos clave con sus definiciones, un plan de estudio con sugerencias para organizar el repaso, preguntas de repaso para autoevaluarse, y todo es exportable como documento. La guía se genera automática al subir tus fuentes."
+    },
+    {
+      "id": 8,
+      "title": "Presentaciones",
+      "text": "Puedes generar presentaciones directamente desde tus fuentes. Dentro de tu cuaderno, en la Guía de estudio, selecciona Presentación como formato. La IA genera diapositivas estructuradas con títulos, puntos clave y citas a las fuentes originales. Aparecen organizadas como una presentación lista para usar. Puedes exportarlas a Google Slides para editarlas y personalizar el diseño. Es ideal para preparar clases en minutos."
+    },
+    {
+      "id": 9,
+      "title": "Vídeos narrados",
+      "text": "NotebookLM también puede generar vídeos narrados automáticos. La IA explica cada diapositiva con voz humana sincronizada. Se genera un vídeo combinando las diapositivas con la narración. Puedes descargarlo o compartirlo directamente con los alumnos. Es perfecto para la clase invertida o flipped classroom: los alumnos ven el vídeo en casa y trabajan en clase. También es ideal para alumnos con dificultades de lectura o atención."
+    },
+    {
+      "id": 10,
+      "title": "Notas del cuaderno",
+      "text": "NotebookLM genera automáticamente notas de cada fuente que subes. Son resúmenes inteligentes que capturan lo esencial. Al subir un PDF, la IA genera un resumen estructurado con los puntos principales. Cada fuente tiene su propia nota, así que puedes leer el resumen sin tener que repasar el documento entero. Además de las notas automáticas, puedes escribir tus propias notas y anotaciones dentro del cuaderno."
+    },
+    {
+      "id": 11,
+      "title": "Flashcards",
+      "text": "Las flashcards o tarjetas de repaso se generan automáticamente desde la Guía de estudio. La IA crea preguntas y respuestas basadas exclusivamente en tus fuentes. Aparecen en formato digital con una cara para la pregunta y otra para la respuesta. El sistema incluye repetición espaciada: puedes marcar las tarjetas como fáciles si ya las sabes, o difíciles para repetirlas después. Es ideal para preparar exámenes de forma activa."
+    },
+    {
+      "id": 12,
+      "title": "Quizzes",
+      "text": "Para generar exámenes y autoevaluaciones, escribe en el chat algo como: 'Genera 10 preguntas tipo test sobre la Revolución Industrial basándote en mis fuentes'. La IA genera preguntas basadas exclusivamente en tus fuentes reales. Puedes pedir distintos formatos: verdadero o falso, preguntas abiertas, relacionar columnas o completar huecos. Incluye solucionario con referencias a las fuentes originales. Es ideal para la autoevaluación de los alumnos."
+    },
+    {
+      "id": 13,
+      "title": "FAQ y glosario",
+      "text": "Dos herramientas muy útiles son las FAQ automáticas y el glosario. Las FAQ analizan tus fuentes y generan las preguntas más frecuentes sobre el tema con sus respuestas. Es ideal para que los alumnos resuelvan dudas comunes antes de preguntar al profesor. El glosario extrae todos los términos clave de tus fuentes con sus definiciones y cada término incluye una cita a la fuente original donde aparece."
+    },
+    {
+      "id": 14,
+      "title": "10 ideas para clase",
+      "text": "Aquí tienes 10 ideas para usar NotebookLM en el aula. Puedes generar un podcast de repaso antes del examen, una presentación automática para preparar la clase en 2 minutos, flashcards colaborativas para que los alumnos estudien, un vídeo para la clase invertida, un quiz de autoevaluación, compartir la guía de estudio, las FAQ del tema, el glosario de términos, usar el chat para investigación guiada, o generar exámenes personalizados para cada alumno."
+    },
+    {
+      "id": 15,
+      "title": "Consejos",
+      "text": "Para sacarle el máximo partido a NotebookLM, sigue estos consejos. Sube fuentes de calidad: mejores fuentes dan mejores respuestas. Sé específico en las preguntas: 'Explícame el concepto de energía cinética con un ejemplo' funciona mejor que 'Háblame de energía'. Combina tipos de fuente como PDF, vídeo YouTube y web para una visión más completa. Verifica siempre las respuestas comprobando las citas. Y organiza por temas: crea un cuaderno por unidad didáctica."
+    },
+    {
+      "id": 16,
+      "title": "Comparativa",
+      "text": "Comparado con ChatGPT o Gemini, NotebookLM tiene ventajas claras cuando necesitas precisión basada en documentos. Solo responde con tus fuentes, incluye citas automáticas con número de página, genera podcast, vídeos y flashcards, y ofrece privacidad total de datos. En cambio, ChatGPT y Gemini son mejores para brainstorming y creatividad, pero pueden alucinar o inventar citas. Usa NotebookLM para trabajo preciso con documentos y otras IAs para explorar ideas."
+    },
+    {
+      "id": 17,
+      "title": "Cierre",
+      "text": "En resumen, NotebookLM te ayuda a investigar mejor: subes tus fuentes, haces preguntas con citas y generas materiales al instante. Y te permite enseñar más fácilmente con podcasts para repasar, flashcards para estudiar y quizzes para evaluar. NotebookLM no reemplaza al docente, le da superpoderes para preparar mejores clases. Pruébalo gratis en notebooklm.google.com."
+    }
+  ]
+}

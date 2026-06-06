@@ -6,10 +6,9 @@
   <title>Formación en IA para Docentes · Sergi Garcia Barea</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']},colors:{navy:'#1e3a5f',slate:'#0f172a'}}}}</script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; overflow-x: hidden; overflow-y: auto; }
     body {
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
       background: #f8fafc; color: #0f172a; line-height: 1.6;
@@ -52,7 +51,7 @@
     header .author a:hover { text-decoration: underline; }
 
     .mission {
-      background: #fff; border-bottom: 1px solid #e2e8f0; padding: 2.5em 1.5em;
+      background: #fff; border-bottom: 1px solid #e2e8f0; padding: 2.5em 1em;
       text-align: center;
     }
     .mission-inner { max-width: 780px; margin: 0 auto; }
@@ -110,7 +109,7 @@
 
     .grid {
       display: grid; gap: .7em;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
     .card {
       background: #fff; border-radius: 10px; padding: 0;
@@ -178,7 +177,7 @@
     }
 
     /* ── LIGHTBOX ── */
-    .lbox { display: none; }
+    .lbox { display: none; overflow: hidden; }
     .lbox:target {
       display: flex; position: fixed; inset: 0; z-index: 9999;
       background: rgba(0,0,0,.8); align-items: center; justify-content: center;
@@ -205,6 +204,32 @@
     .tag-cli   { background: #fce7f3; color: #9d174d; }
     .tag-crit  { background: #fee2e2; color: #991b1b; }
 
+    .rg3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .8em; text-align: left; margin: 1em 0 1.2em; }
+    .rg2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: .8em; text-align: left; margin: 0 0 1.2em; }
+
+    .howto-wrap { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 1em 0; }
+    .howto-inner { max-width: 1024px; margin: 0 auto; padding: 0 1em; }
+    .howto-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: .75em; }
+    .howto-head h2 { font-size: .875rem; font-weight: 700; color: #1e3a5f; letter-spacing: -.025em; }
+    .howto-head a {
+      display: inline-flex; align-items: center; gap: .25em;
+      font-size: 11px; font-weight: 600; color: #2563eb; text-decoration: none;
+      background: #eff6ff; padding: .375em .75em; border-radius: 9999px;
+      transition: background .2s;
+    }
+    .howto-head a:hover { background: #dbeafe; color: #1e40af; }
+    .howto-grid { display: flex; gap: .625em; justify-content: center; flex-wrap: wrap; }
+    .howto-item {
+      flex: 1 1 0%; min-width: 0; background: #f8fafc; border-radius: .5em;
+      padding: .5em .625em; text-align: center; border: 1px solid #f1f5f9;
+      transition: border-color .2s;
+    }
+    .howto-item:hover { border-color: #cbd5e1; }
+    .howto-item .icon { font-size: 1rem; line-height: 1; margin-bottom: .25em; }
+    .howto-item h3 { font-size: 11px; font-weight: 700; color: #1e293b; line-height: 1.25; }
+    .howto-item p { font-size: 10px; color: #64748b; line-height: 1.25; margin-top: .125em; }
+    .howto-item code { font-size: 9px; }
+
     footer {
       text-align: center; padding: 2em; font-size: .78em; color: #94a3b8;
       border-top: 1px solid #e2e8f0; margin-top: auto;
@@ -218,9 +243,9 @@
     }
     .footer-links a:hover { color: #1e3a5f; }
 
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; overflow-x: hidden; overflow-y: auto; }
     @media (max-width: 900px) {
-      .grid { grid-template-columns: repeat(2, 1fr); }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 640px) {
       .grid { grid-template-columns: 1fr; }
@@ -241,6 +266,7 @@
     <p class="subtitle">Un curso práctico para que el profesorado aprenda a usar la inteligencia artificial en el aula — ordenado por dificultad, con ejemplos reales, audio narrado y PDF descargable.</p>
     <div class="badges">
       <span>🎯 6 presentaciones</span>
+      <span>📊 124 diapositivas</span>
       <span>🎙️ Audio narrado</span>
       <span>🔊 Se puede silenciar</span>
       <span>📄 PDF imprimible</span>
@@ -252,9 +278,9 @@
   <div class="container" id="presentaciones">
     <div class="section-header">
       <h2>📋 Presentaciones</h2>
-      <span class="count">6 disponibles</span>
+      <span class="count">124 diapositivas · 6 presentaciones</span>
     </div>
-    <p class="section-sub">Ordenadas por dificultad. Cada una incluye audio narrado + PDF imprimible.</p>
+    <p class="section-sub">Ordenadas por dificultad. Cada una incluye audio narrado + PDF imprimible. Más de 120 diapositivas con contenido práctico listo para usar.</p>
 
     <div class="level-bar">
       <span class="l"><span class="dot" style="background:#10b981;"></span> 🌱 Básico — Sin experiencia previa</span>
@@ -270,7 +296,7 @@
         <div class="body">
           <h3>ChatGPT, Gemini, Claude… para docentes</h3>
           <p class="desc">Los principales chatbots de IA explicados para el aula: cómo funcionan, cómo construir prompts efectivos y 8 ejemplos prácticos para clase, tutoría, evaluación y planificación.</p>
-          <div class="audience">🎯 Para quien empieza desde cero con la IA</div>
+          <div class="audience">🎯 Para quien empieza desde cero con la IA · 📊 17 diapositivas</div>
           <div class="tags">
             <span class="tag-basic">🌱 Básico</span>
             <span class="tag-ai">ChatGPT</span>
@@ -294,7 +320,7 @@
         <div class="body">
           <h3>Pensamiento crítico y detección de falacias con IA</h3>
           <p class="desc">Aprende a usar la IA como analizador de discursos: identifica falacias lógicas, mensajes coercitivos y sesgos en textos reales. Incluye actividad práctica para clase.</p>
-          <div class="audience">🎯 Para quien quiere enseñar a sus alumnos a pensar críticamente</div>
+          <div class="audience">🎯 Para quien quiere enseñar a pensar críticamente · 📊 18 diapositivas</div>
           <div class="tags">
             <span class="tag-inter">🌿 Intermedio</span>
             <span class="tag-crit">P. Crítico</span>
@@ -317,7 +343,7 @@
         <div class="body">
           <h3>Crear imágenes educativas con IA</h3>
           <p class="desc">Uso de ChatGPT Images 2.0 y Nano Banana 2 para generar ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales para cualquier materia y nivel.</p>
-          <div class="audience">🎯 Para quien quiere crear recursos visuales sin saber diseñar</div>
+          <div class="audience">🎯 Para quien crea recursos visuales · 📊 35 diapositivas</div>
           <div class="tags">
             <span class="tag-inter">🌿 Intermedio</span>
             <span class="tag-img">Imágenes</span>
@@ -340,7 +366,7 @@
         <div class="body">
           <h3>Infografías con IA + Canva Capas Mágicas</h3>
           <p class="desc">Flujo completo: genera fondos y elementos con IA, luego combínalos en Canva con Capas Mágicas (separación automática de objetos) para crear infografías educativas sin saber diseñar.</p>
-          <div class="audience">🎯 Para quien quiere crear infografías profesionales para sus clases</div>
+          <div class="audience">🎯 Para quien quiere infografías profesionales · 📊 16 diapositivas</div>
           <div class="tags">
             <span class="tag-inter">🌿 Intermedio</span>
             <span class="tag-img">Infografías</span>
@@ -363,7 +389,7 @@
         <div class="body">
           <h3>NotebookLM de Google · tutorial para docentes</h3>
           <p class="desc">Asistente de investigación con IA: sube documentos, haz preguntas, genera resúmenes, guías de estudio, podcasts con Audio Overviews y mucho más.</p>
-          <div class="audience">🎯 Para quien investiga, prepara materiales o trabaja con documentos</div>
+          <div class="audience">🎯 Para quien investiga o prepara materiales · 📊 18 diapositivas</div>
           <div class="tags">
             <span class="tag-adv">🌳 Avanzado</span>
             <span class="tag-doc">Documentos</span>
@@ -386,7 +412,7 @@
         <div class="body">
           <h3>Asistentes de código con IA para docentes</h3>
           <p class="desc">OpenCode, Codex CLI, Gemini CLI y Claude Code: herramientas que crean materiales educativos desde la terminal sin saber programar. 8 ejemplos prácticos: circulares, horarios, emails, registros, exámenes, diplomas…</p>
-          <div class="audience">🎯 Para quien quiere crear materiales HTML interactivos con solo describirlos</div>
+          <div class="audience">🎯 Para quien crea HTML describiéndolos · 📊 20 diapositivas</div>
           <div class="tags">
             <span class="tag-adv">🌳 Avanzado</span>
             <span class="tag-cli">CLI</span>
@@ -408,74 +434,91 @@
 
   <section class="mission" style="border-bottom:1px solid #e2e8f0;">
     <div class="mission-inner">
-      <h2>💡 ¿Qué es esto?</h2>
-      <p><strong>Formación en IA para Docentes</strong> es un conjunto de <strong>6 presentaciones interactivas</strong> diseñadas para que el profesorado aprenda a usar la inteligencia artificial en el aula — sin tecnicismos, con ejemplos reales y recursos listos para llevar a clase.</p>
+      <h2>💡 ¿Qué es esto y cómo puede mejorar tus clases?</h2>
+      <p><strong>Formación en IA para Docentes</strong> es un conjunto de <strong>6 presentaciones interactivas (124 diapositivas)</strong> diseñadas para que el profesorado aprenda a usar la inteligencia artificial en el aula — sin tecnicismos, con ejemplos reales y recursos listos para llevar a clase al día siguiente.</p>
+      <p style="font-size:.85em;color:#475569;">No es teoría: cada presentación termina con <strong>actividades prácticas, prompts listos para copiar y ejemplos reales</strong> que puedes adaptar a tu materia y nivel educativo. Desde generar exámenes en segundos hasta crear infografías profesionales sin saber diseñar.</p>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8em;text-align:left;margin:1em 0 1.2em;">
+      <div class="rg3">
         <div style="background:#f0f4ff;border-radius:10px;padding:.7em .9em;border:1px solid #dbeafe;">
-          <p style="font-size:.82em;margin:0 0 .15em;color:#1e3a5f;"><strong>🎯 Para qué sirve</strong></p>
-          <p style="font-size:.75em;margin:0;color:#475569;line-height:1.5;">Ideales para <strong>claustros, seminarios, grupos de trabajo</strong> o formación individual. Cada presentación está lista para proyectar y explicar.</p>
+          <p style="font-size:.82em;margin:0 0 .15em;color:#1e3a5f;"><strong>⏱️ Ahorra tiempo</strong></p>
+          <p style="font-size:.72em;margin:0;color:#475569;line-height:1.5;">Genera materiales educativos en segundos: exámenes, rúbricas, worksheets, circulares, horarios y plantillas. Lo que antes te llevaba horas, ahora lo tienes en minutos.</p>
         </div>
         <div style="background:#fef3c7;border-radius:10px;padding:.7em .9em;border:1px solid #fde68a;">
-          <p style="font-size:.82em;margin:0 0 .15em;color:#92400e;"><strong>⭐ Consejo</strong></p>
-          <p style="font-size:.75em;margin:0;color:#92400e;line-height:1.5;">Empieza por la <strong>n.º 1</strong> si eres nuevo en IA. Cada una dura ~10-15 min con audio. Puedes hacerlas en orden o saltar a la que más te interese.</p>
+          <p style="font-size:.82em;margin:0 0 .15em;color:#92400e;"><strong>🎨 Crea recursos visuales</strong></p>
+          <p style="font-size:.72em;margin:0;color:#92400e;line-height:1.5;">Ilustraciones científicas, mapas conceptuales, infografías y actividades visuales para cualquier materia. Sin saber diseñar ni usar programas complejos.</p>
+        </div>
+        <div style="background:#f0fdf4;border-radius:10px;padding:.7em .9em;border:1px solid #bbf7d0;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#166534;"><strong>🧠 Desarrolla pensamiento crítico</strong></p>
+          <p style="font-size:.72em;margin:0;color:#166534;line-height:1.5;">Enseña a tus alumnos a detectar falacias, sesgos y manipulación en textos reales usando IA como herramienta de análisis.</p>
         </div>
       </div>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8em;text-align:left;margin:0 0 1.2em;">
+      <div class="rg2">
+        <div style="background:#f0f4ff;border-radius:10px;padding:.7em .9em;border:1px solid #dbeafe;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#1e3a5f;"><strong>🎯 Para qué sirve</strong></p>
+          <p style="font-size:.75em;margin:0;color:#475569;line-height:1.5;">Ideales para <strong>claustros, seminarios, grupos de trabajo</strong> o formación individual. Cada presentación está lista para proyectar y explicar. Las puedes usar en una sesión de formación de 1 hora o trabajar cada una por separado.</p>
+        </div>
+        <div style="background:#fef3c7;border-radius:10px;padding:.7em .9em;border:1px solid #fde68a;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#92400e;"><strong>⭐ Por dónde empezar</strong></p>
+          <p style="font-size:.75em;margin:0;color:#92400e;line-height:1.5;">Si eres nuevo en IA, empieza por la <strong>n.º 1</strong> (ChatGPT, Gemini, Claude). Cada una dura ~10-15 min con audio. Puedes seguirlas en orden o ir directamente a la que más te interese. <strong>No necesitas experiencia técnica</strong>.</p>
+        </div>
+      </div>
+
+      <div class="rg2">
         <div style="background:#f0fdf4;border-radius:10px;padding:.7em .9em;border:1px solid #bbf7d0;">
           <p style="font-size:.82em;margin:0 0 .15em;color:#166534;"><strong>🎙️ Audio narrado</strong></p>
-          <p style="font-size:.75em;margin:0;color:#166534;line-height:1.5;">Voz natural <strong>diapositiva a diapositiva</strong>. La narración se activa al hacer clic. Puedes <strong>silenciar</strong> con el botón 🔊 si prefieres leer.</p>
+          <p style="font-size:.75em;margin:0;color:#166534;line-height:1.5;">Voz natural <strong>diapositiva a diapositiva</strong>. La narración se activa al hacer clic. Puedes <strong>silenciar</strong> con el botón 🔊 si prefieres leer o explicarlo tú en clase.</p>
         </div>
         <div style="background:#fef2f2;border-radius:10px;padding:.7em .9em;border:1px solid #fecaca;">
           <p style="font-size:.82em;margin:0 0 .15em;color:#991b1b;"><strong>📄 PDF descargable</strong></p>
-          <p style="font-size:.75em;margin:0;color:#991b1b;line-height:1.5;">Cada presentación tiene un <strong>PDF imprimible</strong>. Pulsa el botón rojo o añade <code style="font-size:.9em;">?print-pdf#/</code> a la URL.</p>
+          <p style="font-size:.75em;margin:0;color:#991b1b;line-height:1.5;">Cada presentación tiene un <strong>PDF imprimible</strong> para tenerla en papel o distribuirla. Pulsa el botón rojo o añade <code style="font-size:.9em;">?print-pdf#/</code> a la URL.</p>
         </div>
       </div>
 
       <hr style="border:none;border-top:1px solid #e2e8f0;margin:.4em 0 .8em;">
 
+      <p style="text-align:center;font-size:.82em;color:#1e3a5f;font-weight:600;margin-bottom:.7em;">Lo que obtienes con cada presentación</p>
       <div class="mission-grid">
-        <div class="mission-item">📝 <strong>Prompts</strong> listos para copiar</div>
-        <div class="mission-item">🖼️ <strong>Ejemplos</strong> visuales reales</div>
-        <div class="mission-item">🔊 Con <strong>audio</strong> o sin él</div>
-        <div class="mission-item">📄 <strong>PDF</strong> imprimible</div>
-        <div class="mission-item">🧑‍🏫 De <strong>básico</strong> a avanzado</div>
-        <div class="mission-item">⏱️ <strong>10-15 min</strong> cada una</div>
+        <div class="mission-item">📝 <strong>Prompts</strong> listos para copiar y usar</div>
+        <div class="mission-item">🖼️ <strong>Ejemplos</strong> visuales reales de cada herramienta</div>
+        <div class="mission-item">🔊 <strong>Audio</strong> sincronizado o modo silencio</div>
+        <div class="mission-item">📄 <strong>PDF</strong> imprimible de cada presentación</div>
+        <div class="mission-item">🧑‍🏫 De <strong>básico</strong> a avanzado, tú eliges</div>
+        <div class="mission-item">⏱️ <strong>10-15 min</strong> cada una, ideal para claustros</div>
+        <div class="mission-item">🎯 <strong>Actividades</strong> listas para llevar al aula</div>
+        <div class="mission-item">🤖 <strong>Varias IAs</strong> explicadas: ChatGPT, Gemini, Claude, y más</div>
       </div>
 
-      <p style="text-align:center;margin-top:.8em;font-size:.78em;color:#94a3b8;">✨ Truco: usa las flechas del teclado ← → para navegar y ESC para ver todas las diapositivas de golpe.</p>
+      <p style="text-align:center;margin-top:.8em;font-size:.78em;color:#94a3b8;">✨ Navega con las flechas ← → y pulsa ESC para ver todas las diapositivas de golpe.</p>
     </div>
   </section>
 
-  <section class="bg-white border-b border-gray-200 py-4">
-    <div class="max-w-5xl mx-auto px-4">
-      <div class="flex items-center justify-between mb-3">
-        <h2 class="text-sm font-bold text-navy tracking-tight">🎬 Cómo usar cada presentación</h2>
-        <a href="#presentaciones" class="inline-flex items-center gap-1 text-[11px] font-semibold text-blue-600 hover:text-blue-800 transition-colors bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full">
-          ⬆ Ir a presentaciones
-        </a>
+  <section class="howto-wrap">
+    <div class="howto-inner">
+      <div class="howto-head">
+        <h2>🎬 Cómo usar cada presentación</h2>
+        <a href="#presentaciones">⬆ Ir a presentaciones</a>
       </div>
-      <div class="flex gap-2.5 justify-center">
-        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
-          <div class="text-base leading-none mb-1">▶️</div>
-          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Abrir</h3>
-          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Pulsa "Presentación" para ver los slides</p>
+      <div class="howto-grid">
+        <div class="howto-item">
+          <div class="icon">▶️</div>
+          <h3>Abrir</h3>
+          <p>Pulsa "Presentación" para ver los slides</p>
         </div>
-        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
-          <div class="text-base leading-none mb-1">🔊</div>
-          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Audio</h3>
-          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Al pasar diapositiva. Pulsa 🔊 para silenciar</p>
+        <div class="howto-item">
+          <div class="icon">🔊</div>
+          <h3>Audio</h3>
+          <p>Al pasar diapositiva. Pulsa 🔊 para silenciar</p>
         </div>
-        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
-          <div class="text-base leading-none mb-1">⌨️</div>
-          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Navegar</h3>
-          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">← → · ESC vista general · Espacio avanzar</p>
+        <div class="howto-item">
+          <div class="icon">⌨️</div>
+          <h3>Navegar</h3>
+          <p>← → · ESC vista general · Espacio avanzar</p>
         </div>
-        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
-          <div class="text-base leading-none mb-1">📄</div>
-          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">PDF</h3>
-          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Botón "PDF" o <code class="text-[9px]">?print-pdf#/</code> en la URL</p>
+        <div class="howto-item">
+          <div class="icon">📄</div>
+          <h3>PDF</h3>
+          <p>Botón "PDF" o <code>?print-pdf#/</code> en la URL</p>
         </div>
       </div>
     </div>
@@ -485,8 +528,8 @@
   <div id="inf-1" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-chatgpt-para-docentes.png" alt="Infografía ChatGPT, Gemini, Claude… para docentes"></div>
   <div id="inf-2" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-pensamiento-critico.png" alt="Infografía Pensamiento crítico"></div>
   <div id="inf-3" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-crear-imagenes-educativas.png" alt="Infografía Crear imágenes educativas"></div>
-  <div id="inf-4" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-note-booklm-google.png" alt="Infografía NotebookLM de Google"></div>
-  <div id="inf-5" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-infografias-con-ia-y-canva.png" alt="Infografía Infografías con IA + Canva"></div>
+  <div id="inf-4" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-infografias-con-ia-y-canva.png" alt="Infografía Infografías con IA + Canva"></div>
+  <div id="inf-5" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-note-booklm-google.png" alt="Infografía NotebookLM de Google"></div>
   <div id="inf-6" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-codigo-cli-ia.png" alt="Infografía Asistentes de código CLI"></div>
 
   <footer>

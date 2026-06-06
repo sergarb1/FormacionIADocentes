@@ -600,8 +600,79 @@ Que quede bonito para imprimir en A4."</code></pre>
     </div>
   </section>`,
 
-  // ── 18. RESUMEN ──
+  // ── 17. FLUJO DE TRABAJO ──
   `<section data-audio="audio-codigo-cli/slide17.mp3">
+    <h2>🔄 Flujo de trabajo con asistentes CLI</h2>
+    <p class="sm">El proceso para crear materiales educativos con asistentes de código sigue siempre el mismo patrón. Una vez que lo interiorizas, puedes aplicarlo a cualquier tarea.</p>
+    <div class="g2">
+      <div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #10b981;">
+          <p>📝 <strong>1. Describe lo que necesitas</strong></p>
+          <p class="sm">Sé específico: formato, contenido, destinatarios, tono, colores. Cuanto más detalles des, mejor será el resultado.</p>
+        </div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #3b82f6;">
+          <p>⚡ <strong>2. La IA lo genera</strong></p>
+          <p class="sm">En segundos obtienes un HTML, un documento o una app funcional. Revisa el resultado críticamente.</p>
+        </div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #f59e0b;">
+          <p>🔍 <strong>3. Revisa y evalúa</strong></p>
+          <p class="sm">¿Cumple con lo que pediste? ¿Falta algo? ¿El tono es el adecuado? Toma notas de lo que mejorar.</p>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #ec4899;">
+          <p>✏️ <strong>4. Pide modificaciones</strong></p>
+          <p class="sm">"Cambia los colores", "añade más ejemplos", "reduce el texto". La IA itera sobre lo creado.</p>
+        </div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #8b5cf6;">
+          <p>✅ <strong>5. Publica o comparte</strong></p>
+          <p class="sm">Descarga el HTML, imprímelo, comparte el enlace o súbelo a tu web. El material está listo.</p>
+        </div>
+        <div class="card" style="margin-bottom:.3em;border-left:3px solid #14b8a6;">
+          <p>📚 <strong>6. Guarda el prompt</strong></p>
+          <p class="sm">Los prompts buenos se reutilizan. Crea tu propia biblioteca de prompts para el próximo curso.</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip">💡 <strong>Regla de oro:</strong> Describe como si hablaras con un compañero que necesita contexto. La IA no adivina, pero con buenas instrucciones hace maravillas.</div>
+  </section>`,
+
+  // ── 18. CREAR SKILLS ──
+  `<section data-audio="audio-codigo-cli/slide18.mp3">
+    <h2>🧠 Crea tus propios skills con AGENTS.md</h2>
+    <p class="sm">OpenCode puede cargar <strong>skills personalizados</strong> que le indican cómo comportarse para cada tipo de tarea. Se definen en un archivo <code>AGENTS.md</code> en la raíz del proyecto.</p>
+    <div class="g2" style="margin-top:.3em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Estructura de un skill en AGENTS.md</div>
+        <pre style="font-size:.5em;border-left-color:#8b5cf6;"><code>## Skill: presentacion-educativa
+
+Úsalo cuando te pidan crear una presentación.
+
+Eres un creador de presentaciones educativas
+profesionales. Sigue esta estructura exacta:
+
+- HTML con Reveal.js v4.6.1
+- Diapositivas en JS separado
+- Estilo: cards, g2, exp, tip, tags
+- Audio narrado con edge-tts</code></pre>
+        <div class="ftr"><span class="tb op">OpenCode</span> · AGENTS.md · Skill personalizado</div>
+      </div>
+      <div class="exp" style="background:#f5f3ff;border-color:#e9d5ff;">
+        <div class="pl">💡 Ventajas</div>
+        <ul class="exp-list">
+          <li>✅ Le dices a OpenCode EXACTAMENTE cómo quieres que trabaje</li>
+          <li>✅ Reutilizable: cada vez que cargues el skill, sigue las mismas reglas</li>
+          <li>✅ Puedes tener skills para: documentos, juegos, horarios, exámenes, webs, correos</li>
+          <li>✅ El skill incluye estructura, estilo visual, tono, formato y ejemplos</li>
+          <li>✅ Compártelo con otros docentes: el skill viaja con el proyecto</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tip">📌 <strong>Ejemplo:</strong> este proyecto tiene un AGENTS.md con skills para presentaciones educativas, añadir al índice y generar TXT de infografías.</div>
+  </section>`,
+
+  // ── 19. RESUMEN ──
+  `<section data-audio="audio-codigo-cli/slide19.mp3">
     <h2>✨ En resumen</h2>
     <div class="g2" style="font-size:.8em;">
       <div class="card" style="text-align:center;border-top:4px solid #10b981;">
