@@ -2,7 +2,7 @@
 
 **Curso práctico de presentaciones interactivas** para que el profesorado aprenda a usar la inteligencia artificial en el aula — ordenado por dificultad, con ejemplos reales, audio narrado y PDF descargable.
 
-🌐 Web del proyecto: [sergarb1.github.io/FormacionIADocentes](https://sergarb1.github.io/FormacionIADocentes)
+🌐 **Web del proyecto:** [👉 sergarb1.github.io/FormacionIADocentes 👈](https://sergarb1.github.io/FormacionIADocentes)
 
 🎯 6 presentaciones · 🎙️ Audio narrado · 🔊 Se puede silenciar · 📄 PDF imprimible · 🧑‍🏫 De básico a avanzado
 
@@ -12,12 +12,12 @@
 
 | # | Presentación | Nivel | ¿Qué aprenderás? | Para quién |
 |---|-------------|-------|-----------------|------------|
-| 1 | [ChatGPT, Gemini, Claude… para docentes](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | 🌱 Básico | Los principales chatbots de IA: cómo funcionan, prompts efectivos, 8 ejemplos prácticos | Quien empieza desde cero |
-| 2 | [Pensamiento crítico y detección de falacias con IA](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | 🌿 Intermedio | Usa la IA como analizador de discursos: falacias, coerción, sesgos. Actividad para clase | Quien quiere enseñar a pensar críticamente |
-| 3 | [Crear imágenes educativas con IA](https://sergarb1.github.io/FormacionIADocentes/crear%20imagenes%20educativas.html) | 🌿 Intermedio | ChatGPT Images 2.0 y Nano Banana 2 para ilustraciones, mapas, infografías y worksheets | Quien crea recursos visuales |
-| 4 | [NotebookLM de Google](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | 🌿 Intermedio | Asistente de investigación: subir fuentes, resúmenes, podcasts, flashcards | Quien investiga o prepara materiales |
-| 5 | [Infografías con IA + Canva Capas Mágicas](https://sergarb1.github.io/FormacionIADocentes/infografias%20con%20ia%20y%20canva.html) | 🌳 Avanzado | Flujo completo: IA genera fondos, Canva separa, tú personalizas | Quien quiere infografías profesionales |
-| 6 | [Asistentes de código con IA para docentes](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | 🌳 Avanzado | OpenCode, Codex CLI, Gemini CLI, Claude Code: crea materiales desde la terminal | Quien quiere HTML interactivos describiéndolos |
+| 1 | [👉 ChatGPT, Gemini, Claude… para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | 🌱 Básico | Los principales chatbots de IA: cómo funcionan, prompts efectivos, 8 ejemplos prácticos | Quien empieza desde cero |
+| 2 | [👉 Pensamiento crítico y detección de falacias con IA 👈](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | 🌿 Intermedio | Usa la IA como analizador de discursos: falacias, coerción, sesgos. Actividad para clase | Quien quiere enseñar a pensar críticamente |
+| 3 | [👉 Crear imágenes educativas con IA 👈](https://sergarb1.github.io/FormacionIADocentes/crear%20imagenes%20educativas.html) | 🌿 Intermedio | ChatGPT Images 2.0 y Nano Banana 2 para ilustraciones, mapas, infografías y worksheets | Quien crea recursos visuales |
+| 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/infografias%20con%20ia%20y%20canva.html) | 🌿 Intermedio | Flujo completo: IA genera fondos, Canva separa, tú personalizas | Quien quiere infografías profesionales |
+| 5 | [👉 NotebookLM de Google 👈](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | 🌳 Avanzado | Asistente de investigación: subir fuentes, resúmenes, podcasts, flashcards | Quien investiga o prepara materiales |
+| 6 | [👉 Asistentes de código con IA para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | 🌳 Avanzado | OpenCode, Codex CLI, Gemini CLI, Claude Code: crea materiales desde la terminal | Quien quiere HTML interactivos describiéndolos |
 
 ### 🌱 Niveles
 | Nivel | Significado |
@@ -30,7 +30,7 @@
 
 ## 🎬 Cómo usar cada presentación
 
-1. **Abrir** — Pulsa "Presentación" para ver los slides interactivos en el navegador
+1. **Abrir** — Pulsa el enlace 👆 para ver los slides interactivos en el navegador
 2. **Escuchar** — El audio se activa automáticamente al pasar de diapositiva (primera interacción)
 3. **Silenciar** — Pulsa el icono 🔊 (abajo a la izquierda) para desactivar la narración
 4. **Navegar** — Flechas ← →, ESPACIO, o clic para avanzar. ESC para vista general
@@ -55,7 +55,7 @@
 ├── 📁 audio-pensamiento-critico/     # Audios narrados (P. crítico y falacias)
 ├── 📄 narracion-*.json               # Textos para generar audio con edge-tts
 ├── 📄 generar-todo-audio.ps1         # Script PowerShell para regenerar todos los audios
-├── 📄 *.txt                          # Instrucciones para infografías (estilo Mr. Wonderful 💛)
+├── 📄 *.txt                          # Instrucciones para infografías
 ├── 📄 AGENTS.md                      # Skills para OpenCode (crear presentaciones como estas)
 └── 📄 README.md                      # Este archivo
 ```
@@ -90,19 +90,19 @@ pip install edge-tts
 El proyecto está publicado en GitHub Pages:
 
 ```
-https://sergarb1.github.io/FormacionIADocentes/
+👉 https://sergarb1.github.io/FormacionIADocentes/ 👈
 ```
 
 ### URLs de las presentaciones
 
-| Presentación | Slides | PDF |
-|-------------|--------|-----|
-| ChatGPT, Gemini, Claude… | `chatgpt-para-docentes.html` | `chatgpt-para-docentes.pdf` |
-| Pensamiento crítico y falacias | `pensamiento-critico.html` | `pensamiento-critico.pdf` |
-| Crear imágenes con IA | `crear%20imagenes%20educativas.html` | `crear-imagenes-educativas.pdf` |
-| NotebookLM de Google | `note-booklm-google.html` | `note-booklm-google.pdf` |
-| Infografías con IA + Canva | `infografias%20con%20ia%20y%20canva.html` | `infografias-con-ia-y-canva.pdf` |
-| Asistentes de código CLI | `codigo-cli-ia.html` | `codigo-cli-ia.pdf` |
+| Presentación | 👉 Slides 👈 | 👉 PDF 👈 |
+|-------------|-------------|----------|
+| ChatGPT, Gemini, Claude… | [`chatgpt-para-docentes.html`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | [`chatgpt-para-docentes.pdf`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.pdf) |
+| Pensamiento crítico y falacias | [`pensamiento-critico.html`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | [`pensamiento-critico.pdf`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.pdf) |
+| Crear imágenes con IA | [`crear%20imagenes%20educativas.html`](https://sergarb1.github.io/FormacionIADocentes/crear%20imagenes%20educativas.html) | [`crear-imagenes-educativas.pdf`](https://sergarb1.github.io/FormacionIADocentes/crear-imagenes-educativas.pdf) |
+| Infografías con IA + Canva | [`infografias%20con%20ia%20y%20canva.html`](https://sergarb1.github.io/FormacionIADocentes/infografias%20con%20ia%20y%20canva.html) | [`infografias-con-ia-y-canva.pdf`](https://sergarb1.github.io/FormacionIADocentes/infografias-con-ia-y-canva.pdf) |
+| NotebookLM de Google | [`note-booklm-google.html`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | [`note-booklm-google.pdf`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.pdf) |
+| Asistentes de código CLI | [`codigo-cli-ia.html`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | [`codigo-cli-ia.pdf`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.pdf) |
 
 ---
 
