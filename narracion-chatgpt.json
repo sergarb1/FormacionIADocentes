@@ -1,0 +1,91 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración para 'ChatGPT, Gemini, Claude... para docentes'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "ChatGPT, Gemini, Claude y Copilot para docentes. Una guía práctica para usar chatbots de inteligencia artificial en el aula. Presentación de Sergi Garcia Barea. Junio de 2026."
+    },
+    {
+      "id": 1,
+      "title": "Qué son los chatbots",
+      "text": "Los chatbots de IA son asistentes conversacionales que entienden lenguaje natural. Los principales son ChatGPT de OpenAI, Gemini de Google, Claude de Anthropic y Copilot de Microsoft. Todos tienen versión gratuita y te permiten crear materiales educativos sin saber programar."
+    },
+    {
+      "id": 2,
+      "title": "Comparativa rápida",
+      "text": "En esta tabla comparativa ves las diferencias. Todos son gratuitos, todos permiten subir archivos. Gemini tiene el contexto más grande con un millón de tokens. ChatGPT y Copilot generan imágenes. Claude no busca en internet ni tiene plugins, pero su contexto es muy amplio."
+    },
+    {
+      "id": 3,
+      "title": "Cómo funcionan",
+      "text": "Funcionan de forma similar. Entienden lo que les pides en lenguaje normal, generan respuestas originales basadas en su entrenamiento, mantienen el contexto de toda la conversación y a veces pueden equivocarse o inventar datos. Por eso siempre debes revisar antes de usar en clase."
+    },
+    {
+      "id": 4,
+      "title": "Qué es un prompt",
+      "text": "Un prompt es la instrucción que le das al chatbot. Cuanto mejor sea tu prompt, más útil será la respuesta. Es como pedir un favor a un compañero: cuanto más claro seas, mejor te entenderá."
+    },
+    {
+      "id": 5,
+      "title": "Elementos de un buen prompt",
+      "text": "Un buen prompt tiene cuatro elementos: un rol definido, un contexto claro, instrucciones concisas y elementos adicionales que afinan el resultado. Esta estructura funciona igual en ChatGPT, Gemini, Claude y Copilot."
+    },
+    {
+      "id": 6,
+      "title": "Ejemplo matemáticas",
+      "text": "Pide al chatbot que actúe como profesor de matemáticas y genere ejemplos de ecuaciones basados en deporte. Con el rol y el contexto bien definidos, obtienes materiales adaptados y motivadores para tu alumnado."
+    },
+    {
+      "id": 7,
+      "title": "Ejemplo lengua",
+      "text": "Solicita un texto adaptado a diferentes niveles educativos. El chatbot puede reescribir un mismo contenido para primero, segundo o cuarto de la ESO, incluyendo preguntas de comprensión para cada nivel."
+    },
+    {
+      "id": 8,
+      "title": "Ejemplo evaluación",
+      "text": "Genera una rúbrica de evaluación para cualquier trabajo. Define los criterios y los niveles, y el chatbot te devuelve una tabla lista para usar y personalizar."
+    },
+    {
+      "id": 9,
+      "title": "Ejemplo tutoría",
+      "text": "Redacta una carta para las familias sobre una salida escolar. Incluye todos los datos concretos: fecha, hora, precio y contacto. El tono cercano pero formal mejora la comunicación con las familias."
+    },
+    {
+      "id": 10,
+      "title": "Ejemplo exámenes",
+      "text": "Crea preguntas tipo test sobre cualquier tema. Puedes pedir diferentes niveles de dificultad y obtener el solucionario incluido. Esto te ahorra horas de preparación de exámenes."
+    },
+    {
+      "id": 11,
+      "title": "Ejemplo planificación",
+      "text": "Diseña una situación de aprendizaje completa siguiendo la estructura LOMLOE. El chatbot te ayuda a organizar objetivos, competencias, actividades y criterios de evaluación."
+    },
+    {
+      "id": 12,
+      "title": "Ejemplo inglés",
+      "text": "Simula un role-playing en inglés para practicar tiempos verbales. El chatbot puede actuar como un entrevistador, un médico o un turista. Ideal para clases de idiomas."
+    },
+    {
+      "id": 13,
+      "title": "Ejemplo historia",
+      "text": "Pide un esquema visual de cualquier etapa histórica. El chatbot organiza la información en etapas con fechas, protagonistas y conceptos clave. Perfecto para ayudar a los alumnos a estudiar."
+    },
+    {
+      "id": 14,
+      "title": "Interactúa",
+      "text": "Recuerda que puedes iterar con el chatbot. Pide más ejemplos, cambia de tema, corrige detalles o prueba el mismo prompt en diferentes herramientas. Cada una da un resultado distinto y enriquecedor."
+    },
+    {
+      "id": 15,
+      "title": "Recursos",
+      "text": "Aquí tienes enlaces a ChatGPT, Gemini, Claude y Copilot. También la AwesomeList de prompts para educación con ejemplos listos para usar."
+    },
+    {
+      "id": 16,
+      "title": "Cierre",
+      "text": "En resumen: ChatGPT de OpenAI es versátil y tiene un gran ecosistema. Gemini de Google ofrece el contexto más grande. Claude de Anthropic es excelente para análisis detallados. Y Copilot de Microsoft está integrado en el ecosistema de Microsoft. Todos son herramientas gratuitas que multiplican tu productividad como docente."
+    }
+  ]
+}

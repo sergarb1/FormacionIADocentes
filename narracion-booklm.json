@@ -1,0 +1,60 @@
+{
+  "_voice": "es-ES-ElviraNeural",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "En este tutorial descubrirás cómo usar NotebookLM de Google, una herramienta de inteligencia artificial pensada para ayudarte a preparar tus clases de forma más eficiente."
+    },
+    {
+      "id": 1,
+      "title": "¿Qué es NotebookLM?",
+      "text": "NotebookLM es un asistente de estudio basado en inteligencia artificial. Toda tu información permanece privada y solo tú puedes acceder a tus cuadernos."
+    },
+    {
+      "id": 2,
+      "title": "Subir fuentes",
+      "text": "Puedes subir documentos PDF, páginas web, vídeos de YouTube, archivos de Google Docs y audio. La IA analizará tus fuentes para responder preguntas basadas en ellas."
+    },
+    {
+      "id": 3,
+      "title": "Podcast (Audio Overview)",
+      "text": "La función Audio Overview genera un podcast con dos voces sintéticas que dialogan sobre tus documentos. Puedes descargarlo en MP3 y compartirlo con tus alumnos."
+    },
+    {
+      "id": 4,
+      "title": "Presentaciones",
+      "text": "NotebookLM puede convertir tus apuntes en una presentación lista para exportar a Google Slides. Ideal para preparar clases visuales en pocos minutos."
+    },
+    {
+      "id": 5,
+      "title": "Vídeos narrados",
+      "text": "Crea vídeos narrados con voz sincronizada a partir de tus diapositivas. Perfecto para aplicar el modelo de clase invertida o flipped classroom."
+    },
+    {
+      "id": 6,
+      "title": "Flashcards",
+      "text": "Genera tarjetas de memoria o flashcards con repetición espaciada. Ayudan a los estudiantes a repasar conceptos clave de forma autónoma y eficaz."
+    },
+    {
+      "id": 7,
+      "title": "Quizzes",
+      "text": "Diseña cuestionarios tipo test, de verdadero o falso y preguntas abiertas. NotebookLM elabora las preguntas a partir del contenido de tus fuentes."
+    },
+    {
+      "id": 8,
+      "title": "Guía de estudio",
+      "text": "Crea una guía completa con resumen ejecutivo, preguntas frecuentes, glosario de términos y un plan de estudio personalizado para tus alumnos."
+    },
+    {
+      "id": 9,
+      "title": "Ideas para docentes",
+      "text": "Usa NotebookLM para generar podcasts sobre un tema, crear flashcards de repaso, grabar vídeos narrados o diseñar quizzes para evaluar a tu alumnado."
+    },
+    {
+      "id": 10,
+      "title": "Cierre",
+      "text": "NotebookLM es una herramienta versátil que ahorra tiempo y mejora la calidad de tus materiales educativos. Empieza a explorarla hoy mismo."
+    }
+  ]
+}

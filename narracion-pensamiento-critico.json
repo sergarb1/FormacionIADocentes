@@ -1,0 +1,76 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración para 'Pensamiento crítico y detección de falacias con IA'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Pensamiento crítico y detección de falacias con Inteligencia Artificial. Cómo usar la IA para analizar mensajes y educar en la verdad. Una presentación de Sergi Garcia Barea. Junio de 2026."
+    },
+    {
+      "id": 1,
+      "title": "Qué es pensamiento crítico",
+      "text": "El pensamiento crítico es la capacidad de analizar información de forma objetiva, cuestionar fuentes, identificar sesgos y detectar manipulación. Es la competencia clave del siglo veintiuno y la inteligencia artificial puede ayudarnos a practicarlo."
+    },
+    {
+      "id": 2,
+      "title": "Por qué es clave en educación",
+      "text": "Vivimos rodeados de información. Los algoritmos de redes sociales crean burbujas que refuerzan nuestras creencias. La desinformación y los bulos son una amenaza real para nuestros alumnos. Enseñar pensamiento crítico no es decir qué pensar, sino enseñar cómo pensar."
+    },
+    {
+      "id": 3,
+      "title": "Qué son las falacias",
+      "text": "Las falacias son argumentos que parecen válidos pero no lo son. Se usan para engañar o manipular sin ofrecer razones sólidas. Por ejemplo, la falacia ad hominem ataca a la persona en lugar de al argumento, y la falsa dicotomía presenta solo dos opciones cuando hay muchas más."
+    },
+    {
+      "id": 4,
+      "title": "Falacias comunes",
+      "text": "Las falacias más comunes incluyen la apelación a la autoridad sin verificar evidencias, la generalización apresurada basada en pocos casos, la apelación a la emoción para presionar, la petición de principio o argumento circular, la pendiente resbaladiza que exagera consecuencias, y el hombre de paja que distorsiona el argumento contrario."
+    },
+    {
+      "id": 5,
+      "title": "Mensajes coercitivos",
+      "text": "Los mensajes coercitivos buscan controlar o anular la capacidad de decisión. Incluyen tácticas como el aislamiento, el miedo, la deuda emocional y el gaslighting. Detectarlos es fundamental para la prevención de relaciones abusivas y manipulación."
+    },
+    {
+      "id": 6,
+      "title": "Cómo detectarlos",
+      "text": "Para detectar falacias y mensajes coercitivos, pregunta siempre quién dice el mensaje y por qué. Identifica si el mensaje busca provocar miedo o culpa. Busca si hay más opciones de las que presentan. Verifica las fuentes. Y usa la inteligencia artificial como analista para que te ayude a identificar patrones."
+    },
+    {
+      "id": 7,
+      "title": "Usar IA para analizar",
+      "text": "Los chatbots pueden actuar como analistas de discurso. Les pasas un texto y te devuelven un análisis completo de falacias, sesgos y técnicas de persuasión. El prompt recomendado pide al chatbot que actúe como experto en pensamiento crítico y que identifique falacias, técnicas de persuasión, mensajes coercitivos y sesgos cognitivos."
+    },
+    {
+      "id": 8,
+      "title": "Ejemplo discurso",
+      "text": "Primer ejemplo: analizar un fragmento de discurso político que dice 'si no apoyas esta ley, estás con los terroristas'. La inteligencia artificial detecta la falsa dicotomía, la apelación al miedo y la generalización abusiva, y propone una versión honesta del mismo mensaje."
+    },
+    {
+      "id": 9,
+      "title": "Ejemplo publicidad",
+      "text": "Segundo ejemplo: analizar un anuncio que dice 'nueve de cada diez madres recomiendan nuestra leche'. La inteligencia artificial detecta la apelación a la mayoría sin datos de la muestra, la manipulación emocional que vincula el producto con el cuidado de los hijos, y la falta de contexto sobre la encuesta."
+    },
+    {
+      "id": 10,
+      "title": "Ejemplo fuentes",
+      "text": "Tercer ejemplo: comparar dos titulares sobre el mismo evento económico con enfoques opuestos. La inteligencia artificial identifica el sesgo político de cada fuente, señala qué datos adicionales necesitamos, y propone un titular neutral basado en evidencias."
+    },
+    {
+      "id": 11,
+      "title": "Actividad para clase",
+      "text": "Actividad práctica para el aula: en grupos de tres o cuatro, los alumnos buscan un texto dudoso de un anuncio, una noticia o una red social. Lo analizan con el prompt de inteligencia artificial, discuten los resultados y presentan sus conclusiones. La inteligencia artificial detecta las falacias, pero los alumnos deben comprender por qué lo son."
+    },
+    {
+      "id": 12,
+      "title": "Recursos",
+      "text": "Recursos útiles: Your Logical Fallacy Is, un póster interactivo de falacias lógicas. FactCheck.org para verificar noticias. Maldita.es, la plataforma española de verificación de datos. Y por supuesto, cualquier chatbot de inteligencia artificial con el prompt analizador."
+    },
+    {
+      "id": 13,
+      "title": "Resumen",
+      "text": "En resumen: el pensamiento crítico nos permite analizar, cuestionar y verificar la información. Las falacias y los mensajes coercitivos son herramientas de manipulación que podemos aprender a identificar. La inteligencia artificial actúa como analista, pero tú pones el criterio y la discusión en clase. Educar en la verdad es nuestra responsabilidad como docentes."
+    }
+  ]
+}

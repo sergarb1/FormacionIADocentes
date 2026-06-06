@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Infografías con IA + Canva Capas Mágicas · Sergi Garcia Barea</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/white.min.css" id="theme">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/print/pdf.css">
+  <style>
+    :root {
+      --r-heading-color: #1e3a5f;
+      --r-main-color: #2c3e50;
+      --r-link-color: #2563eb;
+    }
+    .reveal { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    .reveal .slides section {
+      text-align: left; padding: 0 5%;
+      display: flex !important; flex-direction: column; justify-content: center;
+      font-size: .85em;
+    }
+    .reveal h2 { font-size: 1.5em; margin-bottom: .3em; color: #1e3a5f; line-height: 1.2; }
+    .reveal p  { margin: .25em 0; }
+    .reveal ul, .reveal ol { margin: .15em 0; padding-left: 1.2em; }
+    .reveal li { margin-bottom: .1em; }
+    .reveal pre {
+      font-size: .55em; background: #f8fafc; padding: 10px 14px;
+      border-radius: 6px; margin: .1em 0 0 0; border-left: 3px solid #f59e0b;
+      white-space: pre-wrap; word-wrap: break-word; line-height: 1.35;
+    }
+    .reveal pre code { max-height: none; background: transparent; padding: 0; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: .5em 0; }
+    .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: .3em 0; align-items: start; }
+    .pc {
+      background: #f8fafc; border-radius: 8px; padding: .4em .6em .2em .6em;
+      border: 1px solid #e2e8f0; margin:0;
+    }
+    .pl {
+      font-size: .55em; color: #64748b; text-transform: uppercase;
+      letter-spacing: .04em; margin-bottom: .15em;
+    }
+    .ftr {
+      font-size: .58em; color: #64748b;
+      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    }
+    .tb {
+      display: inline-block; padding: 1px 8px; border-radius: 10px;
+      font-size: .85em; font-weight: 600;
+    }
+    .tb.chat  { background: #fef3c7; color: #92400e; }
+    .tb.nana  { background: #dbeafe; color: #1e40af; }
+    .tb.canva { background: #fce7f3; color: #9d174d; font-size:.75em; }
+    .tag {
+      display: inline-block; padding: 1px 7px; border-radius: 4px;
+      font-size: .7em; font-weight: 600;
+    }
+    .tag.g  { background: #dcfce7; color: #166534; }
+    .tag.p  { background: #f3e8ff; color: #6b21a8; }
+    .tag.o  { background: #ffedd5; color: #9a3412; }
+    .tag.r  { background: #fee2e2; color: #991b1b; }
+    .tag.b  { background: #dbeafe; color: #1e40af; }
+    .tag.pk { background: #fce7f3; color: #9d174d; }
+    .card {
+      background: #f8fafc; border-radius: 8px; padding: .6em .8em;
+      border: 1px solid #e2e8f0;
+    }
+    .exp {
+      background: #f0f4ff; border-radius: 8px; padding: .4em .7em .2em .7em;
+      border: 1px solid #dbeafe; margin:0;
+    }
+    .exp-list { list-style: none; padding: 0; margin: .15em 0; }
+    .exp-list li {
+      font-size: .6em; color: #1e3a5f; margin-bottom: .25em;
+      padding-left: 1.5em; position: relative; line-height: 1.4;
+    }
+    .exp-list li::before { content: "✅"; position: absolute; left: 0; font-size:.82em; }
+    .tip {
+      background: #fef3c7; border-radius: 6px; padding: .35em .6em;
+      font-size: .6em; color: #92400e; margin-top: .35em;
+      border-left: 3px solid #f59e0b;
+    }
+    .highlight { background: #fef3c7; padding: .1em .3em; border-radius: 3px; font-weight: 600; }
+    .sm { font-size: .6em; color: #64748b; }
+    .print-btn, .audio-ctrl {
+      position: fixed; z-index: 40; font-size: .5em;
+      background: rgba(255,255,255,.88); padding: 5px 14px;
+      border-radius: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.12);
+      backdrop-filter: blur(4px); cursor: pointer; user-select: none;
+      border: none; line-height: 1;
+    }
+    .print-btn { bottom: 14px; left: 18px; }
+    .print-btn a { color: #475569; text-decoration: none; }
+    .print-btn a:hover { color: #1e3a5f; }
+    .audio-ctrl { bottom: 14px; left: 90px; color: #475569; font-size: .6em; padding: 4px 10px; }
+    .audio-ctrl:hover { color: #1e3a5f; }
+
+    @media print {
+      .print-btn, .audio-ctrl { display: none; }
+      .reveal .slides section { opacity: 1 !important; visibility: visible !important; }
+      .reveal .slides section .fragment { opacity: 1 !important; visibility: visible !important; }
+      .reveal .progress, .reveal .slide-number { display: none; }
+    }
+    @media screen and (max-width:480px) {
+      .g2 { grid-template-columns: 1fr; gap: .6em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-btn">📄 <a href="?print-pdf#/" target="_blank">PDF</a></div>
+  <button class="audio-ctrl" id="audioCtrl" onclick="toggleAudio()">🔊</button>
+  <div class="reveal"><div class="slides"></div></div>
+  <audio id="slide-audio" preload="auto"></audio>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+  <script src="infografias-con-ia-y-canva.js"></script>
+  <script>
+    const container = document.querySelector('.slides');
+    slidesData.forEach(function(html) {
+      container.insertAdjacentHTML('beforeend', html);
+    });
+    Reveal.initialize({
+      hash: true, center: true, transition: 'slide',
+      slideNumber: 'c/t', plugins: [],
+      pdfMaxPagesPerSlide: 1, pdfSeparateFragments: false,
+      width: 1280, height: 720, margin: 0.04, minScale: 0.2, maxScale: 2.0
+    });
+
+    const audioEl = document.getElementById('slide-audio');
+    let audioMuted = false, started = false;
+    function toggleAudio() {
+      audioMuted = !audioMuted;
+      document.getElementById('audioCtrl').textContent = audioMuted ? '🔇' : '🔊';
+    }
+    function playSlideAudio(slide) {
+      if (audioMuted || !started) return;
+      const src = slide.getAttribute('data-audio');
+      if (!src) return;
+      audioEl.src = src;
+      audioEl.play();
+    }
+    function firstInteraction() {
+      if (started) return;
+      started = true;
+      document.removeEventListener('click', firstInteraction, true);
+      document.removeEventListener('keydown', firstInteraction, true);
+      playSlideAudio(Reveal.getCurrentSlide());
+    }
+    document.addEventListener('click', firstInteraction, true);
+    document.addEventListener('keydown', firstInteraction, true);
+    Reveal.addEventListener('slidechanged', function(e) { playSlideAudio(e.currentSlide); });
+  </script>
+</body>
+</html>

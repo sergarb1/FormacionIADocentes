@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formación en IA para Docentes · Sergi Garcia Barea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']},colors:{navy:'#1e3a5f',slate:'#0f172a'}}}}</script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: #f8fafc; color: #0f172a; line-height: 1.6;
+      min-height: 100vh; display: flex; flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2b4a 0%, #1e3a5f 40%, #2563eb 100%);
+      color: #fff; padding: 3.5em 2em 3em; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    header::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 120%, rgba(255,255,255,.06) 0%, transparent 70%);
+    }
+    header h1 {
+      font-size: 2.6em; font-weight: 900; letter-spacing: -.04em;
+      position: relative; line-height: 1.15;
+    }
+    header h1 span { background: linear-gradient(135deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    header .subtitle {
+      margin-top: .7em; font-size: 1.1em; opacity: .85;
+      max-width: 620px; margin-inline: auto; position: relative;
+      font-weight: 400;
+    }
+    header .badges {
+      margin-top: 1.4em; display: flex; gap: .5em; justify-content: center;
+      flex-wrap: wrap; position: relative;
+    }
+    header .badges span {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,.12); backdrop-filter: blur(4px);
+      padding: 6px 14px; border-radius: 20px; font-size: .78em; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    header .author {
+      margin-top: 1.5em; font-size: .82em; opacity: .6; position: relative;
+    }
+    header .author a { color: #93c5fd; text-decoration: none; }
+    header .author a:hover { text-decoration: underline; }
+
+    .mission {
+      background: #fff; border-bottom: 1px solid #e2e8f0; padding: 2.5em 1.5em;
+      text-align: center;
+    }
+    .mission-inner { max-width: 780px; margin: 0 auto; }
+    .mission h2 { font-size: 1.3em; color: #1e3a5f; font-weight: 800; margin-bottom: .6em; }
+    .mission p { color: #475569; font-size: .92em; margin-bottom: .6em; }
+    .mission p:last-of-type { margin-bottom: 1.2em; }
+    .mission-grid {
+      display: flex; gap: .8em; justify-content: center; flex-wrap: wrap;
+    }
+    .mission-item {
+      display: flex; align-items: center; gap: 7px;
+      background: #f1f5f9; padding: 7px 16px; border-radius: 10px;
+      font-size: .82em; color: #1e3a5f; font-weight: 500;
+    }
+
+    /* ── HOW TO USE ── */
+    .howto {
+      background: #f8fafc; border-bottom: 1px solid #e2e8f0; padding: 2em 1.5em;
+    }
+    .howto-inner { max-width: 780px; margin: 0 auto; }
+    .howto h2 { font-size: 1.15em; color: #1e3a5f; font-weight: 700; text-align: center; margin-bottom: 1.2em; }
+    .howto-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1em; }
+    .howto-card {
+      background: #fff; border-radius: 10px; padding: 1em; text-align: center;
+      border: 1px solid #e2e8f0;
+    }
+    .howto-card .icon { font-size: 1.6em; margin-bottom: .3em; }
+    .howto-card h3 { font-size: .85em; font-weight: 700; color: #0f172a; }
+    .howto-card p { font-size: .75em; color: #475569; margin-top: .2em; line-height: 1.4; }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 1.2em 1.5em .8em; flex: 1; }
+
+    .section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: .6em; gap: 1em;
+    }
+    .section-header h2 { font-size: 1.25em; color: #0f172a; font-weight: 800; }
+    .section-header .count {
+      font-size: .78em; color: #64748b; background: #f1f5f9;
+      padding: 4px 12px; border-radius: 12px; font-weight: 600;
+    }
+
+    .section-sub { font-size: .82em; color: #64748b; margin-bottom: 1.2em; }
+
+    .level-bar {
+      display: flex; gap: .6em; margin-bottom: 1.8em;
+      flex-wrap: wrap; font-size: .8em;
+    }
+    .level-bar .l {
+      display: flex; align-items: center; gap: 5px;
+      background: #f1f5f9; padding: 5px 12px; border-radius: 8px;
+      color: #475569; font-weight: 500;
+    }
+    .level-bar .l .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+    .grid {
+      display: grid; gap: .7em;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .card {
+      background: #fff; border-radius: 10px; padding: 0;
+      border: 1px solid #e2e8f0; display: flex;
+      transition: box-shadow .25s, border-color .25s, transform .2s;
+      overflow: hidden;
+    }
+    .card:hover { border-color: #94a3b8; box-shadow: 0 4px 14px rgba(0,0,0,.05); transform: translateY(-1px); }
+    .card .num {
+      flex-shrink: 0; width: 34px; display: flex; align-items: center;
+      justify-content: center; font-weight: 800; font-size: .9em;
+      color: #fff; letter-spacing: -.02em;
+    }
+    .card .body { flex: 1; padding: .7em .8em .7em .65em; min-width: 0; }
+    .card .body h3 { font-size: .82em; font-weight: 700; color: #0f172a; margin-bottom: .1em; line-height: 1.25; }
+    .card .body .desc { font-size: .68em; color: #475569; margin-bottom: .25em; line-height: 1.4; }
+    .card .body .audience { font-size: .62em; color: #64748b; margin-bottom: .25em; display: flex; align-items: center; gap: 4px; }
+    .card .body .tags { display: flex; flex-wrap: wrap; gap: .25em; margin-bottom: .35em; }
+    .card .body .tags span {
+      display: inline-block; padding: 1px 6px; border-radius: 4px;
+      font-size: .58em; font-weight: 600;
+    }
+    .card .links { display: flex; gap: .4em; flex-wrap: wrap; margin-top: .3em; }
+    .card .links a {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 5px 14px; border-radius: 6px; font-size: .7em; font-weight: 700;
+      text-decoration: none; transition: all .2s; letter-spacing: .01em;
+    }
+    .card .links a.slides { background: #1d4ed8; color: #fff; }
+    .card .links a.slides:hover { background: #1e40af; box-shadow: 0 2px 8px rgba(29,78,216,.3); }
+    .card .links a.pdf { background: #dc2626; color: #fff; }
+    .card .links a.pdf:hover { background: #b91c1c; box-shadow: 0 2px 8px rgba(220,38,38,.3); }
+    .card .links a.narrated {
+      background: #059669; color: #fff;
+    }
+    .card .links a.narrated:hover { background: #047857; box-shadow: 0 2px 8px rgba(5,150,105,.3); }
+
+    .num-1 { background: linear-gradient(135deg, #059669, #10b981); }
+    .num-2 { background: linear-gradient(135deg, #dc2626, #ef4444); }
+    .num-3 { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+    .num-4 { background: linear-gradient(135deg, #7c3aed, #8b5cf6); }
+    .num-5 { background: linear-gradient(135deg, #d97706, #f59e0b); }
+    .num-6 { background: linear-gradient(135deg, #db2777, #ec4899); }
+
+    /* ── CARD THUMBNAIL ── */
+    .card-thumb {
+      flex-shrink: 0; width: 70px; min-height: 70px; overflow: hidden;
+      border-left: 1px solid #e2e8f0; position: relative;
+      cursor: pointer; transition: opacity .2s; display: flex;
+    }
+    .card-thumb:hover { opacity: .85; }
+    .card-thumb img {
+      width: 100%; height: 100%; object-fit: contain; display: block;
+      background: #f8fafc; transition: transform .3s;
+    }
+    .card-thumb:hover img { transform: scale(1.05); }
+    .card-thumb .zoom-hint {
+      position: absolute; inset: 0; display: flex; align-items: center;
+      justify-content: center; opacity: 0; transition: opacity .25s;
+      background: rgba(0,0,0,.35); color: #fff; font-size: 1.1em;
+    }
+    .card-thumb:hover .zoom-hint { opacity: 1; }
+    @media (max-width: 640px) {
+      .card-thumb { width: 90px; }
+    }
+
+    /* ── LIGHTBOX ── */
+    .lbox { display: none; }
+    .lbox:target {
+      display: flex; position: fixed; inset: 0; z-index: 9999;
+      background: rgba(0,0,0,.8); align-items: center; justify-content: center;
+      padding: 2em;
+    }
+    .lbox:target img {
+      max-width: 95vw; max-height: 95vh; border-radius: 8px;
+      box-shadow: 0 8px 40px rgba(0,0,0,.4);
+    }
+    .lbox:target .close {
+      position: fixed; top: 16px; right: 24px;
+      font-size: 2.2em; color: #fff; text-decoration: none; font-weight: 300;
+      line-height: 1; opacity: .7; transition: opacity .2s;
+    }
+    .lbox:target .close:hover { opacity: 1; }
+
+    .tag-basic { background: #d1fae5; color: #065f46; }
+    .tag-inter { background: #dbeafe; color: #1e40af; }
+    .tag-adv   { background: #fef3c7; color: #92400e; }
+    .tag-ai    { background: #f3e8ff; color: #6b21a8; }
+    .tag-img   { background: #ffedd5; color: #9a3412; }
+    .tag-vid   { background: #fce7f3; color: #9d174d; }
+    .tag-doc   { background: #ccfbf1; color: #115e59; }
+    .tag-cli   { background: #fce7f3; color: #9d174d; }
+    .tag-crit  { background: #fee2e2; color: #991b1b; }
+
+    footer {
+      text-align: center; padding: 2em; font-size: .78em; color: #94a3b8;
+      border-top: 1px solid #e2e8f0; margin-top: auto;
+    }
+    footer a { color: #64748b; text-decoration: none; }
+    footer a:hover { color: #1e3a5f; }
+    .footer-links { display: flex; justify-content: center; gap: 1.2em; margin-bottom: .5em; flex-wrap: wrap; }
+    .footer-links a {
+      display: inline-flex; align-items: center; gap: 5px;
+      color: #64748b; text-decoration: none; font-weight: 500;
+    }
+    .footer-links a:hover { color: #1e3a5f; }
+
+    html { scroll-behavior: smooth; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.7em; }
+      header .subtitle { font-size: .95em; }
+      header { padding: 2.2em 1.2em 2em; }
+      .card .num { width: 30px; font-size: .8em; }
+      .card .body { padding: .6em; }
+      .card-thumb { width: 55px; min-height: 65px; }
+      .card .links a { padding: 4px 10px; font-size: .62em; }
+      .section-header { flex-direction: column; align-items: flex-start; gap: .3em; }
+    }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <h1>🤖 Formación en IA para <span>Docentes</span></h1>
+    <p class="subtitle">Un curso práctico para que el profesorado aprenda a usar la inteligencia artificial en el aula — ordenado por dificultad, con ejemplos reales, audio narrado y PDF descargable.</p>
+    <div class="badges">
+      <span>🎯 6 presentaciones</span>
+      <span>🎙️ Audio narrado</span>
+      <span>🔊 Se puede silenciar</span>
+      <span>📄 PDF imprimible</span>
+      <span>🧑‍🏫 De básico a avanzado</span>
+    </div>
+    <div class="author">por <a href="https://github.com/sergarb1">Sergi Garcia Barea</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>
+  </header>
+
+  <div class="container" id="presentaciones">
+    <div class="section-header">
+      <h2>📋 Presentaciones</h2>
+      <span class="count">6 disponibles</span>
+    </div>
+    <p class="section-sub">Ordenadas por dificultad. Cada una incluye audio narrado + PDF imprimible.</p>
+
+    <div class="level-bar">
+      <span class="l"><span class="dot" style="background:#10b981;"></span> 🌱 Básico — Sin experiencia previa</span>
+      <span class="l"><span class="dot" style="background:#3b82f6;"></span> 🌿 Intermedio — Conocimientos básicos</span>
+      <span class="l"><span class="dot" style="background:#f59e0b;"></span> 🌳 Avanzado — Herramientas más técnicas</span>
+    </div>
+
+    <div class="grid">
+
+      <!-- 1 -->
+      <div class="card">
+        <div class="num num-1">1</div>
+        <div class="body">
+          <h3>ChatGPT, Gemini, Claude… para docentes</h3>
+          <p class="desc">Los principales chatbots de IA explicados para el aula: cómo funcionan, cómo construir prompts efectivos y 8 ejemplos prácticos para clase, tutoría, evaluación y planificación.</p>
+          <div class="audience">🎯 Para quien empieza desde cero con la IA</div>
+          <div class="tags">
+            <span class="tag-basic">🌱 Básico</span>
+            <span class="tag-ai">ChatGPT</span>
+            <span class="tag-ai">Gemini</span>
+            <span class="tag-ai">Claude</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="chatgpt-para-docentes.html">▶ VER presentación</a>
+            <a class="pdf" href="chatgpt-para-docentes.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-1" class="card-thumb">
+          <img src="infografia-chatgpt-para-docentes.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+      <!-- 2 -->
+      <div class="card">
+        <div class="num num-2">2</div>
+        <div class="body">
+          <h3>Pensamiento crítico y detección de falacias con IA</h3>
+          <p class="desc">Aprende a usar la IA como analizador de discursos: identifica falacias lógicas, mensajes coercitivos y sesgos en textos reales. Incluye actividad práctica para clase.</p>
+          <div class="audience">🎯 Para quien quiere enseñar a sus alumnos a pensar críticamente</div>
+          <div class="tags">
+            <span class="tag-inter">🌿 Intermedio</span>
+            <span class="tag-crit">P. Crítico</span>
+            <span class="tag-ai">IA + Ética</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="pensamiento-critico.html">▶ VER presentación</a>
+            <a class="pdf" href="pensamiento-critico.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-2" class="card-thumb">
+          <img src="infografia-pensamiento-critico.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+      <!-- 3 -->
+      <div class="card">
+        <div class="num num-3">3</div>
+        <div class="body">
+          <h3>Crear imágenes educativas con IA</h3>
+          <p class="desc">Uso de ChatGPT Images 2.0 y Nano Banana 2 para generar ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales para cualquier materia y nivel.</p>
+          <div class="audience">🎯 Para quien quiere crear recursos visuales sin saber diseñar</div>
+          <div class="tags">
+            <span class="tag-inter">🌿 Intermedio</span>
+            <span class="tag-img">Imágenes</span>
+            <span class="tag-ai">IA Generativa</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="crear%20imagenes%20educativas.html">▶ VER presentación</a>
+            <a class="pdf" href="crear-imagenes-educativas.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-3" class="card-thumb">
+          <img src="infografia-crear-imagenes-educativas.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+      <!-- 4 -->
+      <div class="card">
+        <div class="num num-4">4</div>
+        <div class="body">
+          <h3>Infografías con IA + Canva Capas Mágicas</h3>
+          <p class="desc">Flujo completo: genera fondos y elementos con IA, luego combínalos en Canva con Capas Mágicas (separación automática de objetos) para crear infografías educativas sin saber diseñar.</p>
+          <div class="audience">🎯 Para quien quiere crear infografías profesionales para sus clases</div>
+          <div class="tags">
+            <span class="tag-inter">🌿 Intermedio</span>
+            <span class="tag-img">Infografías</span>
+            <span class="tag-vid">Canva</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="infografias%20con%20ia%20y%20canva.html">▶ VER presentación</a>
+            <a class="pdf" href="infografias-con-ia-y-canva.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-4" class="card-thumb">
+          <img src="infografia-infografias-con-ia-y-canva.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+      <!-- 5 -->
+      <div class="card">
+        <div class="num num-5">5</div>
+        <div class="body">
+          <h3>NotebookLM de Google · tutorial para docentes</h3>
+          <p class="desc">Asistente de investigación con IA: sube documentos, haz preguntas, genera resúmenes, guías de estudio, podcasts con Audio Overviews y mucho más.</p>
+          <div class="audience">🎯 Para quien investiga, prepara materiales o trabaja con documentos</div>
+          <div class="tags">
+            <span class="tag-adv">🌳 Avanzado</span>
+            <span class="tag-doc">Documentos</span>
+            <span class="tag-ai">Google IA</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="note-booklm-google.html">▶ VER presentación</a>
+            <a class="pdf" href="note-booklm-google.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-5" class="card-thumb">
+          <img src="infografia-note-booklm-google.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+      <!-- 6 -->
+      <div class="card">
+        <div class="num num-6">6</div>
+        <div class="body">
+          <h3>Asistentes de código con IA para docentes</h3>
+          <p class="desc">OpenCode, Codex CLI, Gemini CLI y Claude Code: herramientas que crean materiales educativos desde la terminal sin saber programar. 8 ejemplos prácticos: circulares, horarios, emails, registros, exámenes, diplomas…</p>
+          <div class="audience">🎯 Para quien quiere crear materiales HTML interactivos con solo describirlos</div>
+          <div class="tags">
+            <span class="tag-adv">🌳 Avanzado</span>
+            <span class="tag-cli">CLI</span>
+            <span class="tag-ai">Código</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="codigo-cli-ia.html">▶ VER presentación</a>
+            <a class="pdf" href="codigo-cli-ia.pdf">📄 PDF</a>
+          </div>
+        </div>
+        <a href="#inf-6" class="card-thumb">
+          <img src="infografia-codigo-cli-ia.png" alt="Infografía" loading="lazy">
+          <span class="zoom-hint">🔍</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="mission" style="border-bottom:1px solid #e2e8f0;">
+    <div class="mission-inner">
+      <h2>💡 ¿Qué es esto?</h2>
+      <p><strong>Formación en IA para Docentes</strong> es un conjunto de <strong>6 presentaciones interactivas</strong> diseñadas para que el profesorado aprenda a usar la inteligencia artificial en el aula — sin tecnicismos, con ejemplos reales y recursos listos para llevar a clase.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8em;text-align:left;margin:1em 0 1.2em;">
+        <div style="background:#f0f4ff;border-radius:10px;padding:.7em .9em;border:1px solid #dbeafe;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#1e3a5f;"><strong>🎯 Para qué sirve</strong></p>
+          <p style="font-size:.75em;margin:0;color:#475569;line-height:1.5;">Ideales para <strong>claustros, seminarios, grupos de trabajo</strong> o formación individual. Cada presentación está lista para proyectar y explicar.</p>
+        </div>
+        <div style="background:#fef3c7;border-radius:10px;padding:.7em .9em;border:1px solid #fde68a;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#92400e;"><strong>⭐ Consejo</strong></p>
+          <p style="font-size:.75em;margin:0;color:#92400e;line-height:1.5;">Empieza por la <strong>n.º 1</strong> si eres nuevo en IA. Cada una dura ~10-15 min con audio. Puedes hacerlas en orden o saltar a la que más te interese.</p>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8em;text-align:left;margin:0 0 1.2em;">
+        <div style="background:#f0fdf4;border-radius:10px;padding:.7em .9em;border:1px solid #bbf7d0;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#166534;"><strong>🎙️ Audio narrado</strong></p>
+          <p style="font-size:.75em;margin:0;color:#166534;line-height:1.5;">Voz natural <strong>diapositiva a diapositiva</strong>. La narración se activa al hacer clic. Puedes <strong>silenciar</strong> con el botón 🔊 si prefieres leer.</p>
+        </div>
+        <div style="background:#fef2f2;border-radius:10px;padding:.7em .9em;border:1px solid #fecaca;">
+          <p style="font-size:.82em;margin:0 0 .15em;color:#991b1b;"><strong>📄 PDF descargable</strong></p>
+          <p style="font-size:.75em;margin:0;color:#991b1b;line-height:1.5;">Cada presentación tiene un <strong>PDF imprimible</strong>. Pulsa el botón rojo o añade <code style="font-size:.9em;">?print-pdf#/</code> a la URL.</p>
+        </div>
+      </div>
+
+      <hr style="border:none;border-top:1px solid #e2e8f0;margin:.4em 0 .8em;">
+
+      <div class="mission-grid">
+        <div class="mission-item">📝 <strong>Prompts</strong> listos para copiar</div>
+        <div class="mission-item">🖼️ <strong>Ejemplos</strong> visuales reales</div>
+        <div class="mission-item">🔊 Con <strong>audio</strong> o sin él</div>
+        <div class="mission-item">📄 <strong>PDF</strong> imprimible</div>
+        <div class="mission-item">🧑‍🏫 De <strong>básico</strong> a avanzado</div>
+        <div class="mission-item">⏱️ <strong>10-15 min</strong> cada una</div>
+      </div>
+
+      <p style="text-align:center;margin-top:.8em;font-size:.78em;color:#94a3b8;">✨ Truco: usa las flechas del teclado ← → para navegar y ESC para ver todas las diapositivas de golpe.</p>
+    </div>
+  </section>
+
+  <section class="bg-white border-b border-gray-200 py-4">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-sm font-bold text-navy tracking-tight">🎬 Cómo usar cada presentación</h2>
+        <a href="#presentaciones" class="inline-flex items-center gap-1 text-[11px] font-semibold text-blue-600 hover:text-blue-800 transition-colors bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full">
+          ⬆ Ir a presentaciones
+        </a>
+      </div>
+      <div class="flex gap-2.5 justify-center">
+        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
+          <div class="text-base leading-none mb-1">▶️</div>
+          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Abrir</h3>
+          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Pulsa "Presentación" para ver los slides</p>
+        </div>
+        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
+          <div class="text-base leading-none mb-1">🔊</div>
+          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Audio</h3>
+          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Al pasar diapositiva. Pulsa 🔊 para silenciar</p>
+        </div>
+        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
+          <div class="text-base leading-none mb-1">⌨️</div>
+          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">Navegar</h3>
+          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">← → · ESC vista general · Espacio avanzar</p>
+        </div>
+        <div class="flex-1 min-w-0 bg-slate-50 rounded-lg px-2.5 py-2 text-center border border-slate-100 hover:border-slate-300 transition-colors">
+          <div class="text-base leading-none mb-1">📄</div>
+          <h3 class="text-[11px] font-bold text-slate-800 leading-tight">PDF</h3>
+          <p class="text-[10px] text-slate-500 leading-tight mt-0.5">Botón "PDF" o <code class="text-[9px]">?print-pdf#/</code> en la URL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LIGHTBOX MODALS ── -->
+  <div id="inf-1" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-chatgpt-para-docentes.png" alt="Infografía ChatGPT, Gemini, Claude… para docentes"></div>
+  <div id="inf-2" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-pensamiento-critico.png" alt="Infografía Pensamiento crítico"></div>
+  <div id="inf-3" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-crear-imagenes-educativas.png" alt="Infografía Crear imágenes educativas"></div>
+  <div id="inf-4" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-note-booklm-google.png" alt="Infografía NotebookLM de Google"></div>
+  <div id="inf-5" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-infografias-con-ia-y-canva.png" alt="Infografía Infografías con IA + Canva"></div>
+  <div id="inf-6" class="lbox"><a href="#" class="close">&times;</a><img src="infografia-codigo-cli-ia.png" alt="Infografía Asistentes de código CLI"></div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#top">⬆ Subir</a>
+      <a href="https://github.com/sergarb1/FormacionIADocentes">🐙 GitHub</a>
+      <a href="https://revealjs.com/">🔗 Reveal.js</a>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">📝 CC BY-SA 4.0</a>
+    </div>
+    <p>Hecho con ❤️ por <a href="https://github.com/sergarb1">Sergi Garcia Barea</a> para la comunidad educativa</p>
+  </footer>
+</body>
+</html>

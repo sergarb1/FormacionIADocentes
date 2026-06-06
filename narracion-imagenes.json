@@ -1,0 +1,180 @@
+{
+  "_voice": "es-ES-ElviraNeural",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Descubre cómo crear imágenes educativas con inteligencia artificial. Verás ejemplos prácticos para todas las materias y niveles."
+    },
+    {
+      "id": 1,
+      "title": "Herramientas",
+      "text": "Usaremos ChatGPT Images 2.0 y Nano Banana 2. Dos herramientas potentes para generar imágenes educativas de calidad sin necesidad de saber dibujar."
+    },
+    {
+      "id": 2,
+      "title": "Volcán",
+      "text": "Pide un corte transversal de un volcán señalizando sus partes. Ideal para ciencias naturales y para que los alumnos comprendan su estructura interna."
+    },
+    {
+      "id": 3,
+      "title": "Ciclo del agua",
+      "text": "Solicita una infografía del ciclo del agua con flechas y etiquetas. Visualiza evaporación, condensación y precipitación en una sola imagen didáctica."
+    },
+    {
+      "id": 4,
+      "title": "Aparato digestivo",
+      "text": "Genera cuatro variantes del aparato digestivo: esquemática, realista, infantil y con nombres. Así adaptas el recurso a cada grupo."
+    },
+    {
+      "id": 5,
+      "title": "Célula vegetal vs animal",
+      "text": "Crea una imagen comparativa lado a lado con diferencias y semejanzas. Perfecta para que los estudiantes distingan orgánulos de cada tipo celular."
+    },
+    {
+      "id": 6,
+      "title": "Sistema solar infantil",
+      "text": "Pide un sistema solar con planetas sonrientes y colores vivos. Ideal para los más pequeños, con órbitas circulares y nombres visibles."
+    },
+    {
+      "id": 7,
+      "title": "Ciclo de las rocas",
+      "text": "Genera un diagrama del ciclo de las rocas con flechas curvas. Muestra cómo se transforman las rocas ígneas, sedimentarias y metamórficas."
+    },
+    {
+      "id": 8,
+      "title": "Corazón humano",
+      "text": "Usa negative prompt para evitar errores: no añadas texto incorrecto ni etiquetas inventadas. Así obtienes una ilustración anatómica fiable."
+    },
+    {
+      "id": 9,
+      "title": "Fotosíntesis",
+      "text": "Solicita una infografía de la fotosíntesis con luz solar, agua y dióxido de carbono. Muestra el proceso de forma clara y atractiva."
+    },
+    {
+      "id": 10,
+      "title": "Mitosis en viñetas",
+      "text": "Pide la mitosis representada en viñetas tipo cómic. Cada fase merece una viñeta: profase, metafase, anafase y telofase con dibujos sencillos."
+    },
+    {
+      "id": 11,
+      "title": "Mapa Imperio Romano",
+      "text": "Genera un mapa histórico del Imperio Romano con sus provincias coloreadas. Incluye las rutas comerciales y la división territorial."
+    },
+    {
+      "id": 12,
+      "title": "Castillo medieval",
+      "text": "Pide un corte transversal de un castillo medieval. Muestra las estancias internas: mazmorras, salón del trono, cocinas y torres de vigilancia."
+    },
+    {
+      "id": 13,
+      "title": "Revolución Industrial",
+      "text": "Crea una escena de la Revolución Industrial con fábricas, trenes de vapor y trabajadores. Ideal para contextualizar esta época histórica."
+    },
+    {
+      "id": 14,
+      "title": "Aprender la hora",
+      "text": "Solicita una ficha con relojes analógicos para practicar la hora. Incluye varios relojes con manecillas en diferentes posiciones."
+    },
+    {
+      "id": 15,
+      "title": "Figuras geométricas",
+      "text": "Genera una lámina educativa con figuras geométricas planas y sus fórmulas. Incluye cuadrado, círculo, triángulo y rectángulo con área y perímetro."
+    },
+    {
+      "id": 16,
+      "title": "Fracciones visuales",
+      "text": "Pide una ficha de fracciones con círculos divididos en partes coloreadas. Ayuda a los alumnos a comprender el concepto de fracción de forma visual."
+    },
+    {
+      "id": 17,
+      "title": "Escena de cuento",
+      "text": "Crea una escena de un cuento infantil clásico. Los protagonistas deben ser animales antropomórficos en un bosque mágico y colorido."
+    },
+    {
+      "id": 18,
+      "title": "Vocabulario aula inglés",
+      "text": "Solicita una lámina con vocabulario del aula en inglés. Cada objeto tiene su nombre: pencil, book, desk, chair, window con dibujos claros."
+    },
+    {
+      "id": 19,
+      "title": "Mapa físico Sudamérica",
+      "text": "Genera un mapa físico de Sudamérica con ríos, montañas y selvas. Destaca el Amazonas, los Andes y las principales elevaciones del continente."
+    },
+    {
+      "id": 20,
+      "title": "Climas del mundo",
+      "text": "Pide un mapa mundi climático con zonas de colores diferenciados. cada región debe mostrar el tipo de clima: tropical, seco, templado, frío y polar."
+    },
+    {
+      "id": 21,
+      "title": "Sombras de animales",
+      "text": "Crea una ficha de sombras para infantil. Los alumnos deben unir cada animal con su sombra correspondiente. Desarrolla la percepción visual."
+    },
+    {
+      "id": 22,
+      "title": "Grafomotricidad",
+      "text": "Genera una ficha de preescritura con líneas punteadas y formas para repasar. Ayuda a los más pequeños a desarrollar la motricidad fina."
+    },
+    {
+      "id": 23,
+      "title": "Tabla de multiplicar",
+      "text": "Solicita un póster de la tabla de multiplicar del uno al diez. Diseño colorido y letra grande para colgarlo en el aula como referencia visual."
+    },
+    {
+      "id": 24,
+      "title": "Aula inclusiva",
+      "text": "Pide una imagen de un aula inclusiva con diversidad funcional, étnica y de género. Todos los estudiantes deben estar participando juntos."
+    },
+    {
+      "id": 25,
+      "title": "Mujeres científicas",
+      "text": "Genera un póster con mujeres científicas destacadas. Incluye a Marie Curie, Ada Lovelace, Rosalind Franklin y Margarita Salas con sus aportaciones."
+    },
+    {
+      "id": 26,
+      "title": "Pirámide alimenticia",
+      "text": "Solicita una infografía de la pirámide alimenticia actual. En la base aparecen frutas y verduras, y en la cúspide los dulces y procesados."
+    },
+    {
+      "id": 27,
+      "title": "Reglas de clase",
+      "text": "Crea un póster con normas de clase ilustradas. Cada regla tiene un icono: levantar la mano, escuchar, respetar y compartir."
+    },
+    {
+      "id": 28,
+      "title": "Modernizar esquema",
+      "text": "Sube un esquema antiguo y pide modernizarlo con img2img. La inteligencia artificial redibuja tu material dándole un aspecto actual y profesional."
+    },
+    {
+      "id": 29,
+      "title": "Grecia vs Roma",
+      "text": "Genera una comparativa visual entre Grecia y Roma. Dos columnas enfrentan arquitectura, dioses, gobierno y aportaciones de cada civilización."
+    },
+    {
+      "id": 30,
+      "title": "FP Electricidad",
+      "text": "Pide un esquema de un motor eléctrico con sus partes: estátor, rotor, escobillas y colector. Ideal para formación profesional de electricidad."
+    },
+    {
+      "id": 31,
+      "title": "FP Sanidad",
+      "text": "Solicita una ilustración del sistema circulatorio para enfermería. Señala venas, arterias, corazón y capilares con nomenclatura técnica."
+    },
+    {
+      "id": 32,
+      "title": "FP Informática",
+      "text": "Genera un diagrama de topología de red en estrella. Muestra los ordenadores conectados a un switch central con las etiquetas correspondientes."
+    },
+    {
+      "id": 33,
+      "title": "FP Cocina",
+      "text": "Pide una lámina de técnicas de corte en cocina: juliana, brunoise, chiffonade y batonnet. Cada técnica acompañada de su ilustración y nombre."
+    },
+    {
+      "id": 34,
+      "title": "Cierre",
+      "text": "Con estos diez truques puedes crear materiales visuales impactantes para cualquier materia. La inteligencia artificial es tu aliada en el aula."
+    }
+  ]
+}

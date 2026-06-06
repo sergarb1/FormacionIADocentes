@@ -1,0 +1,96 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración para 'Asistentes de código con IA para docentes'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Asistentes de código con Inteligencia Artificial para docentes. OpenCode, Codex CLI, Gemini CLI y Claude Code. Una presentación de Sergi Garcia Barea. Junio de 2026."
+    },
+    {
+      "id": 1,
+      "title": "Panorama general",
+      "text": "Los asistentes de código CLI son herramientas que usas desde la terminal para crear materiales educativos sin saber programar. Les describes lo que necesitas y ellas lo generan. Las cuatro herramientas principales son: OpenCode, completamente gratuita y open source; Codex CLI de OpenAI con capa gratuita limitada; Gemini CLI de Google también con capa gratuita; y Claude Code de Anthropic con capa gratuita limitada. La recomendada es OpenCode por ser gratuita sin restricciones y estar en constante mejora."
+    },
+    {
+      "id": 2,
+      "title": "OpenCode en profundidad",
+      "text": "OpenCode es la herramienta recomendada porque es cien por cien gratuita, sin límites de uso y open source. Tiene skills integrados, que son instrucciones especializadas para cada tipo de tarea: presentaciones, documentos, juegos, webs, correos y horarios. Su modo agente autónomo le permite crear, modificar y gestionar archivos por sí misma. Utiliza modelos de última generación como DeepSeek V4, funciona desde la terminal y próximamente tendrá interfaz web. Su instalación es simple con npm."
+    },
+    {
+      "id": 3,
+      "title": "Comparativa rápida",
+      "text": "En esta tabla comparativa puedes ver las diferencias entre las cuatro herramientas. OpenCode es la única cien por cien gratuita y open source. Es la única que tiene skills, web scraping y audio integrados. Codex CLI y Claude Code también son open source pero con capa gratuita limitada. Gemini CLI requiere SDK de Google. Todas tienen modo agente y permiten subir archivos."
+    },
+    {
+      "id": 4,
+      "title": "Cómo usar OpenCode",
+      "text": "Usar OpenCode es muy sencillo. Primero lo instalas con npm install -g arroba opencode cli. Luego inicias en tu carpeta de trabajo con el comando opencode. Y simplemente le pides lo que necesitas en lenguaje natural, como crea un documento bonito con el horario de clases para imprimir. Puedes usar skills especializados y modificar los resultados sobre la marcha. El resultado lo abres en el navegador, lo imprimes o lo compartes."
+    },
+    {
+      "id": 5,
+      "title": "Skills",
+      "text": "Los skills son el superpoder de OpenCode. Son instrucciones especializadas que le dicen cómo comportarse para cada tipo de tarea, como tener un experto en cada materia. Hay skills para crear documentos bonitos como circulares y cartas, presentaciones con Reveal.js, worksheets imprimibles, horarios y cuadrantes, correos y comunicaciones, aplicaciones web completas, juegos educativos interactivos, y webs educativas completas."
+    },
+    {
+      "id": 6,
+      "title": "Codex CLI",
+      "text": "Codex CLI es la herramienta de OpenAI. Se instala con npm install -g arroba openai codex. Necesitas una clave de API de OpenAI y tiene capa gratuita con límite de tokens. Es muy bueno generando código estructurado como HTML, CSS y JavaScript. Un ejemplo de uso sería pedirle que genere un registro de notas interactivo para treinta alumnos con media y colores. También permite subir archivos PDF e imágenes."
+    },
+    {
+      "id": 7,
+      "title": "Gemini CLI",
+      "text": "Gemini CLI es la herramienta de Google. Se instala con Docker o con el SDK de Google Cloud. Necesitas una cuenta de Google Cloud y tiene capa gratuita generosa. Su punto fuerte es la integración con el ecosistema Google y la subida de archivos grandes. Un ejemplo sería pedirle un horario de guardias para veinte profesores con colores por departamento. Acepta PDFs, imágenes, audio y vídeo."
+    },
+    {
+      "id": 8,
+      "title": "Claude Code",
+      "text": "Claude Code es la herramienta de Anthropic. Se instala con npm install -g arroba anthropic claude code. Necesitas clave de Anthropic y su capa gratuita es la más restrictiva. Es excelente analizando contexto largo y generando materiales detallados. Un ejemplo sería pedirle un boletín de notas personalizado para cada alumno. Su ventana de contexto es la más amplia del mercado."
+    },
+    {
+      "id": 9,
+      "title": "Ejemplo 1: Circular para familias",
+      "text": "Primer ejemplo práctico: crear una circular para las familias sobre una excursión al museo de ciencias. El prompt pide que cargue el skill de documentos educativos y genere un HTML imprimible con todos los datos: fecha, hora de salida y regreso, precio, qué llevar, teléfono de contacto. Incluye espacio para el nombre del alumno y la firma de la familia. El resultado es un documento profesional listo para imprimir y repartir."
+    },
+    {
+      "id": 10,
+      "title": "Ejemplo 2: Horario de clases",
+      "text": "Segundo ejemplo: generar un horario de clases semanal imprimible en A4. El prompt pide cinco columnas de lunes a viernes con siete franjas horarias, colores distintos por asignatura, franja del patio marcada, y espacio para el nombre del alumno y el logo del centro. El resultado es bonito, limpio y listo para plastificar. Puedes generar horarios personalizados para cada alumno en segundos."
+    },
+    {
+      "id": 11,
+      "title": "Ejemplo 3: Email a familias",
+      "text": "Tercer ejemplo: crear un email HTML bonito y responsive para enviar a las familias sobre la reunión general del segundo trimestre. El prompt incluye el asunto, saludo, fecha, lugar, orden del día, enlace a formulario de confirmación y despedida. El diseño es limpio y se ve bien en móvil y escritorio. El tono cercano mejora la comunicación con las familias."
+    },
+    {
+      "id": 12,
+      "title": "Ejemplo 4: Registro de notas",
+      "text": "Cuarto ejemplo: una aplicación web interactiva para registrar notas de una clase. Permite añadir alumnos, introducir notas de tres evaluaciones, calcula la media automáticamente, y colorea en verde si aprueban o rojo si suspenden. Incluye botón para exportar a CSV y los datos se guardan en el navegador. Funciona sin conexión a internet."
+    },
+    {
+      "id": 13,
+      "title": "Ejemplo 5: Cuadrante de guardias",
+      "text": "Quinto ejemplo: un cuadrante de guardias semanal para ocho profesores. Distribuye las guardias automáticamente sin solapamientos, de lunes a viernes. Usa colores distintos por tipo de guardia: verde para aula, azul para pasillo, naranja para patio. El formato A3 apaisado es perfecto para la sala de profesores. Si falta un profesor, se regenera en segundos."
+    },
+    {
+      "id": 14,
+      "title": "Ejemplo 6: Quiz interactivo",
+      "text": "Sexto ejemplo: un juego de preguntas interactivo sobre los planetas del sistema solar para quinto de primaria. Incluye diez preguntas con cuatro opciones, feedback visual con verde para aciertos y rojo para fallos, puntuación final con mensaje motivador y barra de progreso. El diseño es espacial con estrellas y planetas. Funciona sin internet."
+    },
+    {
+      "id": 15,
+      "title": "Ejemplo 7: Examen con solucionario",
+      "text": "Séptimo ejemplo: un examen de matemáticas sobre fracciones para primero de la ESO. Incluye diez preguntas de distintos tipos: simplificar, sumar, restar, multiplicar, dividir y un problema práctico. Tiene portada con nombre y curso, espacio para escribir las respuestas, paginación y una versión del profesor con solucionario en página aparte. Es fotocopiable en blanco y negro."
+    },
+    {
+      "id": 16,
+      "title": "Ejemplo 8: Diploma personalizado",
+      "text": "Octavo ejemplo: un diploma en HTML imprimible con estilo pergamino elegante. Incluye marco decorativo dorado, texto personalizado con el nombre del alumno y el curso, espacio para firmas del tutor y del director, fecha y logo del centro. Queda bonito impreso en A4 y puedes generar diplomas personalizados para todos tus alumnos en muy poco tiempo."
+    },
+    {
+      "id": 17,
+      "title": "Resumen",
+      "text": "En resumen: OpenCode es la herramienta recomendada por ser cien por cien gratuita, tener skills especializados y no tener límites. Las alternativas con capa gratuita son Codex CLI, Gemini CLI y Claude Code, que son buenas para probar y casos específicos. Con estas herramientas puedes crear documentos, presentaciones, horarios, correos, aplicaciones, juegos y exámenes. Describe lo que necesitas, la IA lo crea, y tú pones el criterio docente."
+    }
+  ]
+}
