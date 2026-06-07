@@ -348,8 +348,164 @@ const slidesData = [
     </div>
   </section>`,
 
-  // ── 15. CONSEJOS ──
+  // ── 14. ANATOMÍA HUMANA ──
   `<section data-audio="audio-infografias/slide14.mp3">
+    <h2 style="font-size:1.15em;">⓭ <span class="tag g">🧬 Ciencias</span> Anatomía humana</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía infantil del cuerpo humano con los principales órganos para 5º primaria. Cuerpo en posición frontal, estilo flat design, sin rostro. 6 órganos visibles: cerebro (cabeza), pulmones (pecho), corazón (centro pecho), estómago (abdomen superior), hígado (abdomen derecho), intestinos (abdomen inferior). Cada órgano de un color distinto: rosa cerebro, rojo corazón, rosa pulmones, naranja estómago, marrón hígado, verde intestinos. Fondo blanco. Sin texto. Los órganos deben estar separados entre sí."</code></pre>
+        <div class="ftr">
+          <span class="tb nana">Nano Banana 2</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          🎯 Primaria · Ciencias
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>6 órganos separados</strong> → cada uno editable como capa individual</li>
+          <li><strong>Colores por órgano</strong> → reconocimiento inmediato en clase</li>
+          <li><strong>Fondo blanco</strong> → Capas Mágicas separa con precisión</li>
+          <li><strong>Sin texto</strong> → añades etiquetas y flechas después en Canva</li>
+          <li><strong>Ideal</strong> para ciencias naturales, unidad del cuerpo humano</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 15. CLASIFICACIÓN ANIMALES ──
+  `<section data-audio="audio-infografias/slide15.mp3">
+    <h2 style="font-size:1.15em;">⓮ <span class="tag g">🐾 Ciencias</span> Clasificación vertebrados</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de clasificación de animales vertebrados para 4º primaria. Diagrama de árbol con 5 ramas: mamíferos, aves, reptiles, anfibios, peces. Cada rama con icono: perro, águila, serpiente, rana, pez. Cada rama en un color: marrón, azul cielo, verde, naranja, azul marino. Los 5 grupos visualmente separados. Fondo blanco. Sin texto. Espacio debajo de cada icono para añadir características."</code></pre>
+        <div class="ftr">
+          <span class="tb chat">ChatGPT</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          🎯 Primaria · Ciencias
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>5 ramas separadas</strong> → cada grupo es una capa independiente</li>
+          <li><strong>Colores por grupo</strong> → los niños identifican cada categoría al instante</li>
+          <li><strong>Espacio para texto</strong> → añades características en Canva</li>
+          <li><strong>Diagrama de árbol</strong> → estructura visual clara y educativa</li>
+          <li><strong>Iconos sencillos</strong> → mejor detección de capas</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 16. MAPA CONCEPTUAL MATES ──
+  `<section data-audio="audio-infografias/slide16.mp3">
+    <h2 style="font-size:1.15em;">⓯ <span class="tag p">🔢 Matemáticas</span> Mapa conceptual fracciones</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Mapa conceptual de fracciones para 5º primaria. Nodo central 'Fracciones' con 5 ramas: qué es, numerador y denominador, fracciones equivalentes, suma de fracciones, fracciones en la vida real. Cada rama con icono: círculo dividido, números apilados, dos círculos iguales, signo más, pizza. Cada rama de un color. Nodos visualmente separados. Fondo blanco. Sin texto. Espacio en cada rama para definiciones cortas."</code></pre>
+        <div class="ftr">
+          <span class="tb nana">Nano Banana 2</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          🎯 Primaria · Matemáticas
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>Mapa visual</strong> de todo el tema de fracciones en una sola imagen</li>
+          <li><strong>5 ramas con iconos</strong> → cada concepto se asocia a un icono</li>
+          <li><strong>Pizza como icono</strong> → conexión con la vida real, muy intuitivo</li>
+          <li><strong>Cada rama separable</strong> → puedes editar o eliminar conceptos</li>
+          <li><strong>Ideal</strong> para resúmenes visuales de unidad didáctica</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 17. PROCESO MITOSIS ──
+  `<section data-audio="audio-infografias/slide17.mp3">
+    <h2 style="font-size:1.15em;">⓰ <span class="tag g">🧬 Ciencias</span> Proceso de mitosis</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Diagrama del proceso de mitosis para biología secundaria. 4 fases en secuencia horizontal: profase, metafase, anafase, telofase. Cada fase con célula en diferente estado de división nuclear. Cada fase en recuadro separado con fondo de color: lila, azul, verde, naranja. Flechas entre fases. Fondo blanco. Sin texto. Recuadros separados para editar en Canva."</code></pre>
+        <div class="ftr">
+          <span class="tb chat">ChatGPT Thinking</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          🎯 Secundaria · Biología
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>Thinking mode</strong> verifica la secuencia correcta de las 4 fases</li>
+          <li><strong>Recuadros separados</strong> → cada fase editable por separado</li>
+          <li><strong>Colores progresivos</strong> → sensación de avance en el proceso</li>
+          <li><strong>Flechas entre fases</strong> → dirección clara del proceso biológico</li>
+          <li><strong>Ideal</strong> para esquemas de biología celular en secundaria</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 18. DAILY ROUTINE ──
+  `<section data-audio="audio-infografias/slide18.mp3">
+    <h2 style="font-size:1.15em;">⓱ <span class="tag pk">📖 Inglés</span> Daily routine</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de la rutina diaria en inglés para 2º ESO. 6 viñetas en orden cronológico: wake up, have breakfast, go to school, have lunch, do homework, go to bed. Cada viñeta con icono y círculo vacío debajo para frase en inglés. Colores pastel distintos. Sin texto. Fondo blanco. Estilo vectorial plano. Viñetas separadas para editar individualmente."</code></pre>
+        <div class="ftr">
+          <span class="tb chat">ChatGPT</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          📖 ESO · Inglés
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>6 viñetas separadas</strong> → cada rutina editable por separado</li>
+          <li><strong>Círculos vacíos</strong> → los alumnos escriben las frases en clase</li>
+          <li><strong>Orden cronológico</strong> → estructura clara y fácil de seguir</li>
+          <li><strong>Colores pastel</strong> → diseño agradable para adolescentes</li>
+          <li><strong>Ideal</strong> para vocabulario de rutinas diarias en inglés</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 19. TABLA PERIÓDICA ──
+  `<section data-audio="audio-infografias/slide19.mp3">
+    <h2 style="font-size:1.15em;">⓲ <span class="tag g">⚗️ Ciencias</span> Tabla periódica visual</h2>
+    <div class="g2" style="gap:1.2em;">
+      <div class="pc" style="margin:0;">
+        <div class="pl">📝 Prompt detallado</div>
+        <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía tabla periódica simplificada para 3º ESO con los 20 primeros elementos. Cada elemento en recuadro cuadrado con símbolo químico grande e icono de uso cotidiano: H globo, He dirigible, Li batería, Be esmeralda, B bórax, C diamante, N aire, O oxígeno, F pasta dental, Ne letrero neón, Na sal, Mg suplemento, Al papel aluminio, Si arena, P fósforo, S azufre, Cl piscina, Ar bomba luz, K plátano, Ca leche. Filas coloreadas por período. Fondo blanco. Recuadros separados."</code></pre>
+        <div class="ftr">
+          <span class="tb nana">Nano Banana 2</span>
+          <span class="tb canva">Canva Capas Mágicas</span>
+          ⚗️ ESO · Química
+        </div>
+      </div>
+      <div class="exp">
+        <div class="pl">💡 Por qué funciona</div>
+        <ul class="exp-list">
+          <li><strong>20 elementos</strong> con iconos de uso cotidiano → aprendizaje contextualizado</li>
+          <li><strong>Cada elemento es una capa</strong> → editas o recolocas individualmente</li>
+          <li><strong>Nano Banana 2</strong> reconoce bien elementos químicos y sus usos</li>
+          <li><strong>Colores por período</strong> → estructura visual de la tabla periódica</li>
+          <li><strong>Ideal</strong> para aula de química, decoración o fichas de estudio</li>
+        </ul>
+      </div>
+    </div>
+  </section>`,
+
+  // ── 20. CONSEJOS ──
+  `<section data-audio="audio-infografias/slide20.mp3">
     <h2>💡 Consejos para Capas Mágicas</h2>
     <div class="g2" style="font-size:.85em;">
       <div>
@@ -376,8 +532,8 @@ const slidesData = [
     <div class="tip">🎯 Si una capa no se separa bien, genera de nuevo con fondo blanco y menos elementos</div>
   </section>`,
 
-  // ── 16. CIERRE ──
-  `<section data-audio="audio-infografias/slide15.mp3">
+  // ── 22. CIERRE ──
+  `<section data-audio="audio-infografias/slide21.mp3">
     <h2>✨ En resumen</h2>
     <div class="g2" style="font-size:.8em;">
       <div class="card" style="text-align:center;border-top:4px solid #f59e0b;">

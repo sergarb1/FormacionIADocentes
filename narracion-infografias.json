@@ -12,75 +12,105 @@
     {
       "id": 1,
       "title": "Infografías + Capas Mágicas",
-      "text": "¿Qué es una infografía educativa? Es una combinación de iconos, texto breve, colores y jerarquía visual que permite entender un tema de un vistazo. Pueden ser pósteres, líneas de tiempo, comparativas o procesos. Y las Capas Mágicas de Canva separan cada elemento en capas editables: iconos, texto y fondo. Puedes editar sin destruir, mover elementos y cambiar colores. El flujo es: genera con IA, sube a Canva, aplica Capas Mágicas, personaliza y listo."
+      "text": "¿Qué es una infografía educativa? Es una combinación de iconos, texto breve, colores y jerarquía visual que permite entender un tema de un vistazo. Pueden ser pósteres, líneas de tiempo, comparativas o procesos. Las Capas Mágicas de Canva separan cada elemento en capas editables. El flujo es: genera con IA, sube a Canva, aplica Capas Mágicas, personaliza y listo."
     },
     {
       "id": 2,
       "title": "Ciclo del agua",
-      "text": "Primer ejemplo: infografía del ciclo del agua para cuarto de primaria. El prompt pide estilo isométrico 3D, cuatro fases conectadas con flechas curvas: evaporación del mar, condensación en nubes, precipitación y recogida en ríos. Especifica colores por elemento y pide que no incluya texto para añadirlo después en Canva. Esto funciona porque los elementos separados facilitan que Capas Mágicas los reconozca como capas individuales, y el estilo isométrico da resultados visuales más atractivos."
+      "text": "Ejemplo 1: infografía del ciclo del agua para cuarto de primaria. El prompt pide estilo isométrico 3D con cuatro fases: evaporación, condensación, precipitación y recogida. Sin texto para añadirlo después en Canva. Los elementos separados facilitan que Capas Mágicas los reconozca como capas individuales."
     },
     {
       "id": 3,
       "title": "Sistema solar",
-      "text": "Segundo ejemplo: infografía del sistema solar para primaria. El prompt indica los ocho planetas en orden desde el sol, cada uno con su color característico y un círculo reservado para añadir datos después. Pide fondo oscuro espacial, estilo vectorial plano, sin texto y espacio entre planetas. El modo Thinking de ChatGPT verifica el orden correcto de los planetas, y el espacio entre ellos permite que Capas Mágicas los separe individualmente para poder moverlos y editarlos por separado."
+      "text": "Ejemplo 2: sistema solar para primaria. Ocho planetas en orden con sus colores característicos y espacio entre ellos. Fondo oscuro espacial. El modo Thinking verifica el orden correcto y el espacio entre planetas permite editarlos individualmente en Canva."
     },
     {
       "id": 4,
       "title": "Pirámide alimenticia",
-      "text": "Tercer ejemplo: pirámide alimenticia para niños. El prompt define cinco niveles con colores distintos: cereales en marrón, frutas y verduras en verde, proteínas en rojo, lácteos en azul, y grasas en naranja en el vértice. Pide iconos sencillos, niveles visualmente separados y espacio a la derecha para raciones. Nano Banana 2 reconoce bien los alimentos mediterráneos, y los niveles separados hacen que cada uno sea una capa editable en Canva."
+      "text": "Ejemplo 3: pirámide alimenticia para niños. Cinco niveles con colores distintos: cereales, frutas y verduras, proteínas, lácteos, y grasas en el vértice. Nano Banana 2 reconoce bien los alimentos mediterráneos y los niveles separados son capas editables en Canva."
     },
     {
       "id": 5,
       "title": "Línea de tiempo histórica",
-      "text": "Cuarto ejemplo: línea de tiempo de la Revolución Industrial para secundaria. El prompt pide cinco hitos clave de 1760 a 1840: máquina de vapor, ferrocarril, telar mecánico, barco de vapor y locomotora. Distribución horizontal con hitos arriba y abajo alternados, tonos sepia, sin texto. Los hitos separados permiten editar cada uno individualmente en Canva, y los recuadros vacíos se rellenan después con fechas y descripciones."
+      "text": "Ejemplo 4: línea de tiempo de la Revolución Industrial para secundaria. Cinco hitos clave desde 1760 hasta 1840 con distribución horizontal alternada. Tonos sepia. Los recuadros vacíos se rellenan después con fechas y descripciones en Canva."
     },
     {
       "id": 6,
       "title": "Comparativa visual",
-      "text": "Quinto ejemplo: comparativa visual entre fotosíntesis y respiración celular para bachillerato. El prompt pide dos columnas lado a lado con los mismos iconos para ver el contraste. Fotosíntesis con sol, CO2 y agua como entradas, y glucosa y oxígeno como salidas. Respiración al revés con flechas en direcciones opuestas. El modo Thinking planifica la simetría visual, y las columnas separadas se convierten en capas independientes en Canva."
+      "text": "Ejemplo 5: comparativa fotosíntesis versus respiración celular para bachillerato. Dos columnas con los mismos iconos para ver el contraste. El modo Thinking planifica la simetría visual y las columnas separadas son capas independientes en Canva."
     },
     {
       "id": 7,
       "title": "Mapa mental ecosistemas",
-      "text": "Sexto ejemplo: mapa mental de ecosistemas para secundaria. Nodo central con cinco ramas: acuático, bosque, desierto, pradera y tundra. Cada rama con un icono y un color distinto. El prompt pide nodos separados visualmente y espacio para palabras clave. Nano Banana 2 tiene buen conocimiento de ecosistemas, y el fondo blanco facilita la separación de capas en Canva."
+      "text": "Ejemplo 6: mapa mental de ecosistemas para secundaria. Cinco ramas: acuático, bosque, desierto, pradera y tundra. Cada rama con un icono y color distinto. El fondo blanco facilita la separación de capas en Canva."
     },
     {
       "id": 8,
       "title": "Método científico",
-      "text": "Séptimo ejemplo: diagrama del método científico en seis pasos: observación, pregunta, hipótesis, experimento, análisis y conclusión. Cada paso con un icono dentro de una caja, colores de arcoíris progresivo y bordes redondeados. Las cajas separadas permiten reordenar los pasos en Canva, y los iconos refuerzan visualmente cada etapa del método científico."
+      "text": "Ejemplo 7: diagrama del método científico en seis pasos. Cada paso con un icono dentro de una caja con colores de arcoíris. Las cajas separadas permiten reordenar los pasos en Canva."
     },
     {
       "id": 9,
       "title": "Reglas de clase",
-      "text": "Octavo ejemplo: póster infantil con cinco iconos de normas de clase: oreja para escuchar, mano levantada para hablar, corazón para ser amable, lápices para compartir y estante para recoger. Cada icono dentro de un círculo de color pastel. Sin texto, para que sea comprensible en cualquier idioma. Fondo blanco y círculos separados garantizan una separación perfecta de capas en Canva."
+      "text": "Ejemplo 8: póster infantil con cinco iconos de normas de clase dentro de círculos de color pastel. Sin texto para que sea comprensible en cualquier idioma. Fondo blanco y círculos separados garantizan una separación perfecta."
     },
     {
       "id": 10,
       "title": "FP Electricidad: Motor CC",
-      "text": "Ejemplo para ciclos formativos: infografía técnica de un motor eléctrico de corriente continua. Corte transversal con estátor, rotor, delgas, escobillas, eje y carcasa. Cada pieza etiquetada con colores por material: cobre para bobinados, gris para carcasa, rojo para escobillas. El modo Thinking verifica la disposición técnica, y las piezas separadas permiten editar cada componente en Canva."
+      "text": "Ejemplo 9 para FP: motor eléctrico de corriente continua en corte transversal con estátor, rotor, delgas, escobillas, eje y carcasa. El modo Thinking verifica la disposición técnica y las piezas separadas se editan individualmente en Canva."
     },
     {
       "id": 11,
       "title": "FP Mecánica: Frenos de disco",
-      "text": "Otro ejemplo de FP: sistema de frenos de disco para mecánica. Muestra disco de freno, pinza, pastillas, líquido de frenos, manguera y pistón. Diagrama de corte con flechas que indican la presión hidráulica. Estilo esquema técnico con colores metálicos. Ideal para transparencias de clase, cada componente es una capa editable en Canva."
+      "text": "Ejemplo 10 para FP: sistema de frenos de disco con disco, pinza, pastillas y líquido de frenos. Diagrama de corte con flechas de presión hidráulica. Estilo esquema técnico metálico. Cada componente es una capa separable."
     },
     {
       "id": 12,
       "title": "FP Administración: Organigrama",
-      "text": "Ejemplo de administración: organigrama vertical de una empresa. Director general arriba, luego tres departamentos: marketing, finanzas y recursos humanos, cada uno con dos puestos. Colores distintos por departamento. Nano Banana 2 entiende bien las estructuras organizativas, y cada caja es una capa que se puede editar independientemente en Canva."
+      "text": "Ejemplo 11 para FP: organigrama vertical de empresa con director general y tres departamentos. Colores distintos por departamento. Cada caja del organigrama es una capa editable en Canva."
     },
     {
       "id": 13,
       "title": "Inglés Bachillerato: Tiempos verbales",
-      "text": "Ejemplo de inglés para bachillerato: infografía de tiempos verbales con una línea de tiempo horizontal. Tres filas: pasado, presente y futuro. Cada fila con cuatro recuadros: simple, continuous, perfect y perfect continuous. Cada recuadro tiene un ejemplo corto y un icono. Pasado en gris, presente en verde, futuro en azul. ChatGPT escribe los ejemplos sin errores y los recuadros separados se editan individualmente en Canva."
+      "text": "Ejemplo 12: tiempos verbales en inglés con línea de tiempo horizontal de tres filas: pasado, presente y futuro. Cada fila con cuatro recuadros. ChatGPT escribe los ejemplos sin errores y los recuadros se editan individualmente."
     },
     {
       "id": 14,
-      "title": "Consejos Capas Mágicas",
-      "text": "Consejos prácticos para Capas Mágicas: usa fondo blanco o liso para que separe cada elemento con precisión. Mantén los elementos separados, sin solaparse. Usa una paleta de cuatro a seis colores. Y utiliza iconos simples, sin texturas, para que Capas Mágicas los reconozca mejor. Si una capa no se separa bien, genera de nuevo con fondo blanco y menos elementos."
+      "title": "Anatomía humana",
+      "text": "Ejemplo 13: cuerpo humano con seis órganos principales para quinto de primaria. Cada órgano de un color distinto y separado para editar individualmente. Ideal para la unidad de ciencias naturales sobre el cuerpo humano."
     },
     {
       "id": 15,
+      "title": "Clasificación vertebrados",
+      "text": "Ejemplo 14: clasificación de animales vertebrados con diagrama de árbol de cinco ramas. Cada grupo con su color e icono representativo. Los niños identifican cada categoría al instante y el espacio para texto permite añadir características en Canva."
+    },
+    {
+      "id": 16,
+      "title": "Mapa conceptual fracciones",
+      "text": "Ejemplo 15: mapa conceptual de fracciones para quinto de primaria. Cinco ramas con iconos que incluyen una pizza para conectar con la vida real. Cada rama es separable y editable en Canva."
+    },
+    {
+      "id": 17,
+      "title": "Proceso de mitosis",
+      "text": "Ejemplo 16: diagrama de mitosis para biología de secundaria. Cuatro fases en secuencia con colores progresivos. El modo Thinking verifica la secuencia correcta. Cada fase es una capa independiente."
+    },
+    {
+      "id": 18,
+      "title": "Daily routine inglés",
+      "text": "Ejemplo 17: rutina diaria en inglés para segundo de la ESO. Seis viñetas en orden cronológico con colores pastel. Los círculos vacíos permiten a los alumnos escribir las frases a mano o en Canva."
+    },
+    {
+      "id": 19,
+      "title": "Tabla periódica visual",
+      "text": "Ejemplo 18: tabla periódica simplificada con los veinte primeros elementos. Cada elemento con un icono de uso cotidiano como un globo para el hidrógeno o un plátano para el potasio. Nano Banana 2 reconoce bien los elementos químicos y sus usos."
+    },
+    {
+      "id": 20,
+      "title": "Consejos Capas Mágicas",
+      "text": "Consejos prácticos para Capas Mágicas: usa fondo blanco o liso, mantén los elementos separados sin solaparse, usa una paleta de cuatro a seis colores, y utiliza iconos simples sin texturas. Si una capa no se separa bien, genera de nuevo con fondo blanco y menos elementos."
+    },
+    {
+      "id": 21,
       "title": "Cierre",
       "text": "En resumen: la inteligencia artificial genera la base de la infografía con iconos, colores y estructura visual limpia. Canva Capas Mágicas separa cada elemento en capas y permite personalizar al gusto. El docente elige el contenido, las herramientas facilitan el diseño. Muchas gracias."
     }

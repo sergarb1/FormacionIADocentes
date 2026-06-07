@@ -4,7 +4,7 @@
 
 🌐 **Web del proyecto:** [👉 sergarb1.github.io/FormacionIADocentes 👈](https://sergarb1.github.io/FormacionIADocentes)
 
-🎯 6 presentaciones · 📊 124 diapositivas · 🎙️ Audio narrado · 🔊 Se puede silenciar · 📄 PDF imprimible · 🧑‍🏫 De básico a avanzado
+🎯 6 presentaciones · 📊 130 diapositivas · 🎙️ Audio narrado · 🔊 Se puede silenciar · 📄 PDF imprimible · 🧑‍🏫 De básico a avanzado
 
 ---
 
@@ -15,7 +15,7 @@
 | 1 | [👉 ChatGPT, Gemini, Claude… para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | 🌱 Básico | 17 | Los principales chatbots de IA: cómo funcionan, prompts efectivos, 8 ejemplos prácticos para clase, tutoría, evaluación y planificación | Quien empieza desde cero |
 | 2 | [👉 Pensamiento crítico y detección de falacias con IA 👈](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | 🌿 Intermedio | 18 | Usa la IA como analizador de discursos: falacias, coerción, sesgos. 2 actividades prácticas para clase | Quien quiere enseñar a pensar críticamente |
 | 3 | [👉 Crear imágenes educativas con IA 👈](https://sergarb1.github.io/FormacionIADocentes/crear%20imagenes%20educativas.html) | 🌿 Intermedio | 35 | ChatGPT Images 2.0 y Nano Banana 2 para ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales | Quien crea recursos visuales sin saber diseñar |
-| 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/infografias%20con%20ia%20y%20canva.html) | 🌿 Intermedio | 16 | Flujo completo: IA genera fondos y elementos, Canva separa objetos automáticamente, tú personalizas y maquetas | Quien quiere infografías profesionales sin saber diseño |
+| 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/infografias-ia-canva.html) | 🌿 Intermedio | 22 | Flujo completo: IA genera fondos y elementos, Canva separa objetos automáticamente, tú personalizas y maquetas. 12 ejemplos prácticos de ciencias a FP | Quien quiere infografías profesionales sin saber diseño |
 | 5 | [👉 NotebookLM de Google 👈](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | 🌳 Avanzado | 18 | Asistente de investigación con IA: subir fuentes, preguntas, resúmenes, guías de estudio, podcasts, flashcards y notas del cuaderno | Quien investiga, prepara materiales o trabaja con documentos |
 | 6 | [👉 Asistentes de código con IA para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | 🌳 Avanzado | 20 | OpenCode, Codex CLI, Gemini CLI y Claude Code: herramientas que crean materiales desde la terminal sin programar. 8 ejemplos prácticos | Quien quiere crear HTML interactivos describiéndolos |
 
@@ -126,7 +126,7 @@ El proyecto está publicado en GitHub Pages:
 | 1 | ChatGPT, Gemini, Claude… | [`chatgpt-para-docentes.html`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | [`chatgpt-para-docentes.pdf`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.pdf) |
 | 2 | Pensamiento crítico y falacias | [`pensamiento-critico.html`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | [`pensamiento-critico.pdf`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.pdf) |
 | 3 | Crear imágenes con IA | [`crear%20imagenes%20educativas.html`](https://sergarb1.github.io/FormacionIADocentes/crear%20imagenes%20educativas.html) | [`crear-imagenes-educativas.pdf`](https://sergarb1.github.io/FormacionIADocentes/crear-imagenes-educativas.pdf) |
-| 4 | Infografías con IA + Canva | [`infografias%20con%20ia%20y%20canva.html`](https://sergarb1.github.io/FormacionIADocentes/infografias%20con%20ia%20y%20canva.html) | [`infografias-con-ia-y-canva.pdf`](https://sergarb1.github.io/FormacionIADocentes/infografias-con-ia-y-canva.pdf) |
+| 4 | Infografías con IA + Canva | [`infografias-ia-canva.html`](https://sergarb1.github.io/FormacionIADocentes/infografias-ia-canva.html) | [`infografias-con-ia-y-canva.pdf`](https://sergarb1.github.io/FormacionIADocentes/infografias-con-ia-y-canva.pdf) |
 | 5 | NotebookLM de Google | [`note-booklm-google.html`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | [`note-booklm-google.pdf`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.pdf) |
 | 6 | Asistentes de código CLI | [`codigo-cli-ia.html`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | [`codigo-cli-ia.pdf`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.pdf) |
 
