@@ -101,7 +101,7 @@ const slidesData = [
       <div>
         <div class="card" style="margin-bottom:.4em;">
           <p>1️⃣ <strong>Instalar</strong></p>
-          <pre style="font-size:.5em;margin:.15em 0;"><code>npm install -g @opencode/cli</code></pre>
+          <pre style="font-size:.5em;margin:.15em 0;"><code>npm i -g opencode-ai</code></pre>
         </div>
         <div class="card" style="margin-bottom:.4em;">
           <p>2️⃣ <strong>Iniciar en tu carpeta</strong></p>
