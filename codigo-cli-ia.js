@@ -80,18 +80,18 @@ const slidesData = [
   // ── 4. COMPARATIVA ──
   `<section data-audio="audio-codigo-cli/slide03.mp3">
     <h2>🔍 Comparativa rápida</h2>
-    <pre style="font-size:.45em;"><code>╔════════════════╦════════════╦══════════════╦══════════════╦══════════════╗
-║                ║  OpenCode  ║  Codex CLI   ║  Gemini CLI  ║  Claude Code ║
-╠════════════════╬════════════╬══════════════╬══════════════╬══════════════╣
-║ Precio         ║   Gratis   ║ Gratis lim.  ║ Gratis lim.  ║ Gratis lim.  ║
-║ Open source    ║     ✅     ║      ✅      ║      ❌      ║      ❌      ║
-║ Skills         ║     ✅     ║      ❌      ║      ❌      ║      ❌      ║
-║ Modo agente    ║     ✅     ║      ✅      ║      ✅      ║      ✅      ║
-║ Subir archivos ║     ✅     ║      ✅      ║      ✅      ║      ✅      ║
-║ Web scraping   ║     ✅     ║      ❌      ║      ❌      ║      ❌      ║
-║ Audio          ║     ✅     ║      ❌      ║      ❌      ║      ❌      ║
-║ Instalación    ║  npm i -g  ║  npm i -g    ║  SDK Google  ║  npm i -g    ║
-╚════════════════╩════════════╩══════════════╩══════════════╩══════════════╝</code></pre>
+    <pre style="font-size:.45em;"><code>╔════════════════╦══════════════╦══════════════╦══════════════╦══════════════╗
+║                ║   OpenCode   ║  Codex CLI   ║  Gemini CLI  ║  Claude Code ║
+╠════════════════╬══════════════╬══════════════╬══════════════╬══════════════╣
+║ Precio         ║ Gratis lim.  ║ Gratis lim.  ║ Gratis lim.  ║ Gratis lim.  ║
+║ Open source    ║      ✅      ║      ✅      ║      ❌      ║      ❌      ║
+║ Skills         ║      ✅      ║      ❌      ║      ❌      ║      ❌      ║
+║ Modo agente    ║      ✅      ║      ✅      ║      ✅      ║      ✅      ║
+║ Subir archivos ║      ✅      ║      ✅      ║      ✅      ║      ✅      ║
+║ Web scraping   ║      ✅      ║      ❌      ║      ❌      ║      ❌      ║
+║ Audio          ║      ✅      ║      ❌      ║      ❌      ║      ❌      ║
+║ Instalación    ║   npm i -g   ║  npm i -g    ║  npm i -g    ║  npm i -g    ║
+╚════════════════╩══════════════╩══════════════╩══════════════╩══════════════╝</code></pre>
   </section>`,
 
   // ── 5. CÓMO USAR OP ──
@@ -227,8 +227,7 @@ aprueban, rojo si suspenden"</code></pre>
       <div>
         <div class="card" style="margin-bottom:.4em;">
           <p>⚙️ <strong>Instalación</strong></p>
-          <pre style="font-size:.5em;margin:.15em 0;"><code>docker pull gcr.io/gemini/gemini-cli
-# O con SDK de Google Cloud</code></pre>
+          <pre style="font-size:.5em;margin:.15em 0;"><code>npm install -g @google/gemini-cli</code></pre>
         </div>
         <div class="card" style="margin-bottom:.4em;">
           <p>🔑 <strong>API Key</strong></p>

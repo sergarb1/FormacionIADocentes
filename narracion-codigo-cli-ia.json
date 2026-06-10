@@ -15,12 +15,12 @@
     {
       "id": 2,
       "title": "OpenCode en detalle",
-      "text": "OpenCode es la opción recomendada por ser cien por cien gratuita, sin límites de uso y open source. Tiene skills integrados que son instrucciones especializadas para crear presentaciones, documentos, juegos y más. Dispone de modo agente autónomo que crea y modifica archivos por sí mismo. Usa modelos potentes como DeepSeek y está en constante mejora."
+      "text": "OpenCode es la opción recomendada por ser gratuita con límites muy amplios y open source. Tiene skills integrados que son instrucciones especializadas para crear presentaciones, documentos, juegos y más. Dispone de modo agente autónomo que crea y modifica archivos por sí mismo. Usa modelos potentes como DeepSeek y está en constante mejora."
     },
     {
       "id": 3,
       "title": "Comparativa rápida",
-      "text": "En la comparativa rápida vemos que OpenCode destaca por ser la única completamente gratuita y open source. Es la única que tiene skills, web scraping y generación de audio. Las alternativas tienen capa gratuita limitada. En instalación, OpenCode, Codex CLI y Claude Code se instalan con npm, mientras que Gemini CLI requiere el SDK de Google."
+      "text": "En la comparativa rápida vemos que OpenCode destaca por ser la única completamente gratuita y open source. Es la única que tiene skills, web scraping y generación de audio. Las alternativas tienen capa gratuita limitada. En instalación, todas las herramientas se instalan con npm de forma sencilla."
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
     {
       "id": 7,
       "title": "Gemini CLI",
-      "text": "Gemini CLI es la herramienta de Google. Se instala con Docker o con el SDK de Google Cloud. Su integración con el ecosistema Google es su punto fuerte y acepta subida de archivos grandes incluyendo audio y vídeo. La capa gratuita es generosa para empezar pero tiene límites para proyectos grandes."
+      "text": "Gemini CLI es la herramienta de Google. Se instala con npm al igual que las demás. Su integración con el ecosistema Google es su punto fuerte y acepta subida de archivos grandes incluyendo audio y vídeo. La capa gratuita es generosa para empezar pero tiene límites para proyectos grandes."
     },
     {
       "id": 8,
