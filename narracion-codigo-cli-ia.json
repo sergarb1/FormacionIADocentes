@@ -34,68 +34,68 @@
     },
     {
       "id": 6,
-      "title": "Flujo de trabajo",
-      "text": "El flujo de trabajo con asistentes CLI sigue siempre el mismo patrón de seis pasos. Primero, describes lo que necesitas con el máximo detalle posible. Segundo, la inteligencia artificial lo genera en segundos. Tercero, revisas y evalúas críticamente el resultado. Cuarto, pides modificaciones si es necesario. Quinto, publicas o compartes el material. Y sexto, guardas el prompt para reutilizarlo en el futuro."
-    },
-    {
-      "id": 7,
-      "title": "Crear skills propios",
-      "text": "Una de las características más potentes de OpenCode es que puedes crear tus propios skills personalizados. Se definen en un archivo AGENTS.md en la raíz del proyecto. En ese archivo le dices a OpenCode exactamente cómo quieres que trabaje para cada tipo de tarea. Los skills incluyen la estructura, el estilo visual, el tono, el formato y ejemplos. Además, son reutilizables y se pueden compartir con otros docentes."
-    },
-    {
-      "id": 8,
       "title": "Codex CLI",
       "text": "Codex CLI es la herramienta de OpenAI. Se instala con npm y necesita una clave de API. Es muy bueno generando código estructurado, ideal si ya tienes clave de OpenAI. La capa gratuita tiene límite de tokens, por lo que para uso intensivo necesitas plan de pago. Puedes subir PDFs e imágenes para que los use como contexto."
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "Gemini CLI",
       "text": "Gemini CLI es la herramienta de Google. Se instala con Docker o con el SDK de Google Cloud. Su integración con el ecosistema Google es su punto fuerte y acepta subida de archivos grandes incluyendo audio y vídeo. La capa gratuita es generosa para empezar pero tiene límites para proyectos grandes."
     },
     {
-      "id": 10,
+      "id": 8,
       "title": "Claude Code",
       "text": "Claude Code es la herramienta de Anthropic. Se instala con npm y necesita una clave de API. Es excelente analizando contexto largo y generando materiales detallados. Su capa gratuita es la más restrictiva, por lo que para uso continuado requiere suscripción. Acepta PDFs largos gracias a su amplia ventana de contexto."
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "Ejemplo circular",
       "text": "Primer ejemplo: usar OpenCode para generar una circular para familias sobre una excursión al museo de ciencias. El prompt incluye todos los detalles como fecha, hora, precio y qué llevar. El resultado es un HTML imprimible con aspecto profesional, logo del centro, espacio para firma y tono cercano pero formal."
     },
     {
-      "id": 12,
+      "id": 10,
       "title": "Ejemplo horario",
       "text": "Segundo ejemplo: generar un horario de clases semanal con OpenCode. El prompt pide cinco columnas de lunes a viernes, siete filas de ocho treinta a catorce treinta, la franja del patio marcada, asignaturas con colores por materia y el nombre del alumno. El resultado es un horario bonito, limpio y listo para plastificar."
     },
     {
-      "id": 13,
+      "id": 11,
       "title": "Ejemplo email",
       "text": "Tercer ejemplo: generar un email HTML para comunicar una reunión general a las familias. El prompt incluye fecha, lugar, orden del día y enlace a formulario de confirmación. El resultado es un correo responsive que se ve bien en móvil y escritorio, con tono cercano y profesional."
     },
     {
-      "id": 14,
+      "id": 12,
       "title": "Ejemplo registro notas",
       "text": "Cuarto ejemplo: crear un registro de notas interactivo en HTML y JavaScript. La aplicación permite añadir alumnos, introducir notas de tres evaluaciones, calcula la media automáticamente, muestra color verde si aprueban y rojo si suspenden, y permite exportar a CSV. Los datos se guardan en el navegador y funciona sin conexión a internet."
     },
     {
-      "id": 15,
+      "id": 13,
       "title": "Ejemplo cuadrante guardias",
       "text": "Quinto ejemplo: generar un cuadrante de guardias semanal para ocho profesores. El prompt especifica que no puede coincidir el mismo profesor en dos horas seguidas e incluye colores por tipo de guardia. El resultado es un HTML imprimible en formato A3 apaisado, claro y profesional."
     },
     {
-      "id": 16,
+      "id": 14,
       "title": "Ejemplo quiz",
       "text": "Sexto ejemplo: crear un quiz interactivo sobre los planetas del sistema solar para quinto de primaria. El juego tiene diez preguntas con cuatro opciones, feedback visual de verde para acierto y rojo para fallo, puntuación final con mensaje motivador y barra de progreso. El diseño es espacial con fondo oscuro y estrellas."
     },
     {
-      "id": 17,
+      "id": 15,
       "title": "Ejemplo examen",
       "text": "Séptimo ejemplo: generar un examen de matemáticas sobre fracciones para primero de la ESO. Incluye diez preguntas de distintos tipos, portada con datos del alumno, paginación y una versión separada para el profesor con el solucionario. El diseño es limpio, profesional y fotocopiable en blanco y negro."
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "Ejemplo diploma",
       "text": "Octavo ejemplo: crear un diploma personalizable en HTML para final de curso. El diseño es estilo pergamino elegante con marco dorado, espacio para el nombre del alumno, líneas de firma del tutor y del director, y logo del centro. Permite generar treinta diplomas personalizados en un minuto."
+    },
+    {
+      "id": 17,
+      "title": "Flujo de trabajo",
+      "text": "El flujo de trabajo con asistentes CLI sigue siempre el mismo patrón de seis pasos. Primero, describes lo que necesitas con el máximo detalle posible. Segundo, la inteligencia artificial lo genera en segundos. Tercero, revisas y evalúas críticamente el resultado. Cuarto, pides modificaciones si es necesario. Quinto, publicas o compartes el material. Y sexto, guardas el prompt para reutilizarlo en el futuro."
+    },
+    {
+      "id": 18,
+      "title": "Crear skills propios",
+      "text": "Una de las características más potentes de OpenCode es que puedes crear tus propios skills personalizados. Se definen en un archivo AGENTS.md en la raíz del proyecto. En ese archivo le dices a OpenCode exactamente cómo quieres que trabaje para cada tipo de tarea. Los skills incluyen la estructura, el estilo visual, el tono, el formato y ejemplos. Además, son reutilizables y se pueden compartir con otros docentes."
     },
     {
       "id": 19,
