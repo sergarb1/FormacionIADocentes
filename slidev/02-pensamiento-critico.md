@@ -26,7 +26,7 @@ exportFilename: pensamiento-critico
 
 <div style="text-align:center;">
   <h2 style="font-size:2em;text-align:center;">🔍 Pensamiento crítico y<br>detección de falacias con IA</h2>
-  <h3 style="text-align:center;">Cómo usar la inteligencia artificial para analizar mensajes y educar en la verdad · Junio 2026</h3>
+  <h3 style="text-align:center;">Cómo usar la inteligencia artificial para analizar mensajes y educar en la verdad · Octubre 2026</h3>
   <p style="text-align:center;margin-top:1.2em;">👤 Sergi Garcia Barea</p>
   <div style="text-align:center;margin-top:.3em;">
     <span class="credit"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="CC BY-SA" style="height:24px;vertical-align:middle;"> CC BY-SA 4.0</span>
@@ -459,4 +459,4 @@ Afirmación: [pega aquí el texto]"</code></pre>
 </div>
 <hr style="margin:.4em 0;">
 <p style="text-align:center;">🧑‍🏫 Educar en pensamiento crítico es nuestra mejor herramienta contra la desinformación</p>
-<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Junio 2026</p>
+<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>

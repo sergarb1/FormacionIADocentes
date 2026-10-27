@@ -740,4 +740,4 @@ profesionales. Sigue esta estructura exacta:
 </div>
 <hr style="margin:.4em 0;">
 <p style="text-align:center;">📄 Documentos · 📊 Presentaciones · 📅 Horarios · ✉️ Correos · 📱 Apps · 🎮 Juegos · ✏️ Exámenes</p>
-<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Junio 2026</p>
+<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>

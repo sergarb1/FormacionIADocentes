@@ -540,4 +540,4 @@ También puedes pedir otros formatos:
 <hr style="margin:.4em 0;">
 <p style="text-align:center;">🧑‍🏫 NotebookLM no reemplaza al docente — le da superpoderes para preparar mejores clases</p>
 <p style="text-align:center;margin-top:.4em;">🚀 <a href="https://notebooklm.google.com" target="_blank">Prueba NotebookLM gratis</a></p>
-<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Junio 2026</p>
+<p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>
