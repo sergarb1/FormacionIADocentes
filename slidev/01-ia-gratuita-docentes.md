@@ -33,11 +33,11 @@ exportFilename: ia-gratuita-docentes
 
 <div class="g2">
   <div>
-    <ul style="margin-top:.2em;">
-      <li style="font-size:.9em;">El <strong>90% de docentes</strong> no tiene presupuesto para suscripciones de IA</li>
-      <li style="font-size:.9em;">Los <strong>4 chatbots de referencia</strong> (ChatGPT, Claude, DeepSeek y Gemini) tienen <strong>capa gratuita</strong> para aprender y crear</li>
-      <li style="font-size:.9em;">Sirven para lo mismo que las de pago: <strong>planificar clases, crear materiales, corregir, adaptar</strong></li>
-      <li style="font-size:.9em;">La diferencia entre chatbots es <strong>menor que la diferencia entre un buen y un mal prompt</strong></li>
+    <ul style="margin-top:.1em; line-height:1.3;">
+      <li style="font-size:.78em; margin-bottom:.05em;">El <strong>90% de docentes</strong> no tiene presupuesto para suscripciones de IA</li>
+      <li style="font-size:.78em; margin-bottom:.05em;">Los <strong>4 chatbots de referencia</strong> (ChatGPT, Claude, DeepSeek y Gemini) tienen <strong>capa gratuita</strong></li>
+      <li style="font-size:.78em; margin-bottom:.05em;">Sirven para lo mismo que las de pago: <strong>planificar, crear materiales, corregir, adaptar</strong></li>
+      <li style="font-size:.78em; margin-bottom:.05em;">La diferencia entre chatbots es <strong>menor que entre un buen y un mal prompt</strong></li>
     </ul>
   </div>
   <div>
@@ -194,13 +194,13 @@ espacio para el nombre del alumno y la fecha.</code></pre>
 
 <audio class="deck-audio" src="../audio-ia-gratuita-docentes/slide06.mp3"></audio>
 
-<h2>❻ Prompt + explicación — Adaptar un texto a 3 niveles</h2>
+<h2 style="font-size:.92em;">❻ Prompt + explicación — Adaptar un texto a 3 niveles</h2>
 
 <div class="g2" style="gap:1.2em;">
   <div>
     <div class="pc">
       <div class="pl">📝 Prompt detallado</div>
-      <pre><code>Adapta este texto para su uso en clase con 3 versiones:
+      <pre style="font-size:.48em;"><code>Adapta este texto para su uso en clase con 3 versiones:
 &nbsp;
 - nivel básico (frases cortas, vocabulario sencillo,
   ejemplos cotidianos)
@@ -220,14 +220,14 @@ alumno en cada nivel.
   <div>
     <div class="card amber">
       <div class="pl" style="color:#b45309;">💡 Por qué funciona</div>
-      <p style="font-size:.8em; margin:.2em 0;">✅ <strong>3 niveles alineados</strong> → cubre a toda la clase sin escribirlo 3 veces</p>
-      <p style="font-size:.8em; margin:.2em 0;">✅ <strong>Texto propio en el prompt</strong> → la IA usa lo que tú le das, no inventa fuentes</p>
-      <p style="font-size:.8em; margin:.2em 0;">✅ <strong>Preguntas por nivel</strong> → evaluación integrada, lista para repartir</p>
+      <p style="font-size:.72em; margin:.12em 0;">✅ <strong>3 niveles alineados</strong> → cubre a toda la clase sin escribirlo 3 veces</p>
+      <p style="font-size:.72em; margin:.12em 0;">✅ <strong>Texto propio en el prompt</strong> → la IA usa lo que tú le das, no inventa fuentes</p>
+      <p style="font-size:.72em; margin:.12em 0;">✅ <strong>Preguntas por nivel</strong> → evaluación integrada, lista para repartir</p>
     </div>
   </div>
 </div>
 
-<div class="tip" style="margin-top:.4em;">💡 Perfecto para atender a la diversidad: el mismo contenido llega a los 3 niveles en una sola petición</div>
+<div class="tip" style="margin-top:-.15em; padding:.15em .6em;">💡 Perfecto para la diversidad: 3 niveles en una sola petición</div>
 
 ---
 

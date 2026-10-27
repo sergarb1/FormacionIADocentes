@@ -161,47 +161,47 @@ o compártelo con las familias</code></pre>
 <audio class="deck-audio" src="../audio-codigo-cli/slide05.mp3"></audio>
 
 
-<h2>🧠 Skills: el superpoder de OpenCode</h2>
-<p class="sm">Los <strong>skills</strong> son instrucciones especializadas que le dicen a OpenCode cómo comportarse para cada tarea. Como tener un experto en cada materia.</p>
+<h2 style="font-size:.88em;">🧠 Skills: el superpoder de OpenCode</h2>
+<p class="sm" style="margin:.02em 0; line-height:1.25;">Los <strong>skills</strong> son instrucciones especializadas que le dicen a OpenCode cómo comportarse para cada tarea. Como tener un experto en cada materia.</p>
 <div class="g2" style="margin-top:.3em;">
   <div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #10b981;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #10b981;">
       <p>📄 <strong>Documentos bonitos</strong></p>
-      <p class="sm">Circulares, cartas a familias, autorizaciones, certificados, diplomas en HTML imprimible</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Circulares, cartas a familias, autorizaciones, certificados, diplomas en HTML imprimible</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #3b82f6;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #3b82f6;">
       <p>📊 <strong>Presentaciones</strong></p>
-      <p class="sm">HTML con Reveal.js, estructura limpia, diseño profesional y audio narrado</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">HTML con Reveal.js, estructura limpia, diseño profesional y audio narrado</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #f59e0b;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #f59e0b;">
       <p>📝 <strong>Worksheets</strong></p>
-      <p class="sm">Fichas imprimibles A4 listas para fotocopiar, con ejercicios y solucionario</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Fichas imprimibles A4 listas para fotocopiar, con ejercicios y solucionario</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #8b5cf6;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #8b5cf6;">
       <p>📅 <strong>Horarios y cuadrantes</strong></p>
-      <p class="sm">Horarios de clase, cuadrantes de guardias, calendarios escolares, planificaciones semanales</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Horarios de clase, cuadrantes de guardias, calendarios escolares, planificaciones semanales</p>
     </div>
   </div>
   <div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #ec4899;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #ec4899;">
       <p>✉️ <strong>Correos y comunicaciones</strong></p>
-      <p class="sm">Emails a familias, circulares, newsletter del centro, comunicados oficiales</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Emails a familias, circulares, newsletter del centro</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #14b8a6;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #14b8a6;">
       <p>📱 <strong>Aplicaciones</strong></p>
-      <p class="sm">Registro de notas, control de asistencia, generador de informes, horarios interactivos</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Registro de notas, control de asistencia, generador de informes, horarios interactivos</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #f97316;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #f97316;">
       <p>🎮 <strong>Juegos educativos</strong></p>
-      <p class="sm">Quizzes, memory, arrastrar y soltar, sopa de letras en HTML+JS puro</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Quizzes, memory, arrastrar y soltar, sopa de letras en HTML+JS puro</p>
     </div>
-    <div class="card" style="margin-bottom:.35em;border-left:3px solid #a855f7;">
+    <div class="card" style="margin-bottom:.18em;border-left:3px solid #a855f7;">
       <p>🌐 <strong>Webs educativas</strong></p>
-      <p class="sm">Miniwebs completas con navegación, recursos multimedia para tus unidades didácticas</p>
+      <p class="sm" style="margin:.02em 0; line-height:1.25;">Miniwebs completas con navegación y multimedia para tus unidades</p>
     </div>
   </div>
 </div>
-<div class="tip">🎯 "Carga el skill de [nombre]" — Pruébalo con: documentos, horarios, correos, juegos</div>
+<div class="tip" style="margin-top:-.5em; padding:.15em .6em;">🎯 "Carga el skill de [nombre]" — Pruébalo con: documentos, horarios, correos, juegos</div>
 
 ---
 
@@ -411,7 +411,7 @@ Que sea bonito, limpio y listo para plastificar."</code></pre>
 <div class="g2" style="gap:1.2em;">
   <div class="pc" style="margin:0;">
     <div class="pl">📝 Prompt</div>
-    <pre style="font-size:.52em;border-left-color:#ec4899;"><code>"Carga el skill de correos y comunicaciones.
+    <pre style="font-size:.47em;border-left-color:#ec4899;"><code>"Carga el skill de correos y comunicaciones.
 &nbsp;
 Genera un email HTML bonito y responsive para
 enviar a las familias de 1º ESO informando
@@ -422,9 +422,8 @@ Incluye:
 - Saludo personalizado
 - Fecha: martes 12 de marzo a las 17:00
 - Lugar: salón de actos
-- Orden del día: resultados académicos,
-  actividades extraescolares, normas de
-  convivencia, ruegos y preguntas
+- Orden del día: resultados, actividades
+  extraescolares, normas, ruegos
 - Enlace al formulario de confirmación de
   asistencia
 - Despedida cordial
@@ -612,7 +611,7 @@ Incluye:
 <div class="g2" style="gap:1.2em;">
   <div class="pc" style="margin:0;">
     <div class="pl">📝 Prompt</div>
-    <pre style="font-size:.52em;border-left-color:#10b981;"><code>"Carga el skill de documentos educativos.
+    <pre style="font-size:.49em;border-left-color:#10b981;"><code>"Carga el skill de documentos educativos.
 &nbsp;
 Genera un diploma en HTML imprimible para
 entregar a los alumnos al final del curso.

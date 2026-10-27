@@ -36,7 +36,7 @@
 .slidev-page pre {
   font-size: .55em; background: #f8fafc; padding: 10px 14px;
   border-radius: 6px; margin: .1em 0 0 0; border-left: 3px solid #f59e0b;
-  white-space: pre-wrap; word-wrap: break-word; line-height: 1.35;
+  white-space: pre-wrap; word-wrap: break-word; line-height: 1.28;
 }
 .slidev-page pre code { max-height: none; background: transparent; padding: 0; }
 
@@ -84,8 +84,8 @@
 
 /* ── Tip ── */
 .tip {
-  background: #fef3c7; border-radius: 6px; padding: .35em .6em;
-  font-size: .6em; color: #92400e;
+  background: #fef3c7; border-radius: 6px; padding: .25em .6em;
+  font-size: .58em; color: #92400e;
   border-left: 3px solid #f59e0b;
 }
 
