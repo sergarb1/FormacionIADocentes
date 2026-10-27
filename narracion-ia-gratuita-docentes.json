@@ -2,16 +2,60 @@
   "_voice": "es-ES-AlvaroNeural",
   "_note": "Narración para 'IA gratuita para docentes · OpenCode + Freebuff'",
   "slides": [
-    { "id": 0, "title": "Portada", "text": "Inteligencia artificial gratuita para docentes. En esta presentación veremos cómo crear material didáctico sin gastar un euro, usando Freebuff y OpenCode." },
-    { "id": 1, "title": "Por qué IA gratuita", "text": "La gran mayoría de docentes no tiene presupuesto para suscripciones de inteligencia artificial. Freebuff y OpenCode son está totalmente gratis y sirven para lo mismo que las de pago: planificar clases, crear materiales, corregir y adaptar. OpenCode con un modelo local en tu ordenador significa cero coste y cero datos enviados." },
-    { "id": 2, "title": "Las dos herramientas gratuitas", "text": "Freebuff es el agente conversacional con capacidad de crear proyectos: páginas web, fichas interactivas, juegos didácticos. Funciona desde el navegador en freebuff punto com, sin instalación. OpenCode es un entorno de desarrollo open source con inteligencia artificial integrada, ideal para proyectos más grandes, y puedes conectar tu cuenta de Freebuff para usarlo también desde ahí." },
-    { "id": 3, "title": "Arquitectura gratuita", "text": "La idea es simple: OpenCode es el coche y los modelos son el motor. Freebuff para materiales rápidos desde el navegador. OpenCode conectado a Freebuff para proyectos mayores. Y OpenCode con modelos locales para máxima privacidad y sin límites. Para empezar hoy: entra en freebuff punto com con tu cuenta de Google y pide lo que necesites." },
-    { "id": 4, "title": "Prompt planificar una unidad", "text": "Este prompt pide a la inteligencia artificial que actúe como un profesor experto y genere una unidad didáctica completa con objetivos, temporización, metodologías activas y rúbrica. Funciona porque define el rol, pide una lista numerada de secciones y exige ejemplos reales en vez de respuestas abstractas. Copia el prompt cambiando tu nivel y tu tema." },
-    { "id": 5, "title": "Prompt ficha de repaso", "text": "Para crear una ficha de repaso imprimible, define el tema y el nivel, y pide exactamente las secciones que necesitas: palabras clave, preguntas de desarrollo, frases para completar y un esquema en blanco. El resultado sale ya con la estructura y lo imprimes y usas tal cual." },
-    { "id": 6, "title": "Prompt juegos didácticos", "text": "Freebuff también crea webs interactivas. Concreta la edad, el tipo de actividades y el feedback inmediato. Con eso genera juegos de repaso completos que puedes compartir con la URL que ofrece o descargar." },
-    { "id": 7, "title": "Materiales posibles con cero euros", "text": "Con este setup puedes crear fichas, webs didácticas y juegos interactables, y puedes combinar las herramientas: pedir el contenido en un chat y luego convertirlo en una web." },
-    { "id": 8, "title": "Límites reales", "text": "Los límites de uso se superan dividiendo tareas: un material, un chat. Si el modelo olvida el contexto, recuerda el nivel y el formato en cada mensaje. Y si un material no sale bien, pide el cambio concreto en vez de empezar de cero." },
-    { "id": 9, "title": "Flujo recomendado", "text": "El flujo docente: primero idear qué necesitas, después crearlo con pasos claros, refinarlo en la misma conversación y usarlo descargándolo, imprimiéndolo o subiéndolo a tu plataforma. Para materiales con código avanzado, abre OpenCode conectado a Freebuff." },
-    { "id": 10, "title": "En resumen", "text": "En resumen: Freebuff es el chat gratuito que crea proyectos sin instalación, ideal para empezar hoy. OpenCode es el entorno open source con inteligencia artificial integrada para proyectos grandes. Puedes hacer todo tu material sin gastar nada: empieza con Freebuff y escala con OpenCode." }
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Bienvenidos a IA gratuita para docentes: ChatGPT, Claude, DeepSeek y Gemini. En esta presentación verás qué ofrece cada uno de estos cuatro chatbots en su versión gratuita y qué puedes hacer con ellos en el aula. La idea: no necesitas pagar ninguna suscripción para crear material didáctico. Quédate con la herramienta que ya tengas a mano y te enseño los prompts que funcionan en las cuatro. Empezamos."
+    },
+    {
+      "id": 1,
+      "title": "Por qué IA gratuita",
+      "text": "Por qué IA gratuita. Primer punto: la mayoría de docentes no tiene presupuesto para suscripciones de IA. Segundo: los cuatro chatbots de referencia — ChatGPT, Claude, DeepSeek y Gemini — tienen capa gratuita para aprender y crear. Tercero: sirven para lo mismo que las de pago — planificar clases, crear materiales, corregir y adaptar. Y cuarto, la clave: la diferencia entre chatbots es menor que la diferencia entre un buen y un mal prompt. Consigues unidades, fichas, correcciones y rúbricas con la cuenta gratuita que ya tiene y cero euros al mes. Eso sí, ten expectativas realistas: la capa gratuita tiene límites de uso, aunque son más que suficientes para el trabajo de un docente."
+    },
+    {
+      "id": 2,
+      "title": "Las dos herramientas gratuitas",
+      "text": "Los cuatro chatbots, en dos bloques. ChatGPT, de OpenAI, es el polivalente: el más usado y con más tutoriales en la red. En su versión gratuita tienes chat con modelo de última generación, subida de archivos y creación de imágenes: ideal para empezar, porque casi todo lo que leas en tutoriales funciona igual. Claude, de Anthropic, es el escritor: destaca en textos largos, redacción y análisis, con contexto amplio y subida de documentos. DeepSeek es el generoso: gratuito con muy pocos límites de uso, con razonamiento potente — su modo de razonar es muy fuerte para matemáticas y problemas paso a paso. Y Gemini, de Google, es el integrado: se entiende con Docs, Drive, Classroom y YouTube, crea imágenes y analiza vídeo. Perfecto si ya trabajas en el ecosistema Google."
+    },
+    {
+      "id": 3,
+      "title": "Arquitectura gratuita",
+      "text": "¿Cuál uso para qué? El mapa docente. ChatGPT será tu chatbot central: planificar, fichas, correos e ideas. Claude, para textos largos y análisis. Gemini, si trabajas en Docs o Classroom, y es fuerte con vídeo. Y DeepSeek, para razonamiento: matemáticas y problemas paso a paso. Para empezar hoy: usa la cuenta que ya tengas, prueba el mismo prompt en dos chatbots y tendrás dos puntos de vista gratis. Ningún chatbot es mejor para todo: no compiten, complementan."
+    },
+    {
+      "id": 4,
+      "title": "Prompt planificar una unidad",
+      "text": "Primer prompt: planificar una unidad. Se pide al modelo que actúa como profesor de un nivel concreto con veinte años de experiencia, y se le pide una unidad completa con objetivos, temporización de diez sesiones, metodologías activas y rúbrica, terminando con ejemplos reales de actividades de clase. Por qué funciona: define el rol, pide una estructura numerada y exige concreción. Funciona igual en los cuatro chatbots: cambia de herramienta y compara cómo matizan cada uno."
+    },
+    {
+      "id": 5,
+      "title": "Prompt ficha de repaso",
+      "text": "Segundo prompt: ficha de repaso imprimible. Veinte palabras clave para definir, diez preguntas de desarrollo, cinco frases con huecos y un esquema en blanco, en formato A4 con espacio para el nombre y la fecha. Por qué funciona: la estructura numerada hace que la ficha salga con las secciones exactas, el formato A4 te ahorra el diseño y puedes pedir las soluciones aparte."
+    },
+    {
+      "id": 6,
+      "title": "Prompt juegos didácticos",
+      "text": "Tercer prompt: adaptar un texto a tres niveles — básico, estándar y avanzado — con tres preguntas de comprensión por nivel y las palabras clave que debe conocer el alumno en cada uno. Por qué funciona: cubre toda la clase en una sola petición, la IA usa el texto propio que le has dado y no inventa fuentes, y la evaluación queda integrada y lista para repartir. Es la herramienta perfecta para atender a la diversidad."
+    },
+    {
+      "id": 7,
+      "title": "Materiales posibles con cero euros",
+      "text": "Materiales posibles con cero euros: fichas de repaso imprimibles, planificaciones con unidades, sesiones y rúbricas, y adaptaciones de textos a tres niveles con enfoque DUA. Truco: el mismo prompt en dos chatbots te da variantes distintas; quédate con lo mejor de cada respuesta."
+    },
+    {
+      "id": 8,
+      "title": "Límites reales",
+      "text": "Límites reales y cómo superarlos. Límite de uso en chats: divide el material en dos o tres chats, o cambia de chatbot. Si el modelo olvida el contexto, recuerda en cada mensaje el nivel y el formato exacto. ¿Con cuál empiezo? Con los prompts de esta presentación: funcionan igual en los cuatro. Y muy importante: nunca subas datos personales de tus alumnos; usa ejemplos inventados. La clave es una sola: todos los límites se superan dividiendo tareas. Un material, un chat. La IA redacta, pero tú decides: es el docente quien revisa, valida y firma."
+    },
+    {
+      "id": 9,
+      "title": "Flujo recomendado",
+      "text": "El flujo recomendado del docente, en cuatro pasos. Uno, idear: en el chat, qué necesitas, nivel y formato. Dos, crear: el chatbot genera el material en pasos claros. Tres, refinar: mejora iterativa en la misma conversación. Cuatro, usar: copia a Google Docs, imprime o comparte. Y recuerda el truco del contraste: el mismo prompt en dos chatbots, dos puntos de vista gratis."
+    },
+    {
+      "id": 10,
+      "title": "En resumen",
+      "text": "En resumen. Para empezar hoy: ChatGPT o Gemini, gratis con la cuenta que ya tienes. Como especialistas: Claude para textos largos y DeepSeek para razonamiento. Y muy importante: la IA es tu asistente, pero tu criterio docente es el verdadero valor. Empieza con el chatbot que ya tienes y contrasta con otro. Los materiales del aula los firmas tú. Gracias por seguir esta presentación."
+    }
   ]
 }

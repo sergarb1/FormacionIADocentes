@@ -17,7 +17,7 @@ en Reveal.js + Gemini.
 | Voz del audio | **edge-tts** (`es-ES-AlvaroNeural`) | Narración diapositiva a diapositiva (gratuito) |
 | Hosting | **GitHub Pages** | Publicación automática desde `main` |
 
-> Todo el stack es gratuito. No se usa Gemini ni herramientas de pago.
+> Todo el stack de producción es gratuito. El deck 1 (chatbots) cita por su contenido didáctico a ChatGPT, Claude, DeepSeek y Gemini; todo lo demás se produce con Freebuff + OpenCode, sin herramientas de pago.
 
 ---
 
@@ -211,6 +211,7 @@ Badges de herramientas (`.tb`):
 .tb.op    { background:#d1fae5; color:#065f46; }  /* ⚙️ OpenCode */
 .tb.canva { background:#fce7f3; color:#9d174d; }  /* Canva */
 .tb.both  { background:#e0e7ff; color:#3730a3; }  /* Freebuff + OpenCode */
+/* Los badges de chatbots (deck 01) son spans .tb con estilo inline */
 ```
 
 ---
@@ -222,6 +223,7 @@ Badges de herramientas (`.tb`):
 - [ ] Carpetas `0N-<tema>/` actualizadas en la raíz
 - [ ] Rutas de audio relativas (`../audio-…/`) intactas tras el build
 - [ ] `index.html` sin enlaces rotos (verfica con `grep` cada href)
-- [ ] Sin menciones a Gemini u otras herramientas apartadas como fuente
-      principal de los materiales
+- [ ] Chatbots citados solo como contenido del deck 1 (ChatGPT, Claude,
+      DeepSeek, Gemini); el resto de decks usa el stack Freebuff/OpenCode
+      sin herramientas de pago
 - [ ] `README.md` con la tabla de presentations actualizada

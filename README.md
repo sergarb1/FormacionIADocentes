@@ -14,7 +14,7 @@
 
 | # | Presentación | Nivel | Slides | ¿Qué aprenderás? | Para quién |
 |---|-------------|-------|-------|-----------------|------------|
-| 1 | [👉 IA gratuita para docentes · OpenCode + Freebuff 👈](https://sergarb1.github.io/FormacionIADocentes/01-ia-gratuita-docentes/) | 🌱 Básico | 11 | El setup de 0€: Freebuff para materiales rápidos e interactivos + OpenCode conectado a Freebuff o a modelos locales. 3 prompts detallados listos para copiar | Quien empieza desde cero |
+| 1 | [👉 IA gratuita para docentes · ChatGPT, Claude, DeepSeek y Gemini 👈](https://sergarb1.github.io/FormacionIADocentes/01-ia-gratuita-docentes/) | 🌱 Básico | 11 | Qué ofrece gratis cada chatbot (ChatGPT polivalente, Claude para textos largos, DeepSeek sin límites, Gemini integrado con Google) y 3 prompts que funcionan en los cuatro | Quien empieza desde cero |
 | 2 | [👉 Pensamiento crítico y detección de falacias con IA 👈](https://sergarb1.github.io/FormacionIADocentes/02-pensamiento-critico/) | 🌿 Intermedio | 18 | Usa la IA como analizador de discursos: falacias, coerción, sesgos. 2 actividades prácticas para clase | Quien quiere enseñar a pensar críticamente |
 | 3 | [👉 Crear imágenes educativas con IA 👈](https://sergarb1.github.io/FormacionIADocentes/03-crear-imagenes-educativas/) | 🌿 Intermedio | 35 | Ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales con prompts detallados para cualquier materia y nivel | Quien crea recursos visuales sin saber diseñar |
 | 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/04-infografias-ia-canva/) | 🌿 Intermedio | 22 | Flujo completo: IA genera fondos y elementos, Canva separa objetos automáticamente, tú personalizas y maquetas | Quien quiere infografías profesionales sin saber diseño |
@@ -39,7 +39,7 @@
 4. **Navegar** — Flechas ← →, ESPACIO, o clic para avanzar. ESC/`o` para vista general, `n`/`p` entre diapositivas
 5. **PDF** — Pulsa "PDF" o el PDF de la raíz del repo (`0N-<tema>.pdf`)
 
-> Todas las presentaciones (menos la nueva n.º 1, aún pendiente de narrar) incluyen **audio sincronizado diapositiva a diapositiva** con voz natural `es-ES-AlvaroNeural` (Microsoft Edge TTS). La narración se reproduce al hacer la primera interacción (clic o tecla).
+> Todas las presentaciones incluyen **audio sincronizado diapositiva a diapositiva** con voz natural `es-ES-AlvaroNeural` (Microsoft Edge TTS). La narración se reproduce al hacer la primera interacción (clic o tecla).
 
 ---
 
