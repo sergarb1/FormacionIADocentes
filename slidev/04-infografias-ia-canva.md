@@ -14,7 +14,7 @@ exportFilename: infografias-con-ia-y-canva
 
 
 <h2 style="font-size:1.9em;text-align:center;">🎨 Infografías educativas con IA<br>✅ + Canva <span class="highlight">Capas Mágicas</span></h2>
-<h3 style="text-align:center;">Freebuff · OpenCode · Canva · Octubre 2026</h3>
+<h3 style="text-align:center;">ChatGPT · Gemini · Canva · Octubre 2026</h3>
 <p style="text-align:center;margin-top:1em;">👤 Sergi Garcia Barea</p>
 <div style="text-align:center;margin-top:.3em;">
   <span style="display:inline-block;background:#f1f5f9;padding:4px 14px;border-radius:6px;font-size:.5em;">
@@ -59,7 +59,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Crea una infografía del ciclo del agua para 4º de primaria. Estilo isométrico 3D. Muestra 4 fases conectadas con flechas curvas: evaporación del mar, condensación en nubes, precipitación (lluvia) y recogida en ríos. Colores: azul agua, blanco/gris nubes, verde tierra. Sin texto. Los elementos deben estar bien separados para que Canva pueda reconocerlos como capas individuales."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria
     </div>
@@ -87,7 +87,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía del sistema solar para niños de primaria. 8 planetas en orden desde el sol, cada uno con un círculo de color reservado para añadir un dato curioso después. Fondo oscuro espacial, planetas con colores característicos: Mercurio gris, Venus rosa, Tierra azul/verde, Marte rojo, Júpiter naranja con rayas, Saturno con anillos, Urano azul claro, Neptuno azul oscuro. Vectorial plano. Sin texto. Deja espacio entre planetas para editar en Canva."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria
     </div>
@@ -115,7 +115,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de la pirámide alimenticia para niños. 5 niveles con colores distintos: cereales (marrón), frutas y verduras (verde), proteínas (rojo), lácteos (azul), grasas y dulces (naranja) en el vértice. Cada nivel con iconos de alimentos sencillos. Los niveles deben estar visualmente separados, no superpuestos. Fondo blanco. Sin texto. Estilo vectorial plano y limpio. Deja un espacio a la derecha para añadir raciones recomendadas."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria
     </div>
@@ -124,7 +124,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">💡 Por qué funciona</div>
     <ul class="exp-list">
       <li>✅ <strong>Niveles separados visualmente</strong> → cada uno será una capa en Canva</li>
-      <li>✅ Freebuff reconoce bien <strong>alimentos y cocina mediterránea</strong></li>
+      <li>✅ <strong>Gemini</strong> reconoce bien <strong>alimentos y cocina mediterránea</strong></li>
       <li>✅ 5 colores distintos → fácil editar el color de cada nivel</li>
       <li>✅ Espacio reservado → añades raciones en Canva</li>
       <li>✅ Iconos sencillos → Capas Mágicas los detecta mejor</li>
@@ -143,7 +143,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Línea de tiempo de la Revolución Industrial para secundaria: 5 hitos clave de 1760 a 1840. Cada hito con un icono representativo y un recuadro vacío para el texto. Máquina de vapor, ferrocarril, telar mecánico, barco de vapor, locomotora. Distribución horizontal, línea central con los hitos arriba y abajo alternados. Tonos sepia. Sin texto. Los hitos deben estar separados para poder editar cada uno por separado."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Secundaria
     </div>
@@ -171,7 +171,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía comparativa lado a lado: fotosíntesis vs respiración celular para bachillerato. Columna izquierda: fotosíntesis con sol, CO₂, agua como entradas y glucosa + O₂ como salidas. Columna derecha: respiración con glucosa + O₂ como entradas y CO₂ + agua + energía como salidas. Flechas en direcciones opuestas. Mismos iconos en ambas para ver el contraste. Colores pastel, fondo blanco. Sin texto. Columnas separadas para editar en Canva."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Bachillerato
     </div>
@@ -199,7 +199,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Mapa mental de tipos de ecosistemas para secundaria. Nodo central «Ecosistemas» con 5 ramas: acuático, bosque, desierto, pradera, tundra. Cada rama con un icono (pez, árbol, cactus, hierba, oso polar). Ramas de colores distintos. Los nodos deben estar separados visualmente. Espacio en cada rama para añadir palabras clave. Fondo blanco, estilo vectorial plano. Sin texto. Sobre fondo blanco para facilitar la separación de capas."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Secundaria
     </div>
@@ -209,7 +209,7 @@ exportFilename: infografias-con-ia-y-canva
     <ul class="exp-list">
       <li>✅ <strong>Nodos separados visualmente</strong> → cada rama será una capa</li>
       <li>✅ <strong>5 ramas de colores</strong> → editas el color de cada una en Canva</li>
-      <li>✅ Freebuff tiene buen <strong>conocimiento de ecosistemas</strong></li>
+      <li>✅ <strong>Gemini</strong> tiene buen <strong>conocimiento de ecosistemas</strong></li>
       <li>✅ Iconos por ecosistema → identificas cada rama al instante</li>
       <li>✅ Fondo blanco → Capas Mágicas separa mejor los elementos</li>
     </ul>
@@ -227,7 +227,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Diagrama de proceso del método científico para secundaria. 6 pasos en cajas conectadas con flechas: observación, pregunta, hipótesis, experimento, análisis, conclusión. Cada caja con un icono dentro: lupa, interrogante, bombilla, tubo de ensayo, gráfica, medalla. Las cajas deben estar separadas entre sí para editar después. Colores de arcoíris progresivo. Fondo blanco. Sin texto. Borde redondeado en las cajas."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Secundaria
     </div>
@@ -255,7 +255,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Póster infantil con 5 iconos de normas de clase: oreja (escuchar), mano levantada (hablar), corazón con manos (ser amable), lápices juntos (compartir), estante ordenado (recoger). Cada icono dentro de un círculo de color pastel: amarillo, verde, rosa, azul, naranja. Círculos separados entre sí. Sin texto. Fondo blanco. Estilo vectorial plano. Cada círculo debe estar aislado para poder moverlo y editarlo individualmente."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Infantil
     </div>
@@ -283,7 +283,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía técnica de un motor eléctrico de corriente continua para ciclo formativo de electricidad. Corte transversal con estátor, rotor, delgas, escobillas, eje y carcasa. Cada pieza etiquetada. Colores: cobre bobinados, gris carcasa, rojo escobillas. Fondo blanco. Sin texto adicional. Las piezas deben estar visualmente separadas para editar después."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       ⚡ Electricidad
     </div>
@@ -294,7 +294,7 @@ exportFilename: infografias-con-ia-y-canva
       <li><strong>El modo de razonamiento</strong> verifica la disposición técnica</li>
       <li><strong>Piezas separadas</strong> → editas cada componente en Canva</li>
       <li><strong>Colores por material</strong> → fácil identificar cada pieza</li>
-      <li><strong>Etiquetas</strong> → Freebuff las escribe sin errores</li>
+      <li><strong>Etiquetas</strong> → <strong>ChatGPT</strong> las escribe sin errores</li>
       <li><strong>Fondo blanco</strong> → Capas Mágicas separa mejor</li>
     </ul>
   </div>
@@ -311,7 +311,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía del sistema de frenos de disco para alumnos de ciclo formativo de mecánica. Muestra: disco de freno, pinza, pastillas, líquido de frenos, manguera y pistón. Diagrama de corte con flechas que indiquen la presión del líquido y el movimiento de las pastillas sobre el disco. Estilo esquema técnico, colores metálicos. Fondo blanco. Sin texto. Los componentes separados visualmente para editar en Canva."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       ⚡ Mecánica
     </div>
@@ -339,7 +339,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de organigrama vertical de una empresa para ciclo formativo de administración. Director general arriba, luego 3 departamentos: marketing, finanzas y recursos humanos. Cada departamento con 2 puestos de trabajo. Cajas rectangulares conectadas con líneas jerárquicas. Colores distintos por departamento: verde marketing, azul finanzas, naranja RRHH. Fondo blanco. Sin texto. Las cajas deben estar separadas para moverlas en Canva."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       ⚡ Administración
     </div>
@@ -350,7 +350,7 @@ exportFilename: infografias-con-ia-y-canva
       <li><strong>Jerarquía visual clara</strong> de arriba a abajo</li>
       <li><strong>Colores por departamento</strong> → identificas áreas al instante</li>
       <li><strong>Cada caja es una capa</strong> → editas puestos en Canva</li>
-      <li><strong>Freebuff</strong> entiende bien estructuras organizativas</li>
+      <li><strong>Gemini</strong> entiende bien estructuras organizativas</li>
       <li><strong>Ideal</strong> para prácticas de organización empresarial</li>
     </ul>
   </div>
@@ -367,7 +367,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de los tiempos verbales en inglés para estudiantes de bachillerato. Muestra una línea de tiempo horizontal con 3 filas: pasado, presente y futuro. En cada fila, 4 recuadros con los tiempos: simple, continuous, perfect, perfect continuous. Cada recuadro con un ejemplo corto y un icono que represente la acción (flecha para simple, reloj para continuous, check para perfect, espiral para perfect continuous). Colores: pasado en gris, presente en verde, futuro en azul. Fondo blanco. Sin texto, solo los ejemplos en inglés. Los recuadros deben estar separados para editar después."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       📖 Bachillerato · Inglés
     </div>
@@ -378,7 +378,7 @@ exportFilename: infografias-con-ia-y-canva
       <li><strong>Línea de tiempo</strong> visual → los alumnos sitúan cada tiempo</li>
       <li><strong>Iconos por tiempo</strong> (flecha, reloj, check, espiral) facilitan la memorización</li>
       <li><strong>3 filas de colores</strong> (pasado gris, presente verde, futuro azul)</li>
-      <li><strong>Freebuff</strong> escribe los ejemplos en inglés sin errores</li>
+      <li><strong>ChatGPT</strong> escribe los ejemplos en inglés sin errores</li>
       <li><strong>Recuadros separados</strong> → Capas Mágicas te permite editarlos individualmente</li>
     </ul>
   </div>
@@ -395,7 +395,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía infantil del cuerpo humano con los principales órganos para 5º primaria. Cuerpo en posición frontal, estilo flat design, sin rostro. 6 órganos visibles: cerebro (cabeza), pulmones (pecho), corazón (centro pecho), estómago (abdomen superior), hígado (abdomen derecho), intestinos (abdomen inferior). Cada órgano de un color distinto: rosa cerebro, rojo corazón, rosa pulmones, naranja estómago, marrón hígado, verde intestinos. Fondo blanco. Sin texto. Los órganos deben estar separados entre sí."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria · Ciencias
     </div>
@@ -423,7 +423,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de clasificación de animales vertebrados para 4º primaria. Diagrama de árbol con 5 ramas: mamíferos, aves, reptiles, anfibios, peces. Cada rama con icono: perro, águila, serpiente, rana, pez. Cada rama en un color: marrón, azul cielo, verde, naranja, azul marino. Los 5 grupos visualmente separados. Fondo blanco. Sin texto. Espacio debajo de cada icono para añadir características."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria · Ciencias
     </div>
@@ -451,7 +451,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Mapa conceptual de fracciones para 5º primaria. Nodo central 'Fracciones' con 5 ramas: qué es, numerador y denominador, fracciones equivalentes, suma de fracciones, fracciones en la vida real. Cada rama con icono: círculo dividido, números apilados, dos círculos iguales, signo más, pizza. Cada rama de un color. Nodos visualmente separados. Fondo blanco. Sin texto. Espacio en cada rama para definiciones cortas."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Primaria · Matemáticas
     </div>
@@ -479,7 +479,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Diagrama del proceso de mitosis para biología secundaria. 4 fases en secuencia horizontal: profase, metafase, anafase, telofase. Cada fase con célula en diferente estado de división nuclear. Cada fase en recuadro separado con fondo de color: lila, azul, verde, naranja. Flechas entre fases. Fondo blanco. Sin texto. Recuadros separados para editar en Canva."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       🎯 Secundaria · Biología
     </div>
@@ -507,7 +507,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía de la rutina diaria en inglés para 2º ESO. 6 viñetas en orden cronológico: wake up, have breakfast, go to school, have lunch, do homework, go to bed. Cada viñeta con icono y círculo vacío debajo para frase en inglés. Colores pastel distintos. Sin texto. Fondo blanco. Estilo vectorial plano. Viñetas separadas para editar individualmente."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb chat">💬 ChatGPT</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       📖 ESO · Inglés
     </div>
@@ -535,7 +535,7 @@ exportFilename: infografias-con-ia-y-canva
     <div class="pl">📝 Prompt detallado</div>
     <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Infografía tabla periódica simplificada para 3º ESO con los 20 primeros elementos. Cada elemento en recuadro cuadrado con símbolo químico grande e icono de uso cotidiano: H globo, He dirigible, Li batería, Be esmeralda, B bórax, C diamante, N aire, O oxígeno, F pasta dental, Ne letrero neón, Na sal, Mg suplemento, Al papel aluminio, Si arena, P fósforo, S azufre, Cl piscina, Ar bomba luz, K plátano, Ca leche. Filas coloreadas por período. Fondo blanco. Recuadros separados."</code></pre>
     <div class="ftr">
-      <span class="tb fb">🐋 Freebuff</span>
+      <span class="tb gem">✨ Gemini</span>
       <span class="tb canva">Canva Capas Mágicas</span>
       ⚗️ ESO · Química
     </div>
@@ -545,7 +545,7 @@ exportFilename: infografias-con-ia-y-canva
     <ul class="exp-list">
       <li><strong>20 elementos</strong> con iconos de uso cotidiano → aprendizaje contextualizado</li>
       <li><strong>Cada elemento es una capa</strong> → editas o recolocas individualmente</li>
-      <li><strong>Freebuff</strong> reconoce bien elementos químicos y sus usos</li>
+      <li><strong>Gemini</strong> reconoce bien elementos químicos y sus usos</li>
       <li><strong>Colores por período</strong> → estructura visual de la tabla periódica</li>
       <li><strong>Ideal</strong> para aula de química, decoración o fichas de estudio</li>
     </ul>

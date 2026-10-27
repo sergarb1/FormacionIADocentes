@@ -98,6 +98,8 @@
 .tb.fb    { background: #ede9fe; color: #5b21b6; }  /* Freebuff */
 .tb.op    { background: #d1fae5; color: #065f46; }  /* OpenCode */
 .tb.canva { background: #fce7f3; color: #9d174d; }  /* Canva */
+.tb.chat  { background: #fef3c7; color: #92400e; }  /* ChatGPT */
+.tb.gem   { background: #dbeafe; color: #1e40af; }  /* Gemini */
 .tb.both  { background: #e0e7ff; color: #3730a3; }  /* Freebuff + OpenCode */
 
 /* ── Tags (materias) ── */

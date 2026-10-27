@@ -223,7 +223,7 @@ Badges de herramientas (`.tb`):
 - [ ] Carpetas `0N-<tema>/` actualizadas en la raíz
 - [ ] Rutas de audio relativas (`../audio-…/`) intactas tras el build
 - [ ] `index.html` sin enlaces rotos (verfica con `grep` cada href)
-- [ ] Chatbots citados solo como contenido del deck 1 (ChatGPT, Claude,
-      DeepSeek, Gemini); el resto de decks usa el stack Freebuff/OpenCode
-      sin herramientas de pago
+- [ ] Roles correctos de herramientas: decks 1 (chatbots: ChatGPT, Claude,
+      DeepSeek, Gemini), 3 y 4 (imagen: ChatGPT y Gemini) cons los agentes
+      Freebuff/OpenCode reservados al deck 6 (código/agente); nada pago
 - [ ] `README.md` con la tabla de presentations actualizada
