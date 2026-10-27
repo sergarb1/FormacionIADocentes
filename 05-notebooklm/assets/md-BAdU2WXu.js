@@ -1,0 +1,10 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-BIFa__9Z.js";import{t as u}from"./slidev/default-D7tXDwAj.js";var d={__name:`05-notebooklm.md__slidev_12`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),11))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-booklm/slide11.mp3`})],-1),a(`h2`,{style:{"font-size":`1.2em`}},[i(`⓫ `),a(`span`,{class:`tag t`},`🃏 Flashcards`),i(` Tarjetas de repaso`)],-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`📝 Cómo usar las flashcards`),a(`pre`,{style:{"font-size":`.58em`,"border-left-color":`#0d9488`}},[a(`code`,null,`1. Abre la "Guía de estudio" de tu cuaderno
+2. Selecciona la pestaña "Flashcards"
+3. La IA genera preguntas y respuestas
+   basadas exclusivamente en tus fuentes
+4. Aparecen en formato digital:
+   - Cara A: pregunta o concepto
+   - Cara B: respuesta o definición
+5. Sistema de repetición espaciada:
+   - Marca "Fácil" si ya lo sabes
+   - Marca "Difícil" para repetir después`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb`,style:{background:`#fef3c7`,color:`#92400e`}},`🃏 Spaced repetition`),i(` · Digital`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`💡 Por qué funcionan`),a(`ul`,{class:`exp-list`},[a(`li`,null,[i(`Genera flashcards `),a(`strong`,null,`automáticamente`),i(` desde tus apuntes`)]),a(`li`,null,[i(`Sistema de `),a(`strong`,null,`repetición espaciada`),i(` para memorizar a largo plazo`)]),a(`li`,null,[i(`Puedes `),a(`strong`,null,`marcar`),i(` las que ya sabes y repetir las difíciles`)]),a(`li`,null,[i(`Ideal para `),a(`strong`,null,`preparar exámenes`),i(` de forma activa`)]),a(`li`,null,[i(`Las preguntas son `),a(`strong`,null,`específicas de tu temario`)])])])],-1)]]),_:1},16))}};export{d as default};

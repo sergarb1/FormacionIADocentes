@@ -1,0 +1,9 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-BIFa__9Z.js";import{t as u}from"./slidev/default-D7tXDwAj.js";var d={__name:`05-notebooklm.md__slidev_9`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),8))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-booklm/slide08.mp3`})],-1),a(`h2`,{style:{"font-size":`1.2em`}},[i(`❽ `),a(`span`,{class:`tag t`},`📊 Slides`),i(` Presentaciones desde tus fuentes`)],-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`📝 Cómo generar presentaciones`),a(`pre`,{style:{"font-size":`.58em`,"border-left-color":`#0d9488`}},[a(`code`,null,`1. Dentro de tu cuaderno, haz clic en
+   "Guía de estudio"
+2. Selecciona "Presentación" como formato
+3. La IA genera diapositivas estructuradas
+   con títulos, puntos clave y citas
+4. Aparecen organizadas como una
+   presentación lista para usar
+5. Puedes exportarlas a Google Slides
+   para editarlas y personalizarlas`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb`,style:{background:`#dbeafe`,color:`#1e40af`}},`📊 Google Slides`),i(` · Exportable`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`💡 Características`),a(`ul`,{class:`exp-list`},[a(`li`,null,[i(`Diapositivas `),a(`strong`,null,`estructuradas`),i(` a partir de tus fuentes reales`)]),a(`li`,null,[i(`Incluye `),a(`strong`,null,`citas y referencias`),i(` a las fuentes originales`)]),a(`li`,null,[i(`Exportable a `),a(`strong`,null,`Google Slides`),i(` para editar diseño`)]),a(`li`,null,[i(`Ideal para preparar `),a(`strong`,null,`clases en minutos`)]),a(`li`,null,[i(`Puedes elegir entre varios `),a(`strong`,null,`formatos de salida`)])])])],-1)]]),_:1},16))}};export{d as default};

@@ -101,8 +101,10 @@ en Reveal.js, ya portadas a `slidev/styles/index.css`): `.g2`, `.g3`,
 
 ```bash
 cd slidev
-npx slidev build 0N-<tema> --base ./   # HTML (⚠️ --base ./ obligatorio en Pages:
-                                       # sin él los assets salen con ruta absoluta /assets/… y la web queda vacía)
+npx slidev build 0N-<tema> --base "/FormacionIADocentes/0N-<tema>/"
+                                       # HTML (⚠️ base ABSOLUTA con el subpath de Pages:
+                                       # ni `--base ./` ni dejar el default `/`: el router interno
+                                       # de Slidev no reconoce la URL y saca su 404 "Page not found")
 npx slidev export 0N-<tema>.md --output ../0N-<tema>.pdf    # PDF (usa playwright-chromium)
 cp -r dist/0N-<tema> ../0N-<tema>                            # publicar HTML en la raíz
 ```
@@ -168,9 +170,9 @@ contador de diapositivas de la cabecera.
 cd slidev
 for f in 0*.md; do
   n="${f%.md}"
-  npx slidev build $f --base ./
+  npx slidev build $f --base "/FormacionIADocentes/$n/"
   npx slidev export $f --output ../$n.pdf
-  rm -rf ../$n && cp -r dist/* ../$n
+  rm -rf ../$n && cp -r "dist/$n" ../$n
 done
 ```
 

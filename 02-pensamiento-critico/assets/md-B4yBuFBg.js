@@ -1,0 +1,9 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-DSW5tHr0.js";import{t as u}from"./slidev/default-DHFBoUqH.js";var d={__name:`02-pensamiento-critico.md__slidev_14`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),13))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-pensamiento-critico/slide13.mp3`})],-1),a(`h2`,{style:{"font-size":`1.2em`}},[i(`❹ `),a(`span`,{class:`tag green`},`🔎 Fact-checking`),i(` Verificar datos con IA`)],-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`📝 Prompt verificador`),a(`pre`,null,[a(`code`,null,`"Actúa como un verificador de hechos.
+Analiza esta afirmación y dime:
+1. ¿Qué datos se pueden verificar?
+2. ¿Hay fuentes fiables que la respalden?
+3. ¿Qué afirmaciones son engañosas?
+4. ¿Qué contexto falta para evaluarla?
+5. Puntuación de fiabilidad del 1 al 10
+\xA0
+Afirmación: [pega aquí el texto]"`)])]),a(`div`,{class:`exp`,style:{background:`#f0fdf4`,"border-color":`#bbf7d0`}},[a(`div`,{class:`pl`},`💡 Cómo usarlo en clase`),a(`ul`,{class:`exp-list`},[a(`li`,null,`✅ Los alumnos traen una noticia o cadena de WhatsApp dudosa`),a(`li`,null,`✅ La analizan con el prompt verificador`),a(`li`,null,`✅ Buscan fuentes externas para contrastar lo que dice la IA`),a(`li`,null,`✅ Aprenden que la IA es una ayuda, no la verdad absoluta`),a(`li`,null,`✅ Discuten en grupo: ¿nos fiamos de lo que dice la IA o verificamos?`)])])],-1)]]),_:1},16))}};export{d as default};

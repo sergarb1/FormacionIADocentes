@@ -95,9 +95,10 @@ Requisitos: Node.js 18+.
 cd slidev
 npm install
 
-# Compilar decks individuales (--base ./ obligatorio en GitHub Pages:
-# sin él, los assets salen con ruta absoluta /assets/… y la página se queda vacía)
-npx slidev build 01-ia-gratuita-docentes --base ./
+# Compilar decks individuales (⚠️ base ABSOLUTA del subpath de Pages:
+# con `--base ./` los assets cargan pero el router interno de Slidev
+# no reconoce la URL y muestra su 404 "Page not found")
+npx slidev build 01-ia-gratuita-docentes --base "/FormacionIADocentes/01-ia-gratuita-docentes/"
 
 # Exportar a PDF
 npx slidev export 01-ia-gratuita-docentes.md --output ../01-ia-gratuita-docentes.pdf
@@ -105,9 +106,9 @@ npx slidev export 01-ia-gratuita-docentes.md --output ../01-ia-gratuita-docentes
 # =O regenerar todos de golpe=
 for f in 0*.md; do
   n="${f%.md}"
-  npx slidev build $f --base ./
+  npx slidev build $f --base "/FormacionIADocentes/$n/"
   npx slidev export $f --output ../$n.pdf
-  rm -rf ../$n && cp -r dist/* ../$n
+  rm -rf ../$n && cp -r "dist/$n" ../$n
 done
 ```
 
