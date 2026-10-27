@@ -1,392 +1,227 @@
-# AGENTS.md — Skills para crear presentaciones educativas
+# AGENTS.md — Plan paso a paso para crear presentaciones educativas
 
-Este archivo define skills que OpenCode puede cargar para generar
-presentaciones educativas en HTML con Reveal.js, siguiendo el mismo
-estilo y estructura que las de este proyecto.
+Este archivo define el flujo de trabajo (step-by-step) para generar las
+presentaciones educativas de este proyecto con **OpenCode + Freebuff**
+(gratuitos) y **Slidev** (sli.dev), sustituyendo el enfoque antiguo basado
+en Reveal.js + Gemini.
 
 ---
 
-## Skill: presentacion-educativa
+## Stack actual del proyecto
 
-Úsalo cuando te pidan crear una presentación educativa en HTML.
+| Pieza | Herramienta | Rol |
+|-------|-------------|-----|
+| Framework de diapositivas | **Slidev** (sli.dev v53) | Presentaciones en HTML exportables a PDF |
+| Redacción del contenido | **Freebuff** (freebuff.com) | Agente conversacional gratuito: prompts, narraciones, textos de slides |
+| Generación de código / build | **OpenCode** (opencode.ai) | IDE open source con IA: scaffolding, build, export |
+| Voz del audio | **edge-tts** (`es-ES-AlvaroNeural`) | Narración diapositiva a diapositiva (gratuito) |
+| Hosting | **GitHub Pages** | Publicación automática desde `main` |
 
-Eres un creador de presentaciones educativas profesionales.
+> Todo el stack es gratuito. No se usa Gemini ni herramientas de pago.
 
-### Estructura base
+---
 
-Crea un HTML con Reveal.js (v4.6.1) siguiendo esta estructura:
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>[Título] · Sergi Garcia Barea</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/white.min.css" id="theme">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/print/pdf.css">
-  <style>
-    /* Mismo estilo que las presentaciones existentes */
-    :root {
-      --r-heading-color: #1e3a5f;
-      --r-main-color: #2c3e50;
-      --r-link-color: #2563eb;
-    }
-    .reveal { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
-    .reveal .slides section {
-      text-align: left; padding: 0 5%;
-      display: flex !important; flex-direction: column; justify-content: center;
-      font-size: .85em;
-    }
-    .reveal h2 { font-size: 1.5em; margin-bottom: .3em; color: #1e3a5f; line-height: 1.2; }
-    .reveal p  { margin: .25em 0; }
-    .reveal ul, .reveal ol { margin: .15em 0; padding-left: 1.2em; }
-    .reveal li { margin-bottom: .1em; }
-    .reveal pre {
-      font-size: .55em; background: #f8fafc; padding: 10px 14px;
-      border-radius: 6px; margin: .1em 0 0 0; border-left: 3px solid #f59e0b;
-      white-space: pre-wrap; word-wrap: break-word; line-height: 1.35;
-    }
-    .reveal pre code { max-height: none; background: transparent; padding: 0; }
-    hr { border: none; border-top: 1px solid #e2e8f0; margin: .5em 0; }
-    .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: .3em 0; align-items: start; }
-    .card {
-      background: #f8fafc; border-radius: 8px; padding: .6em .8em;
-      border: 1px solid #e2e8f0;
-    }
-    .pc {
-      background: #f8fafc; border-radius: 8px; padding: .4em .6em .2em .6em;
-      border: 1px solid #e2e8f0; margin:0;
-    }
-    .pl {
-      font-size: .55em; color: #64748b; text-transform: uppercase;
-      letter-spacing: .04em; margin-bottom: .15em;
-    }
-    .ftr {
-      font-size: .58em; color: #64748b;
-      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-    }
-    .tb {
-      display: inline-block; padding: 1px 8px; border-radius: 10px;
-      font-size: .85em; font-weight: 600;
-    }
-    .tag {
-      display: inline-block; padding: 1px 7px; border-radius: 4px;
-      font-size: .7em; font-weight: 600;
-    }
-    .tag.g  { background: #dcfce7; color: #166534; }
-    .tag.p  { background: #f3e8ff; color: #6b21a8; }
-    .tag.o  { background: #ffedd5; color: #9a3412; }
-    .tag.r  { background: #fee2e2; color: #991b1b; }
-    .tag.b  { background: #dbeafe; color: #1e40af; }
-    .tag.pk { background: #fce7f3; color: #9d174d; }
-    .tag.t  { background: #ccfbf1; color: #115e59; }
-    .tag.gy { background: #f1f5f9; color: #475569; }
-    .tag.rw { background: #ffe4e6; color: #9f1239; }
-    .tag.y  { background: #fef9c3; color: #854d0e; }
-    .exp {
-      background: #f0f4ff; border-radius: 8px; padding: .4em .7em .2em .7em;
-      border: 1px solid #dbeafe; margin:0;
-    }
-    .exp-list { list-style: none; padding: 0; margin: .15em 0; }
-    .exp-list li {
-      font-size: .6em; color: #1e3a5f; margin-bottom: .25em;
-      padding-left: 1.5em; position: relative; line-height: 1.4;
-    }
-    .exp-list li::before { content: "✅"; position: absolute; left: 0; font-size:.82em; }
-    .tip {
-      background: #fef3c7; border-radius: 6px; padding: .35em .6em;
-      font-size: .6em; color: #92400e; margin-top: .35em;
-      border-left: 3px solid #f59e0b;
-    }
-    .sm { font-size: .6em; color: #64748b; }
-    .print-btn, .audio-ctrl {
-      position: fixed; z-index: 40; font-size: .5em;
-      background: rgba(255,255,255,.88); padding: 5px 14px;
-      border-radius: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.12);
-      backdrop-filter: blur(4px); cursor: pointer; user-select: none;
-      border: none; line-height: 1;
-    }
-    .print-btn { bottom: 14px; left: 18px; }
-    .print-btn a { color: #475569; text-decoration: none; }
-    .print-btn a:hover { color: #1e3a5f; }
-    .audio-ctrl { bottom: 14px; left: 90px; color: #475569; font-size: .6em; padding: 4px 10px; }
-    .audio-ctrl:hover { color: #1e3a5f; }
-    @media print {
-      .print-btn, .audio-ctrl { display: none; }
-      .reveal .slides section { opacity: 1 !important; }
-      .reveal .slides section .fragment { opacity: 1 !important; }
-      .reveal .progress, .reveal .slide-number { display: none; }
-    }
-    @media screen and (max-width:480px) {
-      .g2 { grid-template-columns: 1fr; gap: .6em; }
-    }
-  </style>
-</head>
-<body>
-  <button class="audio-ctrl" id="audioCtrl" onclick="toggleAudio()">🔊</button>
-  <div class="print-btn">📄 <a href="?print-pdf#/" target="_blank">PDF</a></div>
-  <div class="reveal"><div class="slides"></div></div>
-  <audio id="slide-audio" preload="auto"></audio>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
-  <script src="[nombre-js].js"></script>
-  <script>
-    const container = document.querySelector('.slides');
-    slidesData.forEach(html => container.insertAdjacentHTML('beforeend', html));
-    Reveal.initialize({
-      hash: true, center: true, transition: 'slide',
-      slideNumber: 'c/t', plugins: [],
-      pdfMaxPagesPerSlide: 1, pdfSeparateFragments: false,
-      width: 1280, height: 720, margin: 0.04, minScale: 0.2, maxScale: 2.0
-    });
-    const audioEl = document.getElementById('slide-audio');
-    let audioMuted = false, started = false;
-    function toggleAudio() {
-      audioMuted = !audioMuted;
-      document.getElementById('audioCtrl').textContent = audioMuted ? '🔇' : '🔊';
-    }
-    function playSlideAudio(slide) {
-      if (audioMuted || !started) return;
-      const src = slide.getAttribute('data-audio');
-      if (!src) return;
-      audioEl.src = src; audioEl.play();
-    }
-    function firstInteraction() {
-      if (started) return; started = true;
-      document.removeEventListener('click', firstInteraction, true);
-      document.removeEventListener('keydown', firstInteraction, true);
-      playSlideAudio(Reveal.getCurrentSlide());
-    }
-    document.addEventListener('click', firstInteraction, true);
-    document.addEventListener('keydown', firstInteraction, true);
-    Reveal.addEventListener('slidechanged', e => playSlideAudio(e.currentSlide));
-  </script>
-</body>
-</html>
-```
-
-### Datos de diapositivas en JS separado
-
-Crea un archivo `[nombre].js` con la estructura:
-
-```js
-const slidesData = [
-  `<section data-audio="audio-carpeta/slide00.mp3">
-    <h2 style="font-size:2em;text-align:center;">🧠 Título de la presentación</h2>
-    <h3 style="text-align:center;">Subtítulo · Fecha</h3>
-    <p style="text-align:center;margin-top:1.2em;">👤 Autor</p>
-    <div style="text-align:center;margin-top:.4em;">
-      <span style="display:inline-block;background:#f1f5f9;padding:4px 14px;border-radius:6px;font-size:.5em;">
-        <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="CC BY-SA" style="height:24px;vertical-align:middle;"> CC BY-SA 4.0
-      </span>
-    </div>
-  </section>`,
-
-  `<section data-audio="audio-carpeta/slide01.mp3">
-    <h2>Título de la diapositiva</h2>
-    <p>Contenido didáctico...</p>
-  </section>`,
-  // ...
-];
-```
-
-### Patrones de diapositivas
-
-**Portada:**
-```html
-<section data-audio="audio-carpeta/slide00.mp3">
-  <h2 style="font-size:2em;text-align:center;">🧠 Título</h2>
-  <h3 style="text-align:center;">Subtítulo · Fecha</h3>
-  <p style="text-align:center;margin-top:1.2em;">👤 Autor</p>
-</section>
-```
-
-**Prompt + explicación (g2):**
-```html
-<section data-audio="audio-carpeta/slide01.mp3">
-  <h2 style="font-size:1.2em;">❶ <span class="tag g">🔬 Ciencias</span> Título</h2>
-  <div class="g2" style="gap:1.2em;">
-    <div class="pc" style="margin:0;">
-      <div class="pl">📝 Prompt detallado</div>
-      <pre style="font-size:.58em;border-left-color:#e67e22;"><code>"Texto del prompt aquí..."</code></pre>
-      <div class="ftr"><span class="tb chat">Herramienta</span> · Etiqueta · Nivel</div>
-    </div>
-    <div class="exp">
-      <div class="pl">💡 Por qué funciona</div>
-      <ul class="exp-list">
-        <li><strong>Clave 1</strong> → explicación</li>
-        <li><strong>Clave 2</strong> → explicación</li>
-      </ul>
-    </div>
-  </div>
-</section>
-```
-
-**Comparativa / dos columnas:**
-```html
-<section>
-  <h2>Título</h2>
-  <div class="g2">
-    <div class="card" style="border-top:4px solid #color;">
-      <p><strong>Columna 1</strong></p>
-      <p class="sm">Contenido...</p>
-    </div>
-    <div class="card" style="border-top:4px solid #color2;">
-      <p><strong>Columna 2</strong></p>
-      <p class="sm">Contenido...</p>
-    </div>
-  </div>
-</section>
-```
-
-**Cierre:**
-```html
-<section data-audio="audio-carpeta/slideN.mp3">
-  <h2>✨ En resumen</h2>
-  <div class="g2" style="font-size:.8em;">
-    <div class="card" style="text-align:center;border-top:4px solid #color;">
-      <p style="font-size:1.5em;margin:0;">🟡</p>
-      <p><strong>Título</strong></p>
-      <p class="sm">✔️ Punto 1<br>✔️ Punto 2</p>
-    </div>
-    <div class="card" style="text-align:center;border-top:4px solid #color2;">
-      <p style="font-size:1.5em;margin:0;">🔵</p>
-      <p><strong>Título</strong></p>
-      <p class="sm">✔️ Punto 1<br>✔️ Punto 2</p>
-    </div>
-  </div>
-  <hr style="margin:.4em 0;">
-  <p style="text-align:center;">🧑‍🏫 Frase de cierre</p>
-  <p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Autor · Fecha</p>
-</section>
-```
-
-### Audio narrado con edge-tts
-
-Cuando se pida audio, sigue este flujo:
-
-1. Añadir `data-audio="audio-carpeta/slideXX.mp3"` a cada `<section>`
-2. Crear JSON de narración `narracion-[nombre].json`:
-```json
-{
-  "_voice": "es-ES-AlvaroNeural",
-  "_note": "Narración para '[título presentación]'",
-  "slides": [
-    { "id": 0, "title": "Portada", "text": "Texto narrado..." },
-    { "id": 1, "title": "Título", "text": "Texto narrado..." }
-  ]
-}
-```
-3. Crear el script PowerShell `generar-audio-[nombre].ps1`:
-```powershell
-$Voice = "es-ES-AlvaroNeural"
-$Json  = Get-Content "narracion-[nombre].json" -Raw | ConvertFrom-Json
-$OutDir = "$PSScriptRoot\audio-carpeta"
-if (-not (Test-Path $OutDir)) { New-Item -ItemType Directory -Path $OutDir -Force }
-$edge = "C:\Users\serga\AppData\Roaming\Python\Python311\Scripts\edge-tts.exe"
-foreach ($slide in $Json.slides) {
-  $id   = $slide.id
-  $text = $slide.text
-  $name = "slide$("{0:D2}" -f $id).mp3"
-  $out  = "$OutDir\$name"
-  Write-Host "🎙️  [$id] $($slide.title) → $name"
-  & $edge --voice $Voice --text "$text" --write-media "$out"
-  if ($LASTEXITCODE -eq 0) {
-    $len = (Get-Item $out).Length
-    Write-Host "   ✅  $([math]::Round($len/1kb)) KB"
-  } else { Write-Host "   ❌  Error" }
-}
-```
-
-### Nombres de archivo
-
-- HTML: `[tema].html` (ej: `sistema-solar.html`)
-- JS: `[tema].js` (ej: `sistema-solar.js`)
-- Audio: `audio-[tema]/slideXX.mp3` (ej: `audio-sistema-solar/slide00.mp3`)
-- Narración: `narracion-[tema].json` (ej: `narracion-sistema-solar.json`)
-- Script audio: `generar-audio-[tema].ps1`
-- TXT infografía: `[tema].txt`
-
-### Colores por materia
-
-| Materia | Tag | Color |
-|---------|-----|-------|
-| Ciencias | `tag g` | `#dcfce7` texto `#166534` |
-| Historia | `tag o` | `#ffedd5` texto `#9a3412` |
-| Matemáticas | `tag p` | `#f3e8ff` texto `#6b21a8` |
-| Lengua | `tag pk` | `#fce7f3` texto `#9d174d` |
-| Geografía | `tag t` | `#ccfbf1` texto `#115e59` |
-| Worksheets | `tag gy` | `#f1f5f9` texto `#475569` |
-| Diversidad | `tag rw` | `#ffe4e6` texto `#9f1239` |
-| Infografías | `tag r` | `#fee2e2` texto `#991b1b` |
-| img2img | `tag b` | `#dbeafe` texto `#1e40af` |
-| Comparativa | `tag y` | `#fef9c3` texto `#854d0e` |
-
-### Badges de herramientas
+## Estructura de carpetas
 
 ```
-.tb.chat  { background: #fef3c7; color: #92400e; }  /* ChatGPT */
-.tb.nana  { background: #dbeafe; color: #1e40af; }  /* Nano Banana 2 */
-.tb.both  { background: #e0e7ff; color: #3730a3; }  /* Ambas */
-.tb.op    { background: #d1fae5; color: #065f46; }  /* OpenCode */
-.tb.cdx   { background: #dbeafe; color: #1e40af; }  /* Codex */
-.tb.gem   { background: #fef3c7; color: #92400e; }  /* Gemini */
-.tb.claude{ background: #f3e8ff; color: #6b21a8; }  /* Claude */
-.tb.canva { background: #fce7f3; color: #9d174d; }  /* Canva */
-```
-
-### Medidas Reveal.js
-
-```js
-Reveal.initialize({
-  hash: true, center: true, transition: 'slide',
-  slideNumber: 'c/t', plugins: [],
-  pdfMaxPagesPerSlide: 1, pdfSeparateFragments: false,
-  width: 1280, height: 720, margin: 0.04, minScale: 0.2, maxScale: 2.0
-});
+FormacionIADocentes/
+├── slidev/                        # Proyecto Slidev (npm)
+│   ├── package.json               # Scripts: build, dev, export
+│   ├── styles/index.css           # Estilos compartidos (todos los decks)
+│   ├── global-bottom.vue          # Botón 🔊 audio narrado + reproductor
+│   ├── convertir-deck.mjs         # Migrador de decks Reveal.js antiguos
+│   ├── 0N-<tema>.md               # Un archivo Markdown por deck
+│   └── dist/                      # Salida del build (HTML)
+├── 01-…06-…/ (raíz)               # Copia de dist/ publicada en Pages
+├── 0N-…pdf                        # PDFs por deck
+├── audio-<tema>/                  # MP3 por diapositiva (slideNN.mp3)
+└── narracion-<tema>.json          # Textos para edge-tts
 ```
 
 ---
 
-## Skill: anadir-presentacion-a-index
+## §1 · Crear un deck nuevo con Slidev (paso a paso)
 
-Úsalo cuando te pidan añadir una presentación nueva al índice.
+### Paso 1 — Crear el archivo Markdown
 
-Lee el `index.html` existente y añade una nueva tarjeta en la
-sección de presentaciones, siguiendo el mismo patrón que las
-existentes (card con número, título, descripción, tags y enlaces).
+`slidev/0N-<tema>.md` con headmatter:
 
-El número debe ser el siguiente correlativo. Los enlaces:
-- Slides: `[nombre-archivo].html`
-- PDF: `[nombre-archivo].pdf` (mismo nombre pero extensión .pdf)
+```yaml
+---
+theme: default
+title: <Título> · Sergi Garcia Barea
+author: Sergi Garcia Barea
+aspectRatio: 16/9
+canvasWidth: 1280
+transition: slide-left
+htmlAttrs:
+  lang: es
+exportFilename: <nome-do-pdf>
+---
+```
+
+### Paso 2 — Escribir las diapositivas
+
+- Cada diapositiva se separa con una línea `---` entre líneas en blanco
+- Al inicio de cada diapositiva (tras el separador) su audio:
+
+```html
+<audio class="deck-audio" src="../audio-<tema>/slideNN.mp3"></audio>
+```
+
+Contenido en HTML plano (los decks usan la misma familia de clases que
+en Reveal.js, ya portadas a `slidev/styles/index.css`): `.g2`, `.g3`,
+`.card`, `.pc`, `.pl`, `.exp`, `.exp-list`, `.tip`, `.tag <mat>`,
+`.tb fb/op/canva/both`, `.tbl`, `.ftr`, `.sm`, `.fal-list`, `.f-item`,
+`.cmp-grid`, `.hdr`.
+
+### Paso 3 — ⚠️ Reglas que evitan errores de compilación
+
+- **Nada de líneas en blanco dentro de `<pre>…</pre>`** (con o sin
+  atributos). Sustitúyelas por `&nbsp;`. Si se cuelan, el build falla con
+  `Element is missing end tag.`. Arreglo rápido:
+
+  ```bash
+  python3 - <<'PY'
+  import re
+  f = '0N-<tema>.md'
+  s = open(f, encoding='utf-8').read()
+  def fx(m):
+      ls = m.group(0).split('\n')
+      return '\n'.join([ls[0]] + ['&nbsp;' if l.strip()=='' else l for l in ls[1:-1]] + [ls[-1]])
+  open(f, 'w', encoding='utf-8').write(re.sub(r'<pre[^>]*>.*?</pre>', fx, s, flags=re.S))
+  PY
+  ```
+
+- No dejes restos de `</section>` sueltos (solo aplicable a decks migrados)
+- Los prompts que empiezan con `1.` `-` están bien dentro del `<pre>`
+  siempre que el bloque no contenga líneas en blanco
+
+### Paso 4 — Compilar y exportar
+
+```bash
+cd slidev
+npx slidev build 0N-<tema>.md --out dist/0N-<tema>          # HTML
+npx slidev export 0N-<tema>.md --output ../0N-<tema>.pdf    # PDF (usa playwright-chromium)
+cp -r dist/0N-<tema> ../0N-<tema>                            # publicar HTML en la raíz
+```
+
+### Paso 5 — Insertar la diapositiva nueva en `index.html`
+
+Copia una tarjeta existente, cambia `num-N`, título, descripción, tags y
+los enlaces (`<tema>/index.html` y `<tema>.pdf`). Actualiza también el
+contador de diapositivas de la cabecera.
 
 ---
 
-## Skill: generar-txt-infografia
+## §2 · Audio narrado (paso a paso)
 
-Úsalo cuando te pidan crear el TXT de instrucciones para infografía.
+1. Añade el `<audio class="deck-audio" src="../audio-<tema>/slideNN.mp3">`
+   en cada diapositiva (Slidev reutiliza `global-bottom.vue` para el botón
+   🔊/🔇 y el `<useNav>` para saber la diapositiva activa)
+2. Crea `narracion-<tema>.json`:
 
-Crea un archivo `[tema].txt` con instrucciones detalladas para
-generar una infografía educativa sobre el contenido de la
-presentación, incluyendo:
+   ```json
+   {
+     "_voice": "es-ES-AlvaroNeural",
+     "_note": "Narración para '<tema>'",
+     "slides": [
+       { "id": 0, "title": "Portada", "text": "…" }
+     ]
+   }
+   ```
 
-- Título sugerido y estilo visual
-- Herramienta recomendada
-- Estructura sección por sección
-- Notas para la generación con IA
+3. Genera los MP3 (Windows):
 
-(Sigue el mismo formato que los TXT existentes en el proyecto.)
+   ```powershell
+   pip install edge-tts
+   edge-tts --voice es-ES-AlvaroNeural --text "<texto>" --write-media audio-<tema>\slide00.mp3
+   ```
+
+   o un script `generar-audio-<tema>.ps1` que recorra el JSON (ver los
+   existentes en la raíz como modelo)
+
+4. Reconstruye el deck: `cd slidev && npx slidev build … && cp -r dist/…`
+   (el build enlaza `../audio-<tema>/…` con rutas relativas, sin duplicar MP3)
 
 ---
 
-## Skill: publicar-github-pages
+## §3 · Flujo recomendado con Freebuff + OpenCode
 
-Úsalo cuando te pidan preparar el proyecto para GitHub Pages.
+### Con Freebuff (rápido, sin instalar nada)
 
-1. Verificar que todos los enlaces usen rutas relativas
-2. Añadir/actualizar `index.html` con enlaces a todas las presentaciones
-3. Añadir botón de PDF (con `?print-pdf#/`) en cada HTML
-4. Asegurar que el README.md incluya URLs de GitHub Pages
-5. Verificar que no haya espacios en nombres de archivo que puedan
-   dar problemas en algunas URLs (codificar como %20 si es necesario)
+1. Entra en **freebuff.com** y describe el material: nivel, materia y formato
+2. Pide borradores de prompts o textos de diapositivas en el chat
+3. Pide "conviértelo en una web" si lo que necesitas es una web interactivo
+
+### Con OpenCode (proyectos grandes)
+
+1. `cd FormacionIADocentes && opencode`
+2. Pide: "crea el deck `slidev/0N-<tema>.md` siguiendo AGENTS.md §1"
+3. Pide: "compila y exporta a PDF" (§1 paso 4)
+4. Revisa con "list sliding assets" o ejecutando `npm run build` en `slidev/`
+
+### Regenerar todo (build + PDFs + copia a la raíz)
+
+```bash
+cd slidev
+for f in 0*.md; do
+  n="${f%.md}"
+  npx slidev build $f --out dist/$n
+  npx slidev export $f --output ../$n.pdf
+  rm -rf ../$n && cp -r dist/$n ../$n
+done
+```
+
+---
+
+## §4 · Convenciones de nombres
+
+| Elemento | Patrón | Ejemplo |
+|----------|--------|---------|
+| Deck Markdown | `0N-<tema>.md` (en `slidev/`) | `01-ia-gratuita-docentes.md` |
+| Carpeta HTML publicada | `0N-<tema>/` (raíz) | `01-ia-gratuita-docentes/` |
+| PDF | `0N-<tema>.pdf` (raíz) | `01-ia-gratuita-docentes.pdf` |
+| Audio | `audio-<tema>/slideNN.mp3` | `audio-ia-gratuita-docentes/slide01.mp3` |
+| Narración | `narracion-<tema>.json` | `narracion-ia-gratuita-docentes.json` |
+| Script audio | `generar-audio-<tema>.ps1` | `generar-audio-ia-gratuita-docentes.ps1` |
+| TXT de infografía | `<tema>.txt` | `ia-gratuita-docentes.txt` |
+
+---
+
+## §5 · Colores por materia (tags)
+
+| Materia | Clase | Colores |
+|---------|-------|---------|
+| Ciencias    | `tag g`  | `#dcfce7` / `#166534` |
+| Historia    | `tag o`  | `#ffedd5` / `#9a3412` |
+| Mate        | `tag p`  | `#f3e8ff` / `#6b21a8` |
+| Lengua      | `tag pk` | `#fce7f3` / `#9d174d` |
+| Geografía   | `tag t`  | `#ccfbf1` / `#115e59` |
+| Worksheets  | `tag gy` | `#f1f5f9` / `#475569` |
+| Diversidad  | `tag rw` | `#ffe4e6` / `#9f1239` |
+| Infografías | `tag r`  | `#fee2e2` / `#991b1b` |
+| img2img     | `tag b`  | `#dbeafe` / `#1e40af` |
+| Comparativa | `tag y`  | `#fef9c3` / `#854d0e` |
+
+Badges de herramientas (`.tb`):
+
+```css
+.tb.fb    { background:#ede9fe; color:#5b21b6; }  /* 🐋 Freebuff */
+.tb.op    { background:#d1fae5; color:#065f46; }  /* ⚙️ OpenCode */
+.tb.canva { background:#fce7f3; color:#9d174d; }  /* Canva */
+.tb.both  { background:#e0e7ff; color:#3730a3; }  /* Freebuff + OpenCode */
+```
+
+---
+
+## §6 · Checklist de QA antes de publicar
+
+- [ ] `npx slidev build` sin errores para todos los decks
+- [ ] PDFs regenerados y presentes en la raíz
+- [ ] Carpetas `0N-<tema>/` actualizadas en la raíz
+- [ ] Rutas de audio relativas (`../audio-…/`) intactas tras el build
+- [ ] `index.html` sin enlaces rotos (verfica con `grep` cada href)
+- [ ] Sin menciones a Gemini u otras herramientas apartadas como fuente
+      principal de los materiales
+- [ ] `README.md` con la tabla de presentations actualizada

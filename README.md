@@ -1,10 +1,12 @@
 # 🤖 Formación en IA para Docentes
 
-**Curso práctico de presentaciones interactivas** para que el profesorado aprenda a usar la inteligencia artificial en el aula — ordenado por dificultad, con ejemplos reales, audio narrado y PDF descargable.
+**Curso práctico de presentaciones interactivas** para que el profesorado aprenda a usar la inteligencia artificial en el aula usando **herramientas 100% gratuitas** — ordenado por dificultad, con ejemplos reales, audio narrado y PDF descargable.
 
 🌐 **Web del proyecto:** [👉 sergarb1.github.io/FormacionIADocentes 👈](https://sergarb1.github.io/FormacionIADocentes)
 
-🎯 6 presentaciones · 📊 130 diapositivas · 🎙️ Audio narrado · 🔊 Se puede silenciar · 📄 PDF imprimible · 🧑‍🏫 De básico a avanzado
+🎯 6 presentaciones · 📊 124 diapositivas · 🎙️ Audio narrado · 🔊 Se puede silenciar · 📄 PDF imprimible · 🧑‍🏫 De básico a avanzado
+
+> ✨ **Hecho con Freebuff (freebuff.com) + OpenCode (opencode.ai) + Slidev (sli.dev)** — un flujo de trabajo gratuito y replicable, explicado paso a paso en [`AGENTS.md`](AGENTS.md). Las diapositivas están escritas en Markdown (Slidev) en lugar de HTML+Reveal.js.
 
 ---
 
@@ -12,12 +14,12 @@
 
 | # | Presentación | Nivel | Slides | ¿Qué aprenderás? | Para quién |
 |---|-------------|-------|-------|-----------------|------------|
-| 1 | [👉 ChatGPT, Gemini, Claude… para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | 🌱 Básico | 17 | Los principales chatbots de IA: cómo funcionan, prompts efectivos, 8 ejemplos prácticos para clase, tutoría, evaluación y planificación | Quien empieza desde cero |
-| 2 | [👉 Pensamiento crítico y detección de falacias con IA 👈](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | 🌿 Intermedio | 18 | Usa la IA como analizador de discursos: falacias, coerción, sesgos. 2 actividades prácticas para clase | Quien quiere enseñar a pensar críticamente |
-| 3 | [👉 Crear imágenes educativas con IA 👈](https://sergarb1.github.io/FormacionIADocentes/crear-imagenes-educativas.html) | 🌿 Intermedio | 35 | ChatGPT Images 2.0 y Nano Banana 2 para ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales | Quien crea recursos visuales sin saber diseñar |
-| 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/infografias-ia-canva.html) | 🌿 Intermedio | 22 | Flujo completo: IA genera fondos y elementos, Canva separa objetos automáticamente, tú personalizas y maquetas. 12 ejemplos prácticos de ciencias a FP | Quien quiere infografías profesionales sin saber diseño |
-| 5 | [👉 NotebookLM de Google 👈](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | 🌳 Avanzado | 18 | Asistente de investigación con IA: subir fuentes, preguntas, resúmenes, guías de estudio, podcasts, flashcards y notas del cuaderno | Quien investiga, prepara materiales o trabaja con documentos |
-| 6 | [👉 Asistentes de código con IA para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | 🌳 Avanzado | 20 | OpenCode, Codex CLI, Gemini CLI y Claude Code: herramientas que crean materiales desde la terminal sin programar. 8 ejemplos prácticos | Quien quiere crear HTML interactivos describiéndolos |
+| 1 | [👉 IA gratuita para docentes · OpenCode + Freebuff 👈](https://sergarb1.github.io/FormacionIADocentes/01-ia-gratuita-docentes/) | 🌱 Básico | 11 | El setup de 0€: Freebuff para materiales rápidos e interactivos + OpenCode conectado a Freebuff o a modelos locales. 3 prompts detallados listos para copiar | Quien empieza desde cero |
+| 2 | [👉 Pensamiento crítico y detección de falacias con IA 👈](https://sergarb1.github.io/FormacionIADocentes/02-pensamiento-critico/) | 🌿 Intermedio | 18 | Usa la IA como analizador de discursos: falacias, coerción, sesgos. 2 actividades prácticas para clase | Quien quiere enseñar a pensar críticamente |
+| 3 | [👉 Crear imágenes educativas con IA 👈](https://sergarb1.github.io/FormacionIADocentes/03-crear-imagenes-educativas/) | 🌿 Intermedio | 35 | Ilustraciones científicas, mapas conceptuales, infografías, worksheets y materiales visuales con prompts detallados para cualquier materia y nivel | Quien crea recursos visuales sin saber diseñar |
+| 4 | [👉 Infografías con IA + Canva Capas Mágicas 👈](https://sergarb1.github.io/FormacionIADocentes/04-infografias-ia-canva/) | 🌿 Intermedio | 22 | Flujo completo: IA genera fondos y elementos, Canva separa objetos automáticamente, tú personalizas y maquetas | Quien quiere infografías profesionales sin saber diseño |
+| 5 | [👉 NotebookLM para docentes 👈](https://sergarb1.github.io/FormacionIADocentes/05-notebooklm/) | 🌳 Avanzado | 18 | Asistente de investigación con IA: subir fuentes, preguntas con citas, resúmenes, guías de estudio, podcasts, flashcards y quizzes | Quien investiga, prepara materiales o trabaja con documentos |
+| 6 | [👉 Código con IA en la terminal 👈](https://sergarb1.github.io/FormacionIADocentes/06-codigo-cli-ia/) | 🌳 Avanzado | 20 | OpenCode + Freebuff: herramientas gratuitas open source que crean materiales educativos (circulares, horarios, exámenes, JQuery… interactuables) sin saber programar | Quien quiere crear HTML interactivos describiéndolos |
 
 ### 🌱 Niveles
 
@@ -34,10 +36,10 @@
 1. **Abrir** — Pulsa el enlace 👆 para ver los slides interactivos en el navegador
 2. **Escuchar** — El audio se activa automáticamente al pasar de diapositiva (primera interacción)
 3. **Silenciar** — Pulsa el icono 🔊 (abajo a la izquierda) para desactivar la narración
-4. **Navegar** — Flechas ← →, ESPACIO, o clic para avanzar. ESC para vista general
-5. **PDF** — Pulsa "PDF" o añade `?print-pdf#/` a la URL e imprime desde el navegador
+4. **Navegar** — Flechas ← →, ESPACIO, o clic para avanzar. ESC/`o` para vista general, `n`/`p` entre diapositivas
+5. **PDF** — Pulsa "PDF" o el PDF de la raíz del repo (`0N-<tema>.pdf`)
 
-> Todas las presentaciones incluyen **audio sincronizado diapositiva a diapositiva** con voz natural `es-ES-AlvaroNeural` (Microsoft Edge TTS). La narración se reproduce al hacer la primera interacción (clic o tecla).
+> Todas las presentaciones (menos la nueva n.º 1, aún pendiente de narrar) incluyen **audio sincronizado diapositiva a diapositiva** con voz natural `es-ES-AlvaroNeural` (Microsoft Edge TTS). La narración se reproduce al hacer la primera interacción (clic o tecla).
 
 ---
 
@@ -46,107 +48,78 @@
 ```
 📁 FormacionIADocentes/
 ├── 📄 index.html                     # Página principal del proyecto
-├── 📄 *.html                         # Presentaciones en Reveal.js (6)
-├── 📄 *.js                           # Datos de las diapositivas (slidesData)
+├── 📁 01-…06-…/                       # Presentaciones publicadas (Slidev → HTML estático)
+│   ├── index.html
+│   └── assets/
+├── 📄 01-…06-…pdf                    # PDFs por presentación
 │
-├── 📁 audio-booklm/                  # 18 audios — NotebookLM
-├── 📁 audio-chatgpt/                 # 17 audios — ChatGPT, Gemini, Claude
-├── 📁 audio-codigo-cli/              # 20 audios — Asistentes de código CLI
-├── 📁 audio-imagenes/                # 35 audios — Crear imágenes educativas
-├── 📁 audio-infografias/             # 16 audios — Infografías con IA + Canva
-├── 📁 audio-pensamiento-critico/     # 18 audios — Pensamiento crítico
+├── 📁 slidev/                        # ⭐ Proyecto fuente (Markdown + npm)
+│   ├── package.json                  # Scripts: build / export / dev
+│   ├── styles/index.css              # Estilos compartidos de todos los decks
+│   ├── global-bottom.vue             # Botón + reproductor de audio narrado
+│   ├── convertir-deck.mjs            # Migrador de los decks Reveal.js antiguos
+│   ├── 0N-<tema>.md                  # Fuente editable de cada deck (Markdown)
+│   └── dist/                         # Salida del build
 │
-├── 📄 narracion-chatgpt.json         # Textos para generar audio (ChatGPT)
-├── 📄 narracion-pensamiento-critico.json
-├── 📄 narracion-imagenes.json
-├── 📄 narracion-infografias.json
-├── 📄 narracion-booklm.json
-├── 📄 narracion-note-booklm.json
-├── 📄 narracion-codigo-cli.json
-├── 📄 narracion-codigo-cli-ia.json
+├── 📁 audio-<tema>/                  # MP3 por diapositiva (slideNN.mp3)
+├── 📄 narracion-<tema>.json          # Textos para generar el audio (edge-tts)
+├── 📄 generar-audio-<tema>.ps1       # Scripts PowerShell por presentación
 │
-├── 📄 generar-todo-audio.ps1         # Script para regenerar TODOS los audios
-├── 📄 generar-audio-*.ps1            # Scripts individuales por presentación
-│
+├── 📄 AGENTS.md                      # ⭐ Plan paso a paso para crear decks (Slidev + Freebuff + OpenCode)
 ├── 📄 *.txt                          # Instrucciones para generar infografías
-├── 📄 AGENTS.md                      # Skills para OpenCode (crear presentaciones como estas)
 ├── 📄 *.png                          # Infografías de portada para index.html
 └── 📄 README.md                      # Este archivo
 ```
 
 ---
 
-## 🎙️ Audio narrado
-
-Cada presentación tiene una narración profesional generada con **Microsoft Edge TTS** (voz `es-ES-AlvaroNeural`), sincronizada diapositiva a diapositiva. En total se generan **124 pistas de audio** distribuidas en 6 presentaciones.
-
-### Cómo funciona
-
-- El audio se activa al hacer clic o pulsar una tecla (primera interacción del usuario)
-- Al cambiar de diapositiva, se reproduce el audio correspondiente
-- Puedes silenciar la narración en cualquier momento con el botón 🔊
-
-### Regenerar todos los audios
-
-```powershell
-.\generar-todo-audio.ps1
-```
-
-O por separado:
-
-```powershell
-.\generar-audio-pensamiento-critico.ps1
-.\generar-audio-codigo-cli-ia.ps1
-.\generar-audio-chatgpt.ps1
-.\generar-audio-imagenes.ps1
-.\generar-audio-infografias.ps1
-.\generar-audio-note-booklm.ps1
-```
-
-### Requisitos
-
-```bash
-pip install edge-tts
-```
-
----
-
-## 🚀 Despliegue en GitHub Pages
-
-El proyecto está publicado en GitHub Pages:
-
-```
-👉 https://sergarb1.github.io/FormacionIADocentes/ 👈
-```
-
-### URLs de las presentaciones
-
-| # | Presentación | 👉 Slides 👈 | 👉 PDF 👈 |
-|---|-------------|-------------|----------|
-| 1 | ChatGPT, Gemini, Claude… | [`chatgpt-para-docentes.html`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.html) | [`chatgpt-para-docentes.pdf`](https://sergarb1.github.io/FormacionIADocentes/chatgpt-para-docentes.pdf) |
-| 2 | Pensamiento crítico y falacias | [`pensamiento-critico.html`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.html) | [`pensamiento-critico.pdf`](https://sergarb1.github.io/FormacionIADocentes/pensamiento-critico.pdf) |
-| 3 | Crear imágenes con IA | [`crear-imagenes-educativas.html`](https://sergarb1.github.io/FormacionIADocentes/crear-imagenes-educativas.html) | [`crear-imagenes-educativas.pdf`](https://sergarb1.github.io/FormacionIADocentes/crear-imagenes-educativas.pdf) |
-| 4 | Infografías con IA + Canva | [`infografias-ia-canva.html`](https://sergarb1.github.io/FormacionIADocentes/infografias-ia-canva.html) | [`infografias-con-ia-y-canva.pdf`](https://sergarb1.github.io/FormacionIADocentes/infografias-con-ia-y-canva.pdf) |
-| 5 | NotebookLM de Google | [`note-booklm-google.html`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.html) | [`note-booklm-google.pdf`](https://sergarb1.github.io/FormacionIADocentes/note-booklm-google.pdf) |
-| 6 | Asistentes de código CLI | [`codigo-cli-ia.html`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.html) | [`codigo-cli-ia.pdf`](https://sergarb1.github.io/FormacionIADocentes/codigo-cli-ia.pdf) |
-
----
-
-## 🛠️ Tecnologías
+## 🛠️ Stack
 
 | Tecnología | Uso |
 |-----------|-----|
-| **[Reveal.js](https://revealjs.com/)** | Framework de presentaciones HTML interactivas. Responsive, navegación por teclado, zoom, vista general |
-| **[edge-tts](https://github.com/rany2/edge-tts)** | Síntesis de voz desde Microsoft Edge. Gratuito, sin límites, voz natural `es-ES-AlvaroNeural` |
-| **ChatGPT / ChatGPT Images 2.0** | Generación de texto e imágenes con IA. Ideal para contenido educativo visual y estructuración de materiales |
-| **Gemini** | Asistente de Google con capacidad de análisis multimodal, subida de archivos y razonamiento |
-| **Claude** | Asistente de Anthropic con excelente análisis de contexto largo y generación de materiales detallados |
-| **Nano Banana 2** | Generación y edición conversacional de imágenes con IA. Ideal para iterar sobre ilustraciones |
-| **Canva Capas Mágicas** | Separación automática de objetos en imágenes para componer infografías educativas profesionales |
-| **OpenCode** | Asistente de código CLI gratuito y open source para generar materiales educativos describiéndolos |
-| **Codex CLI / Gemini CLI / Claude Code** | Alternativas de terminal para crear HTML, apps y documentos desde prompts de lenguaje natural |
-| **NotebookLM** | Asistente de investigación de Google que analiza documentos y genera resúmenes, podcasts y guías |
-| **GitHub Pages** | Alojamiento gratuito del proyecto. Despliegue automático desde la rama principal |
+| **[Slidev (sli.dev)](https://sli.dev)** | Framework de presentaciones basado en Markdown + Vue. Exporta a HTML/PDF con navegación por teclado y vista general |
+| **🐋 [Freebuff](https://freebuff.com)** | Agente conversacional gratuito: redacta prompts, narraciones y material didáctico sin instalación |
+| **⚙️ [OpenCode](https://opencode.ai)** | IDE open source con IA integrada. Conecta Freebuff o modelos locales (Ollama) para proyectos grandes |
+| **[edge-tts](https://github.com/rany2/edge-tts)** | Síntesis de voz desde Microsoft Edge. Gratuito, voz natural `es-ES-AlvaroNeural` |
+| **Canva Capas Mágicas** | Separación automática de objetos en imágenes para componer infografías |
+| **NotebookLM** | Asistente de investigación que analiza documentos y genera podcasts, flashcards y guías |
+| **GitHub Pages** | Alojamiento gratuito. Despliegue automático desde la rama principal |
+
+---
+
+## 🚀 Regenerar las presentaciones
+
+Requisitos: Node.js 18+.
+
+```bash
+cd slidev
+npm install
+
+# Compilar decks individuales
+npx slidev build 01-ia-gratuita-docentes.md --out dist/01-ia-gratuita-docentes
+
+# Exportar a PDF
+npx slidev export 01-ia-gratuita-docentes.md --output ../01-ia-gratuita-docentes.pdf
+
+# =O regenerar todos de golpe=
+for f in 0*.md; do
+  n="${f%.md}"
+  npx slidev build $f --out dist/$n
+  npx slidev export $f --output ../$n.pdf
+  rm -rf ../$n && cp -r dist/$n ../$n
+done
+```
+
+> El export a PDF usa `playwright-chromium` (instalado como devDependency).
+
+## 🎙️ Audio narrado
+
+Cada presentación tiene su narración en `narracion-<tema>.json` y MP3s en `audio-<tema>/`.
+
+```powershell
+pip install edge-tts
+.\generar-audio-<tema>.ps1   # genera los slideNN.mp3 desde el JSON
+```
 
 ---
 
