@@ -101,7 +101,8 @@ en Reveal.js, ya portadas a `slidev/styles/index.css`): `.g2`, `.g3`,
 
 ```bash
 cd slidev
-npx slidev build 0N-<tema>.md --out dist/0N-<tema>          # HTML
+npx slidev build 0N-<tema> --base ./   # HTML (⚠️ --base ./ obligatorio en Pages:
+                                       # sin él los assets salen con ruta absoluta /assets/… y la web queda vacía)
 npx slidev export 0N-<tema>.md --output ../0N-<tema>.pdf    # PDF (usa playwright-chromium)
 cp -r dist/0N-<tema> ../0N-<tema>                            # publicar HTML en la raíz
 ```
@@ -167,9 +168,9 @@ contador de diapositivas de la cabecera.
 cd slidev
 for f in 0*.md; do
   n="${f%.md}"
-  npx slidev build $f --out dist/$n
+  npx slidev build $f --base ./
   npx slidev export $f --output ../$n.pdf
-  rm -rf ../$n && cp -r dist/$n ../$n
+  rm -rf ../$n && cp -r dist/* ../$n
 done
 ```
 

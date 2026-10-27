@@ -1,0 +1,10 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-xQ70DAkQ.js";import{t as u}from"./slidev/default-CKduAVEW.js";var d={__name:`01-ia-gratuita-docentes.md__slidev_5`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),4))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-ia-gratuita-docentes/slide04.mp3`})],-1),a(`h2`,null,`❹ Prompt + explicación — Planificar una unidad`,-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,null,[a(`div`,{class:`pc`},[a(`div`,{class:`pl`},`📝 Prompt detallado`),a(`pre`,null,[a(`code`,null,`Actúa como un profesor de [nivel] con 20 años de experiencia
+creando unidades didácticas sobre [tema].
+\xA0
+Genera una unidad completa con:
+1. objetivos de aprendizaje
+2. temporización de 10 sesiones
+3. metodologías activas (ABP, aula invertida, aprendizaje cooperativo)
+4. rúbrica de evaluación
+\xA0
+Concreta con ejemplos reales de las actividades de clase.`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb`,style:{background:`#e0e7ff`,color:`#3730a3`}},`Los 4 chatbots`),i(` · Planificación `)])])]),a(`div`,null,[a(`div`,{class:`card amber`},[a(`div`,{class:`pl`,style:{color:`#b45309`}},`💡 Por qué funciona`),a(`p`,{style:{"font-size":`.8em`,margin:`.2em 0`}},[i(`✅ `),a(`strong`,null,`Define rol (años de experiencia)`),i(` → el modelo se ajusta al nivel experto`)]),a(`p`,{style:{"font-size":`.8em`,margin:`.2em 0`}},[i(`✅ `),a(`strong`,null,`Lista numerada de 4 secciones`),i(` → respuesta ordenada y evaluable`)]),a(`p`,{style:{"font-size":`.8em`,margin:`.2em 0`}},[i(`✅ `),a(`strong`,null,`Concreción ("ejemplos reales")`),i(` → evita respuestas abstractas`)])])])],-1),a(`div`,{class:`tip`,style:{"margin-top":`.4em`}},`💡 Este prompt funciona igual en los cuatro: cambia de chatbot y compara cómo matizan cada uno`,-1)]]),_:1},16))}};export{d as default};

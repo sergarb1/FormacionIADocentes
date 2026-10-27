@@ -1,0 +1,58 @@
+Infografías de portada (miniaturas de index.html) · Regeneración con Nano Banana (Gemini)
+
+Aquí tienes los 6 prompts listos para pegar en Nano Banana (Gemini, generación de imagen).
+Estilo común: ilustración educativa plana y limpia, paleta de 3-4 colores, fondo claro,
+texto grande y legible, proporción vertical 3:4 (las tarjetas del index recortan en vertical).
+
+── 1 · IA gratuita para docentes (ChatGPT · Claude · DeepSeek · Gemini) ──
+
+"Infografía vertical 3:4 titulada 'IA GRATUITA PARA DOCENTES' con 4 columnas, una por
+chatbot: ChatGPT (polivalente, chat con imágenes), Claude (textos largos), DeepSeek
+(gratis con muy pocos límites, razonamiento) y Gemini (integrado con Google). Cada
+columna con su icono, 3 puntos clave y una franja inferior con aviso: 'nunca subas
+datos personales de alumnos'. Estilo plano, verde/azul/lila, fondo blanco, tipografía grande."
+
+── 2 · Pensamiento crítico y falacias con IA ──
+
+"Infografía vertical 3:4 titulada 'PENSAMIENTO CRÍTICO CON IA'. Arriba, un texto
+manipulador de ejemplo con 4 zonas marcadas en rojo y numeradas; debajo, lista de las
+4 falacias detectadas (apelación a la autoridad / generalización precipitada / hombre
+de paja / falsa dicotomía) y cómo la IA las desmonta paso a paso con marcas verdes.
+Colores: blanco, rojo de señalización para el manipulador, verde de verificación."
+
+── 3 · Crear imágenes educativas con IA (ChatGPT + Gemini) ──
+
+"Infografía vertical 3:4 titulada 'IMÁGENES EDUCATIVAS CON IA'. Dos mitades: mitad
+ChatGPT (texto perfecto dentro de la imagen: lámina del ciclo del agua con etiquetas
+legibles) y mitad Gemini / Nano Banana (conocimiento del mundo: ilustración científica
+correcta de una célula). Abajo, un flujo de 3 pasos: 'Prompt con rol → Revisa →
+Pide cambios'. Estilo plano, sin degradados."
+
+── 4 · Infografías con IA + Canva Capas Mágicas ──
+
+"Infografía vertical 3:4 titulada 'INFOGRAFÍAS: IA + CANVA'. Diagrama de flujo en 4
+pasos: 1) Genera elementos separados con IA  2) Sube la imagen a Canva  3) Capas
+Mágicas separa los objetos  4) Personaliza colores y añade texto. Cada paso con una
+mini-ventana de ejemplo. Colores alegres pero planos, acabado editable y limpio."
+
+── 5 · NotebookLM para docentes ──
+
+"Infografía vertical 3:4 titulada 'NOTEBOOKLM PARA DOCENTES'. Ilustración de un
+cuaderno digital al que llegan 3 fuentes (icono PDF, YouTube y web). De él salen 4
+salidas: guia de estudio, podcast, flashcards y quiz, cada una con su icono. Franja
+inferior: 'solo responde con tus fuentes — citas con número de página'. Paleta
+azul/teal sobre fondo claro."
+
+── 6 · Asistentes CLI (OpenCode + Freebuff) ──
+
+"Infografía vertical 3:4 titulada 'MATERIALES DESDE LA TERMINAL'. En el centro, una
+ventana de terminal oscura con el comando $> opencode 'crea un horario...' y debajo
+la respuesta generando un documento en vivo. Alrededor, 6 fichas de lo que puede
+crear: horarios, exámenes, diplomas, circulares, correos a familias, WebApp. Colores:
+verde terminal sobre fondo claro, fichas en tonos pastel."
+
+NOTA — cuáles regenerar:
+  · La 1: rehaz sí o sí (antes hablaba de los agentes; ahora son los 4 chatbots).
+  · La 6: rehaz sí o sí (antes era Gemini CLI; ahora es el flujo OpenCode + Freebuff).
+  · Las 2-5: revísalas; si en algún rincon aparece un logo o nombre que ya no
+    corresponde, usa el prompt de arriba para regenerarla entera (quedarán consistentes).

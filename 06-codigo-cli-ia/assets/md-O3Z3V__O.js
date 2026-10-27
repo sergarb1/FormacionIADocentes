@@ -1,0 +1,11 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-COyiCpjO.js";import{t as u}from"./slidev/default-0ChoEErS.js";var d={__name:`06-codigo-cli-ia.md__slidev_19`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),18))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-codigo-cli/slide18.mp3`})],-1),a(`h2`,null,`🧠 Crea tus propios skills con AGENTS.md`,-1),a(`p`,{class:`sm`},[i(`OpenCode puede cargar `),a(`strong`,null,`skills personalizados`),i(` que le indican cómo comportarse para cada tipo de tarea. Se definen en un archivo `),a(`code`,null,`AGENTS.md`),i(` en la raíz del proyecto.`)],-1),a(`div`,{class:`g2`,style:{"margin-top":`.3em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`📝 Estructura de un skill en AGENTS.md`),a(`pre`,{style:{"font-size":`.5em`,"border-left-color":`#8b5cf6`}},[a(`code`,null,`## Skill: presentacion-educativa
+\xA0
+Úsalo cuando te pidan crear una presentación.
+\xA0
+Eres un creador de presentaciones educativas
+profesionales. Sigue esta estructura exacta:
+\xA0
+- HTML con Reveal.js v4.6.1
+- Diapositivas en JS separado
+- Estilo: cards, g2, exp, tip, tags
+- Audio narrado con edge-tts`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb op`},`OpenCode`),i(` · AGENTS.md · Skill personalizado`)])]),a(`div`,{class:`exp`,style:{background:`#f5f3ff`,"border-color":`#e9d5ff`}},[a(`div`,{class:`pl`},`💡 Ventajas`),a(`ul`,{class:`exp-list`},[a(`li`,null,`✅ Le dices a OpenCode EXACTAMENTE cómo quieres que trabaje`),a(`li`,null,`✅ Reutilizable: cada vez que cargues el skill, sigue las mismas reglas`),a(`li`,null,`✅ Puedes tener skills para: documentos, juegos, horarios, exámenes, webs, correos`),a(`li`,null,`✅ El skill incluye estructura, estilo visual, tono, formato y ejemplos`),a(`li`,null,`✅ Compártelo con otros docentes: el skill viaja con el proyecto`)])])],-1),a(`div`,{class:`tip`},[i(`📌 `),a(`strong`,null,`Ejemplo:`),i(` este proyecto tiene un AGENTS.md con skills para presentaciones educativas, añadir al índice y generar TXT de infografías.`)],-1)]]),_:1},16))}};export{d as default};

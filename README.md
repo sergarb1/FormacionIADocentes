@@ -95,8 +95,9 @@ Requisitos: Node.js 18+.
 cd slidev
 npm install
 
-# Compilar decks individuales
-npx slidev build 01-ia-gratuita-docentes.md --out dist/01-ia-gratuita-docentes
+# Compilar decks individuales (--base ./ obligatorio en GitHub Pages:
+# sin él, los assets salen con ruta absoluta /assets/… y la página se queda vacía)
+npx slidev build 01-ia-gratuita-docentes --base ./
 
 # Exportar a PDF
 npx slidev export 01-ia-gratuita-docentes.md --output ../01-ia-gratuita-docentes.pdf
@@ -104,9 +105,9 @@ npx slidev export 01-ia-gratuita-docentes.md --output ../01-ia-gratuita-docentes
 # =O regenerar todos de golpe=
 for f in 0*.md; do
   n="${f%.md}"
-  npx slidev build $f --out dist/$n
+  npx slidev build $f --base ./
   npx slidev export $f --output ../$n.pdf
-  rm -rf ../$n && cp -r dist/$n ../$n
+  rm -rf ../$n && cp -r dist/* ../$n
 done
 ```
 
