@@ -346,7 +346,7 @@ exportFilename: crear-imagenes-educativas
     <ul class="exp-list">
       <li><strong>Formato A4 B&amp;N</strong> → listo para fotocopiar sin gastar tinta</li>
       <li><strong>Distribución 2 filas de 5</strong> con espacio para escribir</li>
-      <li><strong>Números en posición correcta</strong> → ChatGPT los coloca bien</li>
+      <li><strong>Números en posición correcta</strong> → Freebuff los coloca bien</li>
       <li><strong>Sin texto</strong> → añades instrucciones donde quieras</li>
       <li><strong>Grosor adecuado</strong> para impresión y fotocopia</li>
     </ul>
@@ -562,7 +562,7 @@ exportFilename: crear-imagenes-educativas
     <ul class="exp-list">
       <li><strong>El modo de razonamiento</strong> verifica cada resultado de la tabla</li>
       <li><strong>Código de colores</strong> en bordes facilita localizar filas y columnas</li>
-      <li><strong>ChatGPT</strong> fiable con números y texto en cuadrículas</li>
+      <li><strong>Freebuff</strong> fiable con números y texto en cuadrículas</li>
       <li><strong>Formato A3/A4</strong> → adaptable a cualquier impresora</li>
       <li><strong>Líneas finas grises</strong> → no compiten visualmente con números</li>
     </ul>
@@ -610,7 +610,7 @@ exportFilename: crear-imagenes-educativas
     <ul class="exp-list">
       <li><strong>El modo de razonamiento</strong> planifica la composición de 3 figuras</li>
       <li><strong>Tres épocas</strong> y estilos visuales distintos</li>
-      <li><strong>Placas con nombre</strong> → ChatGPT las escribe correctamente</li>
+      <li><strong>Placas con nombre</strong> → Freebuff las escribe correctamente</li>
       <li><strong>Línea curva</strong> conecta visualmente a las tres científicas</li>
       <li><strong>Estilo póster</strong> inspirador para decorar el aula</li>
     </ul>
@@ -754,7 +754,7 @@ exportFilename: crear-imagenes-educativas
     <ul class="exp-list">
       <li><strong>Código de colores</strong> rojo/azul para oxigenación</li>
       <li><strong>El modo de razonamiento</strong> verifica el recorrido circulatorio</li>
-      <li><strong>Nomenclatura estándar</strong> → ChatGPT la escribe correctamente</li>
+      <li><strong>Nomenclatura estándar</strong> → Freebuff la escribe correctamente</li>
       <li><strong>Flechas de dirección</strong> esenciales para entender el flujo</li>
       <li><strong>Nivel clínico</strong> adecuado para FP de grado medio</li>
     </ul>
@@ -803,7 +803,7 @@ exportFilename: crear-imagenes-educativas
       <li><strong>6 cortes</strong> con su verdura característica y nombre</li>
       <li><strong>Estilo fotográfico</strong> sobre fondo blanco → se ve profesional</li>
       <li><strong>Cada imagen</strong> muestra el resultado exacto del corte</li>
-      <li><strong>ChatGPT</strong> maneja bien imágenes de alimentos</li>
+      <li><strong>Freebuff</strong> maneja bien imágenes de alimentos</li>
       <li><strong>Imprimible</strong> para el taller de cocina</li>
     </ul>
   </div>

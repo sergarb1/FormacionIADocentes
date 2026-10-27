@@ -5,12 +5,12 @@
     {
       "id": 0,
       "title": "Portada",
-      "text": "Asistentes de código con Inteligencia Artificial para docentes. OpenCode, Codex CLI, Gemini CLI y Claude Code. Cómo usarlos para crear materiales educativos sin saber programar. Una presentación de Sergi Garcia Barea. Junio de 2026."
+      "text": "Bienvenidos a Asistentes de código con IA para docentes, con OpenCode y Freebuff. En este vídeo descubrirás herramientas de asistentes de código que usas desde la terminal, para crear materiales educativos sin saber programar: describes lo que necesitas en lenguaje natural y ellas lo generan. El foco estará en OpenCode, que es gratuita, open source y sin límites de uso, y en Freebuff, que tiene una capa gratuita muy accesible. Las herramientas crean documentos, presentaciones, horarios, correos web y aplicaciones sencillas a partir de tus descripciones. Empezamos."
     },
     {
       "id": 1,
       "title": "Panorama general",
-      "text": "Los asistentes de código CLI son herramientas que usas desde la terminal para crear materiales educativos sin saber programar. Les describes lo que necesitas y ellas lo generan. Hay cuatro opciones principales: OpenCode, gratuita y open source; Codex CLI de OpenAI; Gemini CLI de Google; y Claude Code de Anthropic."
+      "text": "Herramientas que usas desde la terminal para crear materiales educativos sin saber programar. Les describes lo que necesitas y ellas lo generan. Hay cuatro opciones principales: OpenCode, gratuita, open source y sin límites; Codex CLI, de OpenAI; Freebuff, gratuita con una capa generosa sin instalar nada; y Claude Code, de Anthropic."
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "title": "Comparativa rápida",
-      "text": "En la comparativa rápida vemos que OpenCode destaca por ser la única completamente gratuita y open source. Es la única que tiene skills, web scraping y generación de audio. Las alternativas tienen capa gratuita limitada. En instalación, todas las herramientas se instalan con npm de forma sencilla."
+      "text": "Comparativa rápida en cuatro diapositivas. OpenCode es la recomendada: es open source, tiene skills y modo agente autónomo. Freebuff destaca por su capa gratuita en el navegador, sin instalación. Codex CLI, de OpenAI, es buena para código. Claude Code, de Anthropic, es excelente con contexto largo. Recuerda: ninguna es mágica. Todas asignan límites de uso en la capa gratuita y pueden cometer errores. El criterio docente sigue siendo el ingrediente esencial."
     },
     {
       "id": 4,
@@ -39,8 +39,8 @@
     },
     {
       "id": 7,
-      "title": "Gemini CLI",
-      "text": "Gemini CLI es la herramienta de Google. Se instala con npm al igual que las demás. Su integración con el ecosistema Google es su punto fuerte y acepta subida de archivos grandes incluyendo audio y vídeo. La capa gratuita es generosa para empezar pero tiene límites para proyectos grandes."
+      "title": "Freebuff + OpenCode (gratis)",
+      "text": "Y aquí está tu alternativa gratuita sin instalar nada: Freebuff, junto con OpenCode. OpenCode es la opción recomendada: gratuita, open source, con skills y sin límites. Y Freebuff funciona desde el navegador, con una capa gratuita muy generosa. Puedes empezar escribiendo algo tan simple como: crea una ficha de verbos irregulares en PDF para inglés de nivel B1, con el logo del centro. Además, Freebuff admite subir archivos: PDF, imágenes, audio y vídeo, ideal para reutilizar materiales existentes. Consejo: empieza con pedidos cortos, revisa la salida y refina la descripción paso a paso."
     },
     {
       "id": 8,
@@ -100,7 +100,7 @@
     {
       "id": 19,
       "title": "Resumen",
-      "text": "En resumen: los asistentes de código con inteligencia artificial permiten a los docentes crear materiales educativos profesionales sin saber programar. OpenCode es la opción recomendada por ser completamente gratuita, open source y con skills integrados. Las alternativas como Codex CLI, Gemini CLI y Claude Code también son buenas opciones con capa gratuita limitada. El flujo de trabajo es siempre el mismo: describe, crea, revisa, modifica y publica. Los materiales que puedes crear incluyen documentos, presentaciones, horarios, correos, aplicaciones, juegos y exámenes."
+      "text": "En resumen: los asistentes de código con inteligencia artificial permiten a los docentes crear materiales educativos profesionales sin saber programar. OpenCode es la opción recomendada por ser gratuita, open source y con skills integrados; y Freebuff destaca por su capa gratuita sin instalación. Las alternativas como Codex CLI y Claude Code también son buenas opciones con capa gratuita limitada. El flujo de trabajo es siempre el mismo: describe, crea, revisa, modifica y publica. Los materiales que puedes crear incluyen documentos, presentaciones, horarios, correos, aplicaciones, juegos y exámenes."
     }
   ]
 }

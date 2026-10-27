@@ -294,7 +294,7 @@ exportFilename: infografias-con-ia-y-canva
       <li><strong>El modo de razonamiento</strong> verifica la disposición técnica</li>
       <li><strong>Piezas separadas</strong> → editas cada componente en Canva</li>
       <li><strong>Colores por material</strong> → fácil identificar cada pieza</li>
-      <li><strong>Etiquetas</strong> → ChatGPT las escribe sin errores</li>
+      <li><strong>Etiquetas</strong> → Freebuff las escribe sin errores</li>
       <li><strong>Fondo blanco</strong> → Capas Mágicas separa mejor</li>
     </ul>
   </div>
@@ -378,7 +378,7 @@ exportFilename: infografias-con-ia-y-canva
       <li><strong>Línea de tiempo</strong> visual → los alumnos sitúan cada tiempo</li>
       <li><strong>Iconos por tiempo</strong> (flecha, reloj, check, espiral) facilitan la memorización</li>
       <li><strong>3 filas de colores</strong> (pasado gris, presente verde, futuro azul)</li>
-      <li><strong>ChatGPT</strong> escribe los ejemplos en inglés sin errores</li>
+      <li><strong>Freebuff</strong> escribe los ejemplos en inglés sin errores</li>
       <li><strong>Recuadros separados</strong> → Capas Mágicas te permite editarlos individualmente</li>
     </ul>
   </div>
